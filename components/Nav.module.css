@@ -1,0 +1,65 @@
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(13,27,42,.97);
+  backdrop-filter: blur(8px);
+  transition: padding .3s;
+}
+.scrolled { padding: 14px 60px; }
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px; font-weight: 600; letter-spacing: .12em;
+  color: var(--gold); text-decoration: none; text-transform: uppercase;
+}
+.links { display: flex; gap: 32px; list-style: none; }
+.links a {
+  font-size: 12px; font-weight: 400; letter-spacing: .14em;
+  text-transform: uppercase; color: rgba(255,255,255,.65);
+  text-decoration: none; transition: color .2s;
+}
+.links a:hover, .active {
+  color: var(--gold) !important;
+}
+.cta {
+  font-size: 11px; font-weight: 500; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--navy);
+  background: var(--gold); padding: 10px 24px;
+  text-decoration: none; transition: background .2s;
+}
+.cta:hover { background: var(--gold-light); }
+.burger {
+  display: none; flex-direction: column; gap: 5px;
+  background: none; border: none; cursor: pointer; padding: 4px;
+}
+.burger span {
+  display: block; width: 22px; height: 1.5px;
+  background: var(--gold); transition: all .3s;
+}
+.mobile {
+  position: fixed; top: 64px; left: 0; right: 0;
+  background: var(--navy); padding: 24px;
+  display: flex; flex-direction: column; gap: 0;
+  border-top: 1px solid rgba(184,151,90,.2);
+}
+.mobile a {
+  font-size: 14px; font-weight: 400; letter-spacing: .1em;
+  text-transform: uppercase; color: rgba(255,255,255,.65);
+  text-decoration: none; padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  transition: color .2s;
+}
+.mobile a:hover, .mobileActive { color: var(--gold) !important; }
+.mobileCta {
+  margin-top: 16px;
+  background: var(--gold); color: var(--navy) !important;
+  text-align: center; padding: 14px !important;
+  font-weight: 500 !important; border-bottom: none !important;
+}
+
+@media (max-width: 960px) {
+  .nav { padding: 16px 24px; }
+  .scrolled { padding: 12px 24px; }
+  .links, .cta { display: none; }
+  .burger { display: flex; }
+}
