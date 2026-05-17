@@ -60,9 +60,6 @@ export default function Nav() {
 
       {open && (
         <div className={styles.mobile}>
-          <div className={styles.mobileLogo}>
-            <Image src="/logo-irm.png" alt="IRM Abogados" width={80} height={46} style={{height:'40px',width:'auto',objectFit:'contain'}} />
-          </div>
           {links.map(l => (
             <Link key={l.href} href={l.href} className={pathname === l.href ? styles.mobileActive : ''}>
               {l.label}
