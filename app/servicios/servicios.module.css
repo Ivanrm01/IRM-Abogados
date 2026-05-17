@@ -1,0 +1,66 @@
+.hero { background: var(--navy); padding: 160px 60px 100px; position: relative; overflow: hidden; }
+.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.heroBg { position: absolute; bottom: -40px; right: -20px; font-family: 'Cormorant Garamond', serif; font-size: 240px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; user-select: none; }
+.breadcrumb { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 24px; }
+.breadcrumb span { color: var(--gold); }
+.eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
+.heroTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(44px,5.5vw,68px); font-weight: 300; line-height: 1.08; color: var(--white); margin-bottom: 24px; }
+.heroTitle em { font-style: italic; color: var(--gold); }
+.heroDesc { font-size: 15px; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,.6); max-width: 600px; }
+
+.serviciosSection { background: var(--white); padding: 96px 60px; }
+.eyebrow2 { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.eyebrow2::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
+.sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px,4vw,50px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--text); }
+.sectionTitle em { font-style: italic; color: var(--gold); }
+.sectionTitleLight { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px,4vw,50px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--white); }
+.sectionTitleLight em { font-style: italic; color: var(--gold); }
+.sectionIntro { font-size: 15px; font-weight: 300; line-height: 1.85; color: var(--mid); max-width: 640px; margin-bottom: 56px; }
+
+.serviciosGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.servicioCard { background: var(--cream); padding: 52px 44px; position: relative; overflow: hidden; text-decoration: none; display: flex; flex-direction: column; transition: transform .3s; }
+.servicioCard:hover { transform: translateY(-4px); }
+.servicioCard::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .4s; }
+.servicioCard:hover::before { transform: scaleX(1); }
+.scNum { font-family: 'Cormorant Garamond', serif; font-size: 80px; font-weight: 300; color: rgba(184,151,90,.12); position: absolute; top: 16px; right: 24px; line-height: 1; }
+.scTitle { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 400; color: var(--text); margin-bottom: 16px; }
+.scDesc { font-size: 14px; font-weight: 300; line-height: 1.85; color: var(--mid); margin-bottom: 24px; flex: 1; }
+.scTags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.scTag { font-size: 10px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; background: var(--gold-pale); color: #7a5a1a; padding: 4px 12px; }
+.scCta { font-size: 11px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+
+.paraQuien { background: var(--navy); padding: 96px 60px; }
+.pqIntro { font-size: 15px; font-weight: 300; color: rgba(255,255,255,.5); max-width: 560px; margin-bottom: 56px; }
+.pqGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.pqCard { background: var(--navy-mid); border: 1px solid rgba(184,151,90,.15); padding: 40px 32px; transition: border-color .3s; }
+.pqCard:hover { border-color: rgba(184,151,90,.5); }
+.pqIcon { font-size: 28px; margin-bottom: 20px; }
+.pqTitle { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 400; color: var(--white); margin-bottom: 16px; }
+.pqList { list-style: none; }
+.pqList li { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.45); padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,.06); display: flex; gap: 8px; align-items: flex-start; }
+.pqList li::before { content: '—'; color: var(--gold); flex-shrink: 0; }
+
+.proceso { background: var(--cream); padding: 96px 60px; }
+.procesoDesc { font-size: 15px; font-weight: 300; color: var(--mid); max-width: 560px; margin-bottom: 64px; }
+.pasos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; }
+.pasos::before { content: ''; position: absolute; top: 28px; left: 10%; right: 10%; height: 1px; background: linear-gradient(to right, transparent, var(--gold) 20%, var(--gold) 80%, transparent); }
+.paso { text-align: center; padding: 0 20px; position: relative; z-index: 1; }
+.pasoCircle { width: 56px; height: 56px; border-radius: 50%; background: var(--navy); border: 2px solid var(--gold); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 300; color: var(--gold); }
+.pasoTitle { font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 8px; line-height: 1.3; }
+.pasoDesc { font-size: 12px; font-weight: 300; color: var(--mid); line-height: 1.7; }
+
+.cta { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,4vw,44px); font-weight: 300; color: var(--navy); margin-bottom: 10px; line-height: 1.1; }
+.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); }
+.ctaBtns { display: flex; gap: 16px; flex-shrink: 0; flex-wrap: wrap; }
+
+@media (max-width: 960px) {
+  .hero { padding: 120px 24px 80px; }
+  .serviciosSection, .paraQuien, .proceso { padding: 64px 24px; }
+  .serviciosGrid, .pqGrid { grid-template-columns: 1fr; }
+  .pasos { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .pasos::before { display: none; }
+  .cta { flex-direction: column; padding: 64px 24px; }
+  .ctaBtns { flex-direction: column; width: 100%; }
+}
