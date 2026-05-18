@@ -32,7 +32,6 @@ export default function Footer() {
               className={styles.footerLogo}
             />
           </Link>
-          <div className={styles.brandSub}>Abogados fiscalistas · Madrid &amp; Castellón</div>
           <p className={styles.tagline}>Especialistas en derecho tributario con sedes en Madrid y Castellón. Compromiso, excelencia y transparencia en cada caso.</p>
           <div className={styles.contactMini}>
             <a href="tel:+34614149465" className={styles.contactItem}>
