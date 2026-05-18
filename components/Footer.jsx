@@ -84,7 +84,7 @@ export default function Footer() {
           </ul>
           <div className={styles.horario}>
             <div className={styles.colTitle} style={{marginTop:'28px'}}>Horario</div>
-            <p>Lunes a viernes<br />9:00 – 14:00 · 16:00 – 19:00</p>
+            <p>Lunes a viernes<br />8:00 – 14:00 · 16:00 – 19:00</p>
             <span>También online para toda España</span>
           </div>
         </div>
@@ -95,12 +95,12 @@ export default function Footer() {
           <div className={styles.sede}>
             <div className={styles.sedeCity}>Madrid</div>
             <div className={styles.sedeAddr}>C/ José Ortega y Gasset, 84 — 2º C<br />28006 Madrid</div>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
+            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd422998a9854829:0x8b1b5bcd693ee257?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
           </div>
           <div className={styles.sede}>
             <div className={styles.sedeCity}>Castellón</div>
             <div className={styles.sedeAddr}>C/ En Medio, 22 — 6º<br />12001 Castellón de la Plana</div>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
+            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd5fff3b9b2f08b7:0xb24b628bcb10cb3?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
           </div>
         </div>
       </div>
