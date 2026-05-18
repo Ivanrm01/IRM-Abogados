@@ -47,7 +47,7 @@ export default function HomePage() {
           {[
             { num: '01', title: 'Fiscal', desc: 'Asesoramiento tributario integral para personas físicas y empresas. IRPF, Sociedades, IVA, Patrimonio, Sucesiones y defensa ante inspecciones y procedimientos.', href: '/fiscal' },
             { num: '02', title: 'Start-Ups', desc: 'Acompañamiento legal integral para nuevas empresas. Constitución societaria, pactos de socios, fiscalidad de la inversión, ESOPs y preparación para rondas de financiación.', href: '/asesoramiento-start-ups' },
-            { num: '03', title: 'Garantías tributarias', desc: 'Aplazamiento, fraccionamiento y suspensión de deudas ante la AEAT. Paralización de embargos y defensa ejecutiva.', href: '/garantias-deuda-aeat' },
+            { num: '03', title: 'Garantías tributarias', desc: 'Aplazamiento, fraccionamiento y suspensión de deudas ante la AEAT. Paralizamos embargos.', href: '/garantias-deuda-aeat' },
           ].map(a => (
             <Link key={a.href} href={a.href} className={styles.areaCard}>
               <div className={styles.areaNum}>{a.num}</div>
@@ -62,9 +62,9 @@ export default function HomePage() {
       {/* POR QUÉ */}
       <section className={styles.porque}>
         <div className={styles.porqueLeft}>
-          <div className="eyebrow">Por qué IRM</div>
+          <div className="eyebrow">Por qué IRM Abogados</div>
           <h2 style={{color:'var(--white)'}}>Cuatro razones para<br /><em>elegirnos</em></h2>
-          <p style={{color:'rgba(255,255,255,.55)',fontSize:'15px',fontWeight:300,lineHeight:1.85,marginBottom:'40px',maxWidth:'440px'}}>Estas son las razones por las que nuestros clientes siguen contando con nosotros.</p>
+          <p style={{color:'rgba(255,255,255,.55)',fontSize:'15px',fontWeight:300,lineHeight:1.85,marginBottom:'40px',maxWidth:'440px'}}>Llevamos años acompañando a personas y empresas en sus decisiones fiscales más importantes. Estas son las razones por las que nuestros clientes siguen contando con nosotros.</p>
           {[
             { t: 'Especialización exclusiva', d: 'Solo derecho fiscal. Esa concentración se traduce en resultados superiores.' },
             { t: 'Respuesta en 24 horas', d: 'En derecho fiscal los plazos son críticos. Nunca te dejamos esperando.' },
