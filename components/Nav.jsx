@@ -60,6 +60,7 @@ export default function Nav() {
 
       {open && (
         <div className={styles.mobile}>
+          <button className={styles.closeBtn} onClick={() => setOpen(false)} aria-label="Cerrar">✕</button>
           {links.map(l => (
             <Link key={l.href} href={l.href} className={pathname === l.href ? styles.mobileActive : ''}>
               {l.label}
