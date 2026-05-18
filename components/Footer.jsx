@@ -27,8 +27,8 @@ export default function Footer() {
             <Image
               src="/logo-irm.png"
               alt="IRM Abogados"
-              width={120}
-              height={70}
+              width={160}
+              height={93}
               className={styles.footerLogo}
             />
           </Link>
