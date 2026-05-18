@@ -42,11 +42,11 @@ export default function HomePage() {
       <section className={`section ${styles.areas}`}>
         <div className="eyebrow">Áreas de práctica</div>
         <h2>Especialización que<br /><em>genera resultados</em></h2>
-        <p className="section-intro">No somos un despacho generalista. Concentramos toda nuestra energía en el derecho fiscal y tributario porque la especialización profunda es la única forma de ofrecer el mejor resultado posible.</p>
+        <p className="section-intro">No somos un despacho generalista. Concentramos toda nuestra energía en el derecho fiscal y tributario porque creemos que la especialización profunda es la única forma de ofrecer el mejor resultado posible a nuestros clientes.</p>
         <div className={styles.areasGrid}>
           {[
-            { num: '01', title: 'Fiscal', desc: 'Asesoramiento tributario completo para personas físicas y empresas. IRPF, Sociedades, IVA, Patrimonio y defensa ante la AEAT.', href: '/fiscal' },
-            { num: '02', title: 'Start-Ups', desc: 'Acompañamiento legal integral para nuevas empresas. Constitución, pactos de socios, ESOPs y rondas de inversión.', href: '/asesoramiento-start-ups' },
+            { num: '01', title: 'Fiscal', desc: 'Asesoramiento tributario integral para personas físicas y empresas. IRPF, Sociedades, IVA, Patrimonio, Sucesiones y defensa ante inspecciones y procedimientos.', href: '/fiscal' },
+            { num: '02', title: 'Start-Ups', desc: 'Acompañamiento legal integral para nuevas empresas. Constitución societaria, pactos de socios, fiscalidad de la inversión, ESOPs y preparación para rondas de financiación.', href: '/asesoramiento-start-ups' },
             { num: '03', title: 'Garantías tributarias', desc: 'Aplazamiento, fraccionamiento y suspensión de deudas ante la AEAT. Paralización de embargos y defensa ejecutiva.', href: '/garantias-deuda-aeat' },
           ].map(a => (
             <Link key={a.href} href={a.href} className={styles.areaCard}>
