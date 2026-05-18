@@ -46,10 +46,12 @@
   background: var(--gold); transition: all .3s;
 }
 .mobile {
-  position: fixed; top: 64px; left: 0; right: 0;
-  background: var(--navy); padding: 24px;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--navy); padding: 80px 24px 24px;
   display: flex; flex-direction: column; gap: 0;
   border-top: 1px solid rgba(184,151,90,.2);
+  overflow-y: auto;
+  z-index: 99;
 }
 .mobileLogo { padding: 8px 0 16px; border-bottom: 1px solid rgba(184,151,90,.2); margin-bottom: 8px; }
 .mobile a {
