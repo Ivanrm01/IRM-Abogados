@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 .logoImg {
-  height: 64px;
+  height: 70px;
   width: auto;
   object-fit: contain;
   /* El logo es blanco sobre fondo transparente — perfecto para el nav oscuro */
