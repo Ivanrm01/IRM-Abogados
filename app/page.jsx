@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className={styles.heroRight}>
           {[
             { icon: '🛡', title: 'Asesoramiento fiscal integral', desc: 'Optimización tributaria, planificación patrimonial y defensa ante inspecciones.', href: '/fiscal' },
-            { icon: '⚖️', title: 'Garantías ante la AEAT', desc: 'Aplaza, fracciona o suspende tu deuda. Paralizamos embargos y negociamos.', href: '/garantias-deuda-aeat' },
+            { icon: '⚖️', title: 'Garantías ante la AEAT', desc: 'Aplaza, fracciona o suspende tu deuda. Paralizamos embargos.', href: '/garantias-deuda-aeat' },
             { icon: '🚀', title: 'Asesoramiento a Start-Ups', desc: 'Desde la constitución hasta la ronda de inversión. Escala sin riesgos legales.', href: '/asesoramiento-start-ups' },
           ].map(c => (
             <div key={c.href} className={styles.heroCard}>
