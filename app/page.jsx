@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'IRM Tax & Legal | Abogados Fiscalistas Madrid y Castellón',
+  title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
   description: 'Especialistas en derecho fiscal y tributario. Asesoramiento para empresas y particulares. Primera consulta gratuita.',
 }
 
@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className={styles.heroLeft}>
           <div className={styles.heroEyebrow}>Abogados fiscalistas · Madrid &amp; Castellón</div>
           <h1 className={styles.heroTitle}>Tu defensa<br />ante <em>Hacienda</em><br />en manos expertas</h1>
-          <p className={styles.heroDesc}>Especialistas en derecho tributario, mercantil e inmobiliario. Optimizamos tu carga fiscal, protegemos tu patrimonio y te acompañamos ante cualquier procedimiento de la AEAT.</p>
+          <p className={styles.heroDesc}>Especialistas en derecho tributario. Optimizamos tu carga fiscal, protegemos tu patrimonio y te acompañamos ante cualquier procedimiento de la AEAT.</p>
           <div className={styles.heroBtns}>
             <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
             <Link href="/servicios" className="btn-ghost">Ver servicios</Link>
