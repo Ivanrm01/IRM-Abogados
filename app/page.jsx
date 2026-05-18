@@ -97,8 +97,8 @@ export default function HomePage() {
           <div className={styles.ctaDesc}>Primera consulta gratuita y sin compromiso. Respondemos en menos de 24 horas.</div>
         </div>
         <div className={styles.ctaBtns}>
-          <Link href="/contacto" className="btn-navy">Enviar consulta</Link>
-          <a href="tel:+34614149465" className="btn-outline-navy">+34 614 149 465</a>
+          <Link href="/contacto" className="btn-navy">SOLICITAR CONSULTA</Link>
+          <a href="tel:+34614149465" className="btn-outline-navy">HABLAR CON UN EXPERTO</a>
         </div>
       </section>
     </>
