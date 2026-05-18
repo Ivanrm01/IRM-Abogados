@@ -33,8 +33,8 @@ export default function Nav() {
         <Image
           src="/logo-irm.png"
           alt="IRM Abogados"
-          width={90}
-          height={52}
+          width={130}
+          height={75}
           className={styles.logoImg}
           priority
         />
