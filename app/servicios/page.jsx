@@ -55,7 +55,7 @@ export default function ServiciosPage() {
       <section className={styles.serviciosSection}>
         <div className={styles.eyebrow2}>Áreas de especialización</div>
         <h2 className={styles.sectionTitle}>Todo lo que <em>necesitas</em>,<br />bajo un mismo techo</h2>
-        <p className={styles.sectionIntro}>Concentramos nuestra práctica en tres áreas donde la especialización marca la diferencia.</p>
+        <p className={styles.sectionIntro}>Concentramos nuestra práctica en tres áreas donde la especialización marca la diferencia. Nuestra especialización aporta un valor real, con resultados medibles. </p>
         <div className={styles.serviciosGrid}>
           {servicios.map(s => (
             <Link key={s.href} href={s.href} className={styles.servicioCard}>
