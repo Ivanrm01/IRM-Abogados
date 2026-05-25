@@ -14,10 +14,10 @@ const herramientas = [
 ]
 
 const tipos = [
-  { t:'IRPF · Declaración de la Renta', d:'Deudas por liquidaciones paralelas, comprobaciones o errores en autoliquidaciones. Aplazamos o recurrimos según el caso.' },
+  { t:'IRPF', d:'Deudas por liquidaciones paralelas, comprobaciones de IRPF o errores en autoliquidaciones. Aplazamos o recurrimos según el caso.​' },
   { t:'Impuesto sobre Sociedades', d:'Deudas derivadas de ajustes de la AEAT, gastos no deducibles o diferencias en la base imponible de personas jurídicas.' },
-  { t:'IVA · Modelo 303 y 390', d:'Deudas por cuotas de IVA no ingresadas, diferencias en deducciones o regularizaciones por operaciones intracomunitarias.' },
-  { t:'Inspecciones, comprobaciones, derivaciones...', d:'Representación y defensa ante cualquier actuación de la AEAT: inspecciones, comprobaciones limitadas y derivaciones de responsabilidad.' },
+  { t:'IVA', d:'Deudas por cuotas de IVA no ingresadas, diferencias en deducciones o regularizaciones de la AEAT.' },
+  { t:'Inspecciones, comprobaciones, derivaciones...', d:'Representación y defensa ante inspecciones, comprobaciones limitadas y procedimientos de derivación de responsabilidad tributaria.' },
 ]
 
 const cuando = [
