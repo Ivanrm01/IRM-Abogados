@@ -82,8 +82,8 @@ export default function SobreNosotrosPage() {
               <div className={styles.sedeTag}>{s.tag}</div>
               <div className={styles.sedeCity}>{s.city}</div>
               <p className={styles.sedeAddr}>{s.addr}</p>
-              <p className={styles.sedePhone}>+34 614 149 465</p>
-              <p className={styles.sedeEmail}>correo@irmabogados.es</p>
+              <a href="tel:+34614149465" className={styles.sedePhone}>+34 614 149 465</a>
+              <a href="mailto:correo@irmabogados.es" className={styles.sedeEmail}>correo@irmabogados.es</a>
             </div>
           ))}
         </div>
