@@ -79,7 +79,7 @@ export default function GarantiasPage() {
       <section className={styles.herramientasSection} id="herramientas">
         <div className={styles.eyebrow}>Las tres herramientas clave</div>
         <h2 className={styles.sectionTitle}>¿Qué es el aplazamiento, el fraccionamiento<br />y la <em>suspensión de deuda</em>?</h2>
-        <p className={styles.sectionIntro}>La AEAT tiene mecanismos legales que permiten a los contribuyentes gestionar sus deudas de forma ordenada. Conocerlos y usarlos correctamente marca la diferencia entre proteger tu patrimonio o perderlo.</p>
+        <p className={styles.sectionIntro}>La AEAT no solo recauda: también tiene mecanismos legales que permiten a los contribuyentes gestionar sus deudas de forma ordenada. Conocerlos y usarlos correctamente marca la diferencia entre proteger tu patrimonio o perderlo.</p>
         <div className={styles.herramientasGrid}>
           {herramientas.map(h => (
             <div key={h.n} className={styles.herramientaCard}>
