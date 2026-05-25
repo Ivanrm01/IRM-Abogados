@@ -144,20 +144,20 @@ export default function GarantiasPage() {
       {/* SIN ASESORAMIENTO / CON IRM */}
       <section className={styles.comparativaSection}>
         <div className={styles.comparativaInner}>
-          <div className={styles.eyebrow}>Por qué IRM</div>
-          <h2 className={styles.sectionTitle}>Lo que cambia con<br /><em>asesoramiento especializado</em></h2>
+          <div className={styles.eyebrow}>Por qué IRM Abogados</div>
+          <h2 className={styles.sectionTitle}>Lo nos diferencia en<br /><em>garantías tributarias</em></h2>
         </div>
         <div className={styles.comparativaGrid}>
           <div className={styles.boxRed}>
             <div className={styles.boxRedTitle}>Sin asesoramiento especializado, te arriesgas a:</div>
             <ul className={styles.boxList}>
-              {['Embargo de cuentas bancarias sin previo aviso','Embargo de nómina o pensión','Anotación de embargo sobre inmuebles','Recargos del 5%, 10% o 20% sobre la deuda original','Intereses de demora acumulados','Declaración de responsabilidad solidaria o subsidiaria'].map(i => <li key={i}>{i}</li>)}
+              {['Embargo de cuentas bancarias','Embargo de nómina o pensión','Anotación de embargo sobre inmuebles','Recargos del 5%, 10% o 20% sobre la deuda original','Intereses de demora'].map(i => <li key={i}>{i}</li>)}
             </ul>
           </div>
           <div className={styles.boxGreen}>
-            <div className={styles.boxGreenTitle}>Con IRM Tax & Legal puedes conseguir:</div>
+            <div className={styles.boxGreenTitle}>Con IRM Abogados puedes conseguir:</div>
             <ul className={styles.boxList2}>
-              {['Paralizar cualquier embargo en curso','Pagar en cómodas cuotas mensuales','Reducir o anular sanciones improcedentes','Suspender la deuda mientras se recurre','Negociar condiciones favorables con la AEAT','Proteger tu patrimonio y el de tu empresa'].map(i => <li key={i}>{i}</li>)}
+              {['Paralizar embargos','Pagar en cómodas cuotas mensuales','Suspender la deuda mientras se recurre','Proteger tu patrimonio y el de tu empresa'].map(i => <li key={i}>{i}</li>)}
             </ul>
           </div>
         </div>
