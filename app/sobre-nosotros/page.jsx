@@ -50,9 +50,9 @@ export default function SobreNosotrosPage() {
           <h2>Lo que nos hace <em>diferentes</em></h2>
           <div className={styles.difList}>
             {[
-              { t:'Especialización exclusiva en derecho fiscal', d:'No somos un despacho generalista. El derecho tributario es lo que hacemos y lo que sabemos hacer mejor.' },
-              { t:'Acceso directo a tu abogado', d:'Sin intermediarios. Hablas directamente con el abogado responsable de tu caso desde el primer día.' },
-              { t:'Presencia en Madrid y Castellón', d:'Dos sedes y atención online para clientes de cualquier punto de España.' },
+              { t:'Especialización exclusiva en derecho fiscal', d:'No somos un despacho generalista. El derecho tributario es lo que hacemos y lo que sabemos hacer mejor. Esa especialidad se traduce en resultados.' },
+              { t:'Acceso directo a tu abogado', d:'Sin intermediarios ni personal de administración. Hablas directamente con el abogado responsable de tu caso desde el primer día.' },
+              { t:'Presencia en Madrid y Castellón', d:'Dos sedes y atención online para clientes de cualquier punto de España. La distancia nunca es un obstáculo para recibir el mejor asesoramiento. ' },
               { t:'Primera consulta sin coste', d:'Te contamos si podemos ayudarte y cómo antes de que tomes ninguna decisión.' },
             ].map((d,i) => (
               <div key={i} className={styles.difItem}>
