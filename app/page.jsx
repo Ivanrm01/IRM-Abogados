@@ -70,9 +70,9 @@ export default function HomePage() {
             { t: 'Respuesta en 24 horas', d: 'En derecho fiscal los plazos son críticos. Nunca te dejamos esperando.' },
             { t: 'Tarifas transparentes', d: 'Conoces el coste exacto antes de empezar. Sin sorpresas ni letra pequeña.' },
             { t: 'Trato directo', d: 'Hablas siempre con el abogado responsable, no con intermediarios.' },
-          {[...].map((i, k) => (
+           ].map((i, k) => (
             <div key={k} className={styles.porqueItem}>
-                <div className={styles.porqueBox}>{k + 1}</div>
+                <div className={styles.porqueBox}>0{k + 1}</div>
               <div>
                 <div className={styles.porqueTit}>{i.t}</div>
                 <div className={styles.porqueDesc}>{i.d}</div>
