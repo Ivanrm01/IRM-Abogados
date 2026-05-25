@@ -21,17 +21,17 @@ const tipos = [
 ]
 
 const cuando = [
-  { n:'01', t:'Acabas de recibir una notificación', d:'Aún estás en plazo voluntario. Tienes margen para solicitar el aplazamiento con las mejores condiciones posibles y sin recargos adicionales.', tag:'URGENTE — actúa esta semana', tagClass:'tagRed' },
-  { n:'02', t:'La deuda ha entrado en periodo ejecutivo', d:'Hacienda ya puede embargar. Todavía es posible suspender las actuaciones ejecutivas, pero el tiempo apremia.', tag:'IMPORTANTE — no esperes más', tagClass:'tagOrange' },
-  { n:'03', t:'Anticipas dificultades de pago próximas', d:'Sabes que no podrás hacer frente al próximo IRPF, IVA o Sociedades. La planificación previa permite negociar desde una posición mucho más favorable.', tag:'PREVENTIVO — planifica con tiempo', tagClass:'tagGreen' },
+  { n:'01', t:'Acabas de recibir una notificación de Hacienda', d:'Aún estás en plazo voluntario. Tienes margen para solicitar el aplazamiento o fraccionamiento con las mejores condiciones posibles y sin recargos adicionales.', tag:'URGENTE — actúa esta semana', tagClass:'tagRed' },
+  { n:'02', t:'La deuda ha entrado en período ejecutivo', d:'Hacienda ya puede embargar. Todavía es posible suspender las actuaciones ejecutivas con garantías adecuadas o impugnando el procedimiento, pero el tiempo apremia.', tag:'IMPORTANTE — no esperes más', tagClass:'tagOrange' },
+  { n:'03', t:'Anticipas dificultades de pago próximas', d:'Sabes que no podrás hacer frente al próximo IRPF, IVA o cuota de Sociedades. La planificación previa permite negociar desde una posición mucho más favorable.', tag:'PREVENTIVO — planifica con tiempo', tagClass:'tagGreen' },
 ]
 
 const pasos = [
-  { n:'1', t:'Consulta gratuita', d:'Analizamos tu caso sin coste ni compromiso.' },
-  { n:'2', t:'Análisis de la deuda', d:'Revisamos la notificación, plazos y documentación.' },
-  { n:'3', t:'Preparación del expediente', d:'Redactamos y presentamos la solicitud ante la AEAT.' },
-  { n:'4', t:'Negociación y seguimiento', d:'Negociamos las condiciones y te mantenemos informado.' },
-  { n:'5', t:'Resolución y cierre', d:'Acompañamos hasta el cierre completo del expediente.' },
+  { n:'1', t:'Consulta gratuita', d:'Analizamos tu caso sin coste ni compromiso y te decimos exactamente qué opciones tienes.' },
+  { n:'2', t:'Análisis de la deuda', d:'Revisamos la notificación, los plazos y la documentación para definir la mejor estrategia.' },
+  { n:'3', t:'Preparación del expediente', d:'Redactamos y presentamos la solicitud ante la AEAT con todos los justificantes necesarios.' },
+  { n:'4', t:'Negociación y seguimiento', d:'Negociamos las condiciones con la AEAT y te mantenemos informado en cada etapa del proceso.' },
+  { n:'5', t:'Resolución y cierre', d:'Obtenemos la resolución favorable y te acompañamos hasta el cierre completo del expediente.' },
 ]
 
 const faqs = [
