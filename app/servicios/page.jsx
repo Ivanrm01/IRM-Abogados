@@ -10,13 +10,13 @@ const servicios = [
   {
     num: '01', href: '/fiscal',
     title: 'Fiscal',
-    desc: 'Asesoramiento tributario integral para personas físicas y jurídicas. Planificación fiscal, declaraciones, optimización de la carga impositiva y defensa ante la Agencia Tributaria.',
+    desc: 'Asesoramiento tributario integral para personas físicas y jurídicas. Planificación fiscal, declaraciones, optimización de la carga impositiva y defensa ante la AEAT.',
     tags: ['IRPF', 'Sociedades', 'IVA', 'Patrimonio', 'Sucesiones', 'Defensa AEAT'],
   },
   {
     num: '02', href: '/asesoramiento-start-ups',
     title: 'Start-Ups',
-    desc: 'Asesoramiento legal y fiscal integral para nuevas empresas y emprendedores. Desde la constitución hasta la ronda de inversión, cubriendo todas las etapas de crecimiento.',
+    desc: 'Asesoramiento legal y fiscal integral para nuevas empresas y emprendedores. Desde la idea hasta la ronca de inversión, cubriendo todas las etapas de crecimiento.',
     tags: ['Constitución', 'Pacto de socios', 'ESOP', 'Due diligence', 'Inversión'],
   },
   {
