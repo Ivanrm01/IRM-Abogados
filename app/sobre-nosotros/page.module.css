@@ -41,10 +41,10 @@
 .sedeCity { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 300; color: var(--white); margin-bottom: 20px; }
 .sedeAddr, .sedePhone, .sedeEmail { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.6; margin-bottom: 6px; display: block; text-decoration: none; }
 
-.cta { background: var(--gold); padding: 80px 60px; text-align: center; }
+.cta { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
 .ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,4vw,48px); font-weight: 300; color: var(--navy); line-height: 1.1; margin-bottom: 14px; }
-.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); margin-bottom: 32px; }
-.ctaBtns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); margin-bottom: 0; }
+.ctaBtns { display: flex; gap: 16px; flex-wrap: wrap; flex-shrink: 0; }
 
 @media (max-width: 960px) {
   .hero { padding: 120px 24px 80px; }
