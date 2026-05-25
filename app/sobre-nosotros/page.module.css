@@ -50,5 +50,6 @@
   .hero { padding: 120px 24px 80px; }
   .pilaresGrid, .sedesGrid { grid-template-columns: 1fr; }
   .diferencial { grid-template-columns: 1fr; padding: 64px 24px; }
-  .cta { padding: 64px 24px; }
+  .ctaSection { flex-direction: column; padding: 64px 24px; }
+  .ctaBtns { flex-direction: column; width: 100%; }
 }
