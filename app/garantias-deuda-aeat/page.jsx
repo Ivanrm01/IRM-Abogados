@@ -35,8 +35,8 @@ const pasos = [
 ]
 
 const faqs = [
-  { q:'¿Cuánto tarda en resolverse una solicitud de aplazamiento?', a:'La AEAT tiene un plazo legal de 6 meses para resolver. En la práctica, muchas resoluciones se obtienen entre 1 y 3 meses. Durante este tiempo, si la solicitud está bien presentada, Hacienda no puede iniciar actuaciones ejecutivas.' },
-  { q:'¿Necesito presentar garantías para aplazar mi deuda?', a:'Para deudas inferiores a 30.000€ no es necesario aportar garantía. Por encima de ese importe, la AEAT puede exigir aval bancario, hipoteca u otras garantías reales.' },
+  { q:'¿Cuánto tarda en resolverse una solicitud de aplazamiento?', a:'La AEAT tiene un plazo legal de 6 meses para resolver las solicitudes de aplazamiento y fraccionamiento. En la práctica, muchas resoluciones se obtienen entre 1 y 3 meses. Durante este tiempo, si la solicitud está bien presentada, Hacienda no puede iniciar actuaciones ejecutivas, lo que protege tu patrimonio mientras se tramita.' },
+  { q:'¿Necesito presentar garantías para aplazar mi deuda?', a:'Depende del importe. Para deudas inferiores a 50.000 € no es necesario aportar garantía alguna. Por encima de ese importe, la AEAT puede exigir un aval bancario, hipoteca, seguro de caución u otras garantías reales. Existen fórmulas alternativas en casos de insuficiencia patrimonial que podemos gestionar para ti.' },
   { q:'¿Se pueden aplazar todos los impuestos?', a:'La mayoría son aplazables: IRPF, Impuesto sobre Sociedades, IVA en ciertos casos, Transmisiones Patrimoniales, etc. Existen restricciones para el IVA repercutido, aunque hay excepciones.' },
   { q:'¿Qué ocurre si ya me han embargado la cuenta?', a:'Un embargo ya ejecutado no es irreversible. Podemos interponer recursos, solicitar la levantación aportando garantías alternativas o tramitar una solicitud de aplazamiento sobrevenida.' },
   { q:'¿Cuánto cuesta solicitar un aplazamiento con IRM?', a:'La primera consulta es siempre gratuita. Los honorarios varían según la complejidad y el importe de la deuda. Te informamos del coste exacto antes de empezar, sin sorpresas.' },
