@@ -55,10 +55,10 @@ export default function GarantiasPage() {
             <div className={styles.breadcrumb}>Inicio <span>/ Garantías tributarias</span></div>
             <div className={styles.alert}>¿Has recibido una notificación de Hacienda? Actúa antes de que sea tarde</div>
             <h1 className={styles.heroTitle}>Aplaza, fracciona<br />o suspende tu<br /><em>deuda con Hacienda</em></h1>
-            <p className={styles.heroDesc}>Cuando recibes una deuda tributaria, tienes derechos que muchos desconocen. En IRM somos especialistas en negociar con la AEAT para proteger tu patrimonio, tu empresa y tu tranquilidad.</p>
+            <p className={styles.heroDesc}>Cuando recibes una deuda tributaria, tienes derechos que muchos desconocen.  En IRM Abogados ofrecemos soluciones seguras y legales para aplazar, fraccionar o suspender deudas tributarias mediante garantías inmobiliarias conforme a la normativa vigente.</p>
             <div className={styles.heroBtns}>
-              <Link href="/contacto" className="btn-gold">Consulta gratuita ahora</Link>
-              <a href="#herramientas" className="btn-ghost">¿Cómo funciona?</a>
+              <Link href="/contacto" className="btn-gold">SOLICITAR CONSULTA</Link>
+              <a href="#herramientas" className="btn-ghost">¿CÓMO FUNCIONA?</a>
             </div>
           </div>
           <div className={styles.urgencyCard}>
@@ -67,10 +67,10 @@ export default function GarantiasPage() {
               <li>Has recibido una liquidación o sanción de la AEAT</li>
               <li>No puedes pagar el importe de golpe</li>
               <li>Temes un embargo de cuentas o bienes</li>
-              <li>Tienes un recurso pendiente ante la AEAT o un tribunal</li>
+              <li>Tienes una reclamación o recurso pendiente</li>
               <li className={styles.urgencyOk}>Podemos ayudarte. Primera consulta gratuita.</li>
             </ul>
-            <Link href="/contacto" className={styles.urgencyCta}>Hablar con un abogado ahora</Link>
+            <Link href="/contacto" className={styles.urgencyCta}>HABLAR CON UN ABOGADO AHORA</Link>
           </div>
         </div>
       </section>
