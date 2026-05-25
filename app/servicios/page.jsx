@@ -72,7 +72,7 @@ export default function ServiciosPage() {
       <section className={styles.paraQuien}>
         <div className={styles.eyebrow2} style={{color:'var(--gold)'}}>Para quién</div>
         <h2 className={styles.sectionTitleLight}>Trabajamos con <em>todo tipo</em> de clientes</h2>
-        <p className={styles.pqIntro}>Tanto si eres particular, autónomo o empresa, nuestra especialización nos permite atenderte con la misma excelencia.</p>
+        <p className={styles.pqIntro}>Tanto si eres particular, autónomo o empresa, tenemos el servicio que necesitas. La especialización fiscal nos permite atender con la misma excelencia perfiles muy distintos.</p>
         <div className={styles.pqGrid}>
           {perfiles.map(p => (
             <div key={p.title} className={styles.pqCard}>
