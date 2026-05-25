@@ -16,7 +16,7 @@ export default function SobreNosotrosPage() {
         <div className={styles.breadcrumb}>Inicio <span>/ Sobre nosotros</span></div>
         <div className="eyebrow">Sobre nosotros</div>
         <h1>Derecho fiscal con<br /><em>precisión</em> y compromiso</h1>
-        <p className={styles.heroDesc}>Somos un equipo joven y especializado en derecho tributario y mercantil. Acompañamos a personas y empresas con rigor técnico, transparencia y un trato cercano que marca la diferencia.</p>
+        <p className={styles.heroDesc}>Somos un equipo joven y especializado en Derecho Fiscal y asesoramiento a Start-Ups. Acompañamos a personas y empresas con rigor técnico, transparencia y un trato cercano que marca la diferencia.</p>
         <div className={styles.heroStats}>
           {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Tiempo de respuesta'],['0€','Primera consulta']].map(([n,l]) => (
             <div key={l} className={styles.stat}><div className={styles.statN}>{n}</div><div className={styles.statL}>{l}</div></div>
@@ -31,8 +31,8 @@ export default function SobreNosotrosPage() {
         <div className={styles.pilaresGrid}>
           {[
             { n:'01', t:'Compromiso', d:'Nos involucramos en cada caso como si fuera el nuestro. Tu problema fiscal es nuestro problema, y trabajamos hasta encontrar la mejor solución dentro de la legalidad vigente.' },
-            { n:'02', t:'Excelencia', d:'Un equipo altamente cualificado con formación especializada. La actualización constante en derecho tributario nos permite ofrecerte siempre las mejores estrategias fiscales.' },
-            { n:'03', t:'Tarifas transparentes', d:'Conoces el coste antes de empezar. Sin sorpresas, sin letra pequeña. La transparencia en los honorarios es la base de una relación profesional duradera.' },
+            { n:'02', t:'Excelencia', d:'Un equipo altamente cualificado con formación en las mejores universidades. La actualización constante en derecho tributario nos permite ofrecerte siempre las mejores estrategias fiscales.' },
+            { n:'03', t:'Tarifas transparentes', d:'Conoces el coste antes de empezar. Sin sorpresas, ni letra pequeña. Creemos que la transparencia en los honorarios es la base de una relación profesional duradera y de confianza mutua.' },
           ].map(p => (
             <div key={p.n} className={styles.pilarCard}>
               <div className={styles.pilarNum}>{p.n}</div>
