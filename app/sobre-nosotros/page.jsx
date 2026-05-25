@@ -95,9 +95,9 @@ export default function SobreNosotrosPage() {
           <div className={styles.ctaTitle}>¿Hablamos sobre<br />tu situación fiscal?</div>
           <div className={styles.ctaDesc}>Primera consulta gratuita y sin compromiso. Respondemos en menos de 24 horas.</p>
         </div>
-        <div className={styles.ctaBtns}>
-          <Link href="/contacto" className="btn-navy">SOLICITAR CONSULTA</Link>
-          <a href="tel:+34614149465" className="btn-outline-navy">HABLAR CON UN EXPERTO</a>
+          <div className={styles.ctaBtns}>
+            <Link href="/contacto" className="btn-navy">SOLICITAR CONSULTA</Link>
+            <a href="tel:+34614149465" className="btn-outline-navy">HABLAR CON UN EXPERTO</a>
         </div>
       </section>
     </>
