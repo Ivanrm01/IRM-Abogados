@@ -101,12 +101,12 @@ export default function ServiciosPage() {
 
       <section className={styles.cta}>
         <div>
-          <div className={styles.ctaTitle}>No encuentras lo que necesitas?</div>
+          <div className={styles.ctaTitle}>No encuentras el servicio que necesitas?</div>
           <div className={styles.ctaDesc}>Cuéntanos tu caso y te decimos si podemos ayudarte. Sin compromiso.</div>
         </div>
         <div className={styles.ctaBtns}>
-          <Link href="/contacto" className="btn-navy">Contactar ahora</Link>
-          <a href="tel:+34614149465" className="btn-outline-navy">+34 614 149 465</a>
+          <Link href="/contacto" className="btn-navy">SOLICITAR CONSULTA</Link>
+          <a href="tel:+34614149465" className="btn-outline-navy">HABLAR CON UN EXPERTO</a>
         </div>
       </section>
     </>
