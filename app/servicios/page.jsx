@@ -49,7 +49,7 @@ export default function ServiciosPage() {
         <div className={styles.breadcrumb}>Inicio <span>/ Servicios</span></div>
         <div className={styles.eyebrow}>Nuestros servicios</div>
         <h1 className={styles.heroTitle}>Soluciones fiscales<br /><em>a medida</em> para cada caso</h1>
-        <p className={styles.heroDesc}>Cada cliente tiene una situación única. Nuestro enfoque siempre parte del análisis detallado de tu caso para ofrecerte la estrategia fiscal más eficiente y segura.</p>
+        <p className={styles.heroDesc}>Cada cliente tiene una situación única. Nuestro enfoque siempre parte del análisis detallado de tu caso para ofrecerte la estrategia fiscal más eficiente y segura dentro del marco legal.</p>
       </section>
 
       <section className={styles.serviciosSection}>
