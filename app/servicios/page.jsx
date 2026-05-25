@@ -28,9 +28,9 @@ const servicios = [
 ]
 
 const perfiles = [
-  { icon: '👤', title: 'Particulares', items: ['Declaración de la Renta compleja', 'Inversores en bolsa, fondos o criptos', 'Propietarios con inmuebles en alquiler', 'Herencias o donaciones pendientes'] },
-  { icon: '💼', title: 'Autónomos', items: ['IRPF en estimación directa', 'IVA trimestral — modelo 303', 'Gastos deducibles y optimización', 'Transición de autónomo a sociedad'] },
-  { icon: '🏢', title: 'Empresas y pymes', items: ['Impuesto sobre Sociedades', 'IVA e impuestos periódicos', 'Reestructuraciones empresariales', 'Operaciones vinculadas'] },
+  { icon: '👤', title: 'Particulares', items: ['Declaraciones de la Renta', 'Planificación patrimonial', 'Planificación fiscal de herencias y donaciones', 'Gestión fiscal de activos digitales y criptomonedas'] },
+  { icon: '💼', title: 'Empresas y PYMEs', items: ['Impuesto sobre Sociedades', 'IVA e impuestos indirectos', 'Operaciones de reestructuración', 'Consolidación fiscal y grupos fiscales', 'Operaciones con no residentes'] },
+  { icon: '🏢', title: 'Start-Ups', items: ['Constitución y estructura societaria', 'Pacto de socios', 'Due diligence fiscal', 'Rondas de inversión'] },
 ]
 
 const pasos = [
