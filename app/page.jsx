@@ -47,6 +47,7 @@ export default function HomePage() {
           {[
             { num: '01', title: 'Fiscal', desc: 'Asesoramiento tributario integral para personas físicas y empresas. IRPF, Sociedades, IVA, Patrimonio, Sucesiones y defensa ante inspecciones y procedimientos.', href: '/fiscal' },
             { num: '02', title: 'Start-Ups', desc: 'Acompañamiento legal integral para nuevas empresas. Constitución societaria, pactos de socios, fiscalidad de la inversión, ESOPs y preparación para rondas de financiación.', href: '/asesoramiento-start-ups' },
+            { num: '03', title: 'Garantías tributarias', desc: 'Aplazamiento, fraccionamiento y suspensión de deudas ante la AEAT. Paralización de embargos y defensa ejecutiva.', href: '/garantias-deuda-aeat' },
           ].map(a => (
             <Link key={a.href} href={a.href} className={styles.areaCard}>
               <div className={styles.areaNum}>{a.num}</div>
