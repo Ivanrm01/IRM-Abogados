@@ -100,6 +100,9 @@ export default function GarantiasPage() {
       <section className={styles.tiposSection}>
         <div className={styles.eyebrow2}>¿Qué deudas gestionamos?</div>
         <h2 className={styles.sectionTitleLight}>Resolvemos todo tipo de<br /><em>deudas tributarias</em></h2>
+        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(255,255,255,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
+          Tanto si la deuda proviene de una inspección, una autoliquidación o una sanción, nuestra especialización fiscal nos permite actuar con eficacia.
+        </p>
         <div className={styles.tiposGrid}>
           {tipos.map(t => (
             <div key={t.t} className={styles.tipoCard}>
