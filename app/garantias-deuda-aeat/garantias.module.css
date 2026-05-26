@@ -193,7 +193,7 @@
 .riesgoBox li {
   display: flex;
   gap: 14px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   color: #8E2B24;
   line-height: 1.7;
@@ -224,7 +224,7 @@
 .logroBox li {
   display: flex;
   gap: 14px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   color: var(--green);
   line-height: 1.7;
