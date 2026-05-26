@@ -136,7 +136,7 @@ export default function GarantiasPage() {
       <section className={styles.procesoSection}>
         <div className={styles.eyebrow}>Cómo trabajamos</div>
         <h2 className={styles.sectionTitle}>El proceso paso a paso,<br /><em>sin complicaciones</em></h2>
-        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(255,255,255,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
+        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(0,0,0,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
           Nos encargamos de todo el procedimiento ante la AEAT. Tú nos cuentas tu situación y nosotros gestionamos el resto.
         </p>
         <div className={styles.pasos}>
