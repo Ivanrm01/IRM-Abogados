@@ -151,26 +151,90 @@ export default function GarantiasPage() {
       </section>
 
       {/* SIN ASESORAMIENTO / CON IRM */}
-      <section className={styles.comparativaSection}>
-        <div className={styles.comparativaInner}>
-          <div className={styles.eyebrow}>Por qué IRM Abogados</div>
-          <h2 className={styles.sectionTitle}>Lo nos diferencia en<br /><em>garantías tributarias</em></h2>
-        </div>
-        <div className={styles.comparativaGrid}>
-          <div className={styles.boxRed}>
-            <div className={styles.boxRedTitle}>Sin asesoramiento especializado, te arriesgas a:</div>
-            <ul className={styles.boxList}>
-              {['Embargo de cuentas bancarias','Embargo de nómina o pensión','Anotación de embargo sobre inmuebles','Recargos del 5%, 10% o 20% sobre la deuda original','Intereses de demora'].map(i => <li key={i}>{i}</li>)}
-            </ul>
+      {/* DIFERENCIA IRM */}
+<section className={styles.diferenciaSection}>
+  <div className={styles.diferenciaLeft}>
+    <div className={styles.diferenciaEyebrow}>Por qué IRM</div>
+
+    <h2 className={styles.diferenciaTitle}>
+      Lo que nos diferencia<br />
+      en <em>garantías tributarias</em>
+    </h2>
+
+    <div className={styles.diferenciaList}>
+      {[
+        {
+          icon: '🛡️',
+          title: 'Especialización exclusiva en derecho fiscal',
+          desc: 'No somos generalistas. La AEAT conoce bien a los despachos especializados, y eso se nota en la negociación.'
+        },
+        {
+          icon: '🕒',
+          title: 'Actuación en menos de 24 horas',
+          desc: 'En garantías, los plazos son críticos. Analizamos tu caso el mismo día que nos contactas para que no pierdas ninguna oportunidad.'
+        },
+        {
+          icon: '💶',
+          title: 'Honorarios transparentes desde el inicio',
+          desc: 'Conoces el coste exacto antes de empezar. Sin sorpresas, sin honorarios variables que dependan del resultado.'
+        },
+        {
+          icon: '👥',
+          title: 'Trato directo con tu abogado',
+          desc: 'Ningún intermediario. Hablas siempre con el abogado responsable de tu expediente, no con un gestor administrativo.'
+        }
+      ].map(item => (
+        <div key={item.title} className={styles.diferenciaItem}>
+          <div className={styles.diferenciaIcon}>{item.icon}</div>
+          <div>
+            <h3>{item.title}</h3>
+            <p>{item.desc}</p>
           </div>
-          <div className={styles.boxGreen}>
-            <div className={styles.boxGreenTitle}>Con IRM Abogados puedes conseguir:</div>
-            <ul className={styles.boxList2}>
-              {['Paralizar embargos','Pagar en cómodas cuotas mensuales','Suspender la deuda mientras se recurre','Proteger tu patrimonio y el de tu empresa'].map(i => <li key={i}>{i}</li>)}
-            </ul>
-          </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+
+  <div className={styles.diferenciaRight}>
+    <div className={styles.riesgoBox}>
+      <div className={styles.riesgoTitle}>
+        Sin asesoramiento especializado, te arriesgas a:
+      </div>
+
+      <ul>
+        {[
+          'Embargo de cuentas bancarias sin previo aviso',
+          'Embargo de nómina o pensión',
+          'Anotación de embargo sobre inmuebles',
+          'Recargos del 5%, 10% o 20% sobre la deuda original',
+          'Intereses de demora acumulados',
+          'Declaración de responsabilidad solidaria o subsidiaria'
+        ].map(i => (
+          <li key={i}>{i}</li>
+        ))}
+      </ul>
+    </div>
+
+    <div className={styles.logroBox}>
+      <div className={styles.logroTitle}>
+        Con IRM Tax & Legal puedes conseguir:
+      </div>
+
+      <ul>
+        {[
+          'Paralizar cualquier embargo en curso',
+          'Pagar en cómodas cuotas mensuales',
+          'Reducir o anular sanciones improcedentes',
+          'Suspender la deuda mientras se recurre',
+          'Negociar condiciones favorables con la AEAT',
+          'Proteger tu patrimonio y el de tu empresa'
+        ].map(i => (
+          <li key={i}>{i}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
 
       {/* FAQ */}
       <section className={styles.faqSection}>
