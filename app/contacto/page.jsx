@@ -47,7 +47,7 @@ export default function ContactoPage() {
             <div className={styles.breadcrumb}>Inicio <span>/ Contacto</span></div>
             <div className="eyebrow">Estamos aquí</div>
             <h1>Cuéntanos<br />tu caso.<br /><em>Te escuchamos</em></h1>
-            <p className={styles.heroDesc}>Primera consulta gratuita y sin compromiso. Analizamos tu situación y te decimos exactamente qué podemos hacer por ti.</p>
+            <p className={styles.heroDesc}>Primera consulta siempre gratuita y sin compromiso. Analizamos tu situación y te decimos exactamente qué podemos hacer por ti antes de que tomes ninguna decisión.</p>
             <div className={styles.promises}>
               {['Respuesta garantizada en menos de 24 horas','Primera consulta siempre gratuita','Hablas directamente con el abogado','Atendemos clientes de toda España online'].map(p => (
                 <div key={p} className={styles.promise}><div className={styles.dot}></div>{p}</div>
