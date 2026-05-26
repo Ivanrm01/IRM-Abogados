@@ -134,7 +134,7 @@ export default function ContactoPage() {
         <div className={styles.infoSide}>
           <div className={styles.infoTitle}>También puedes<br /><em>contactar directamente</em></div>
           <p className={styles.infoDesc}>Si prefieres llamar, escribir por WhatsApp o mandar un email directo, estamos disponibles en todos estos canales. Siempre atendemos nosotros personalmente.</p>
-          {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',sub:'Lunes a viernes · 9:00 – 19:00',href:'tel:+34614149465'},{icon:'💬',label:'WhatsApp',value:'Escríbenos por WhatsApp',sub:'Respuesta rápida en horario de oficina',href:'https://wa.me/34614149465'},{icon:'✉️',label:'Email',value:'correo@irmabogados.es',sub:'Respondemos en menos de 24 horas',href:'mailto:correo@irmabogados.es'}].map(c => (
+          {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',sub:'Lunes a viernes · 8:00 – 19:00',href:'tel:+34614149465'},{icon:'💬',label:'WhatsApp',value:'Escríbenos por WhatsApp',sub:'Respuesta rápida en horario de oficina',href:'https://wa.me/34614149465'},{icon:'✉️',label:'Email',value:'correo@irmabogados.es',sub:'Respondemos en menos de 24 horas',href:'mailto:correo@irmabogados.es'}].map(c => (
             <div key={c.label} className={styles.contactRow}>
               <div className={styles.crIcon}>{c.icon}</div>
               <div><div className={styles.crLabel}>{c.label}</div><a href={c.href} className={styles.crValue}>{c.value}</a><div className={styles.crSub}>{c.sub}</div></div>
