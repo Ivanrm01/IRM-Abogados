@@ -28,8 +28,8 @@ export default function ContactoPage() {
 
   const [openFaq, setOpenFaq] = useState(null)
   const faqs = [
-    { q: '¿La primera consulta es realmente gratuita?', a: 'Sí, completamente. La primera consulta no tiene ningún coste. Analizamos tu caso, te explicamos qué opciones tienes y te informamos del coste exacto antes de que tomes ninguna decisión. Sin compromiso ni letra pequeña.' },
-    { q: '¿Atendeís a clientes de toda España?', a: 'Sí. Aunque tenemos sedes físicas en Madrid y Castellón, atendemos a clientes de toda España a través de videoconferencia. La distancia no es ningún obstáculo para recibir un asesoramiento de calidad.' },
+    { q: '¿La primera consulta es realmente gratuita?', a: 'Sí completamente. La primera consulta no tiene ningún coste. Analizamos tu caso, te explicamos qué opciones tienes y te informamos del coste exacto de nuestra intervención antes de que tomes ninguna decisión. Sin compromiso ni letra pequeña.' },
+    { q: '¿Atendeís a clientes de toda España?', a: 'Sí . Aunque tenemos sedes físicas en Madrid y Castellón, atendemos a clientes de toda España. La distancia no es ningún obstáculo para recibir un asesoramiento de calidad.' },
     { q: '¿Cuánto tiempo tardáis en responder?', a: 'Respondemos siempre en menos de 24 horas en días laborables. Si tu consulta es urgente (plazo inminente de Hacienda), indícanoslo en el mensaje y haremos todo lo posible por atenderte el mismo día.' },
     { q: '¿Cómo se fijan los honorarios?', a: 'Los honorarios dependen del tipo de servicio y la complejidad del caso. Siempre te informamos del coste exacto antes de empezar. Preferimos presupuestos cerrados para que sepas exactamente lo que vas a pagar.' },
     { q: '¿Qué información necesitáis para la primera consulta?', a: 'Con una descripción general de tu situación es suficiente. No necesitas preparar documentación de antemano. En la consulta te pediremos la información específica necesaria.' },
