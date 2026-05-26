@@ -276,4 +276,31 @@
   .cta { grid-template-columns: 1fr; }
   .ctaLeft, .ctaRight { padding: 56px 24px; }
   .ctaBtns { flex-direction: column; }
+  .diferenciaSection {
+    grid-template-columns: 1fr;
+  }
+
+  .diferenciaLeft {
+    padding: 64px 24px;
+  }
+
+  .diferenciaRight {
+    padding: 56px 24px;
+  }
+
+  .diferenciaItem {
+    grid-template-columns: 44px 1fr;
+    gap: 18px;
+  }
+
+  .diferenciaIcon {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .riesgoBox,
+  .logroBox {
+    padding: 28px 24px;
+  }
 }
