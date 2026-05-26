@@ -31,7 +31,7 @@ const servicios = [
 const perfiles = [
   { icon: '👤', title: 'Particulares', items: ['Declaraciones de la Renta', 'Planificación patrimonial', 'Planificación fiscal de herencias y donaciones', 'Gestión fiscal de activos digitales y criptomonedas'] },
   { icon: '💼', title: 'Empresas y PYMEs', items: ['Impuesto sobre Sociedades', 'IVA e impuestos indirectos', 'Operaciones de reestructuración', 'Consolidación fiscal y grupos fiscales', 'Operaciones con no residentes'] },
-  { icon: '🏢', title: 'Start-Ups', items: ['Constitución y estructura societaria', 'Pacto de socios', 'Due diligence fiscal', 'Rondas de inversión'] },
+  { icon: '🚀', title: 'Start-Ups', items: ['Constitución y estructura societaria', 'Pacto de socios', 'Due diligence fiscal', 'Rondas de inversión'] },
 ]
 
 const pasos = [
@@ -78,9 +78,9 @@ export default function ServiciosPage() {
           {perfiles.map(p => (
             <div key={p.title} className={styles.pqCard}>
               <div className={styles.pqIcon}>
-                {p.icon === '👤' && <User size={22} strokeWidth={1.5} color="#B8975A" />}
-                {p.icon === '💼' && <Briefcase size={22} strokeWidth={1.5} color="#B8975A" />}
-                {p.icon === '🚀' && <Activity size={22} strokeWidth={1.5} color="#B8975A" />}
+                {p.icon === '👤' && <User size={28} strokeWidth={1.5} color="#B8975A" />}
+                {p.icon === '💼' && <Briefcase size={28} strokeWidth={1.5} color="#B8975A" />}
+                {p.icon === '🚀' && <Activity size={28} strokeWidth={1.5} color="#B8975A" />}
               </div>
               <h3 className={styles.pqTitle}>{p.title}</h3>
               <ul className={styles.pqList}>{p.items.map(i => <li key={i}>{i}</li>)}</ul>
