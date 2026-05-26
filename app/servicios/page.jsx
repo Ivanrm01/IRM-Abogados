@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { User, Briefcase, Activity } from 'lucide-react'
 import styles from './servicios.module.css'
 
 export const metadata = {
