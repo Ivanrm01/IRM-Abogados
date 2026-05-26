@@ -154,7 +154,7 @@ export default function GarantiasPage() {
       {/* DIFERENCIA IRM */}
 <section className={styles.diferenciaSection}>
   <div className={styles.diferenciaLeft}>
-    <div className={styles.diferenciaEyebrow}>Por qué IRM</div>
+    <div className={styles.diferenciaEyebrow}>Por qué IRM ABOGADOS</div>
 
     <h2 className={styles.diferenciaTitle}>
       Lo que nos diferencia<br />
@@ -165,8 +165,8 @@ export default function GarantiasPage() {
       {[
         {
           icon: '🛡️',
-          title: 'Especialización exclusiva en derecho fiscal',
-          desc: 'No somos generalistas. La AEAT conoce bien a los despachos especializados, y eso se nota en la negociación.'
+          title: 'Especialización en derecho fiscal',
+          desc: 'No somos un despacho de abogados generalista.'
         },
         {
           icon: '🕒',
@@ -176,7 +176,7 @@ export default function GarantiasPage() {
         {
           icon: '💶',
           title: 'Honorarios transparentes desde el inicio',
-          desc: 'Conoces el coste exacto antes de empezar. Sin sorpresas, sin honorarios variables que dependan del resultado.'
+          desc: 'Conoces el coste exacto antes de empezar. Sin sorpresas.'
         },
         {
           icon: '👥',
@@ -203,12 +203,11 @@ export default function GarantiasPage() {
 
       <ul>
         {[
-          'Embargo de cuentas bancarias sin previo aviso',
-          'Embargo de nómina o pensión',
-          'Anotación de embargo sobre inmuebles',
-          'Recargos del 5%, 10% o 20% sobre la deuda original',
-          'Intereses de demora acumulados',
-          'Declaración de responsabilidad solidaria o subsidiaria'
+          'Embargo de cuentas bancarias.',
+          'Embargo de nómina o pensión.',
+          'Anotación de embargo sobre inmuebles.',
+          'Recargos del 5%, 10% o 20% sobre la deuda original.',
+          'Intereses de demora.',
         ].map(i => (
           <li key={i}>{i}</li>
         ))}
@@ -222,11 +221,9 @@ export default function GarantiasPage() {
 
       <ul>
         {[
-          'Paralizar cualquier embargo en curso',
+          'Paralizar embargos.',
           'Pagar en cómodas cuotas mensuales',
-          'Reducir o anular sanciones improcedentes',
           'Suspender la deuda mientras se recurre',
-          'Negociar condiciones favorables con la AEAT',
           'Proteger tu patrimonio y el de tu empresa'
         ].map(i => (
           <li key={i}>{i}</li>
