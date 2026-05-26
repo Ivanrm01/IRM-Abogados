@@ -105,7 +105,7 @@
 
 .diferenciaTitle {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(42px, 4.5vw, 64px);
+  font-size: clamp(20px, 4.5vw, 64px);
   font-weight: 300;
   line-height: 1.12;
   color: var(--white);
