@@ -216,7 +216,7 @@ export default function GarantiasPage() {
 
     <div className={styles.logroBox}>
       <div className={styles.logroTitle}>
-        Con IRM Tax & Legal puedes conseguir:
+        Con IRM Abogados puedes conseguir:
       </div>
 
       <ul>
