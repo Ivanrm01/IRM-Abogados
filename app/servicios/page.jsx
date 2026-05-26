@@ -38,7 +38,7 @@ const pasos = [
   { n:'1', t:'Consulta inicial gratuita', d:'Analizamos tu caso sin coste y te decimos qué podemos hacer por ti.' },
   { n:'2', t:'Propuesta y honorarios', d:'Te presentamos la estrategia y el coste exacto. Sin sorpresas.' },
   { n:'3', t:'Ejecución y seguimiento', d:'Gestionamos todo y te mantenemos informado en cada momento.' },
-  { n:'4', t:'Cierre y resultados', d:'Te entregamos los resultados y te explicamos cómo mantenerlos.' },
+  { n:'4', t:'Resolución y acompañamiento final', d:'Te explicamos el resultado obtenido y cómo actuar después.' },
 ]
 
 export default function ServiciosPage() {
