@@ -117,6 +117,9 @@ export default function GarantiasPage() {
       <section className={styles.cuandoSection}>
         <div className={styles.eyebrow}>Urgencia de actuación</div>
         <h2 className={styles.sectionTitleLight}>¿En qué momento debes <em>contactarnos</em>?</h2>
+        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(255,255,255,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
+          Cuanto antes actúes, más opciones tienes. Estos son los tres escenarios más habituales de nuestros clientes.
+        </p>
         <div className={styles.cuandoGrid}>
           {cuando.map(c => (
             <div key={c.n} className={styles.cuandoCard}>
