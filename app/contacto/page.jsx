@@ -87,7 +87,7 @@ export default function ContactoPage() {
           ) : (
             <>
               <div className={styles.formTitle}>Envíanos tu<br /><em>consulta</em></div>
-              <p className={styles.formSubtitle}>Rellena el formulario y un abogado especialista se pondrá en contacto contigo en menos de 24 horas.</p>
+              <p className={styles.formSubtitle}>Rellena el formulario y un abogado especialista se pondrá en contacto contigo en menos de 24 horas. La primera consulta es siempre gratuita y sin compromiso.</p>
               <div className={styles.row}>
                 <div className={styles.group}><label>Nombre *</label><input value={form.nombre} onChange={set('nombre')} placeholder="Tu nombre" /></div>
                 <div className={styles.group}><label>Apellidos *</label><input value={form.apellidos} onChange={set('apellidos')} placeholder="Tus apellidos" /></div>
