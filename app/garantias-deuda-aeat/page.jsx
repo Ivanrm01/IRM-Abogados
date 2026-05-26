@@ -176,6 +176,9 @@ export default function GarantiasPage() {
       <section className={styles.faqSection}>
         <div className={styles.eyebrow}>Preguntas frecuentes</div>
         <h2 className={styles.sectionTitle}>Todo lo que necesitas saber sobre<br /><em>aplazamientos y garantías</em></h2>
+        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(0,0,0,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
+          Las preguntas que más nos hacen nuestros clientes antes de la primera consulta.
+        </p>
         <div className={styles.faqGrid}>
           {faqs.map((f, i) => (
             <details key={i} className={styles.faqItem}>
