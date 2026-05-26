@@ -26,7 +26,7 @@
 .eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
 .eyebrow2 { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
 .eyebrow2::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
-.sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--text); }
+.sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--white); }
 .sectionTitle em { font-style: italic; color: var(--gold); }
 .sectionTitleLight { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--white); }
 .sectionTitleLight em { font-style: italic; color: var(--gold); }
