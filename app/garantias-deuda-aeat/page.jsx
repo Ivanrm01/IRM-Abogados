@@ -116,7 +116,7 @@ export default function GarantiasPage() {
       {/* CUÁNDO ACTUAR */}
       <section className={styles.cuandoSection}>
         <div className={styles.eyebrow}>Urgencia de actuación</div>
-        <h2 className={styles.sectionTitle}>¿En qué momento<br />debes <em>contactarnos</em>?</h2>
+        <h2 className={styles.sectionTitle}>¿En qué momento debes <em>contactarnos</em>?</h2>
         <div className={styles.cuandoGrid}>
           {cuando.map(c => (
             <div key={c.n} className={styles.cuandoCard}>
