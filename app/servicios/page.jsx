@@ -77,6 +77,11 @@ export default function ServiciosPage() {
         <div className={styles.pqGrid}>
           {perfiles.map(p => (
             <div key={p.title} className={styles.pqCard}>
+              <div className={styles.pqIcon}>
+                {p.icon === '👤' && <User size={22} strokeWidth={1.5} color="#B8975A" />}
+                {p.icon === '💼' && <Briefcase size={22} strokeWidth={1.5} color="#B8975A" />}
+                {p.icon === '🚀' && <Activity size={22} strokeWidth={1.5} color="#B8975A" />}
+              </div>
               <div className={styles.pqIcon}>{p.icon}</div>
               <h3 className={styles.pqTitle}>{p.title}</h3>
               <ul className={styles.pqList}>{p.items.map(i => <li key={i}>{i}</li>)}</ul>
