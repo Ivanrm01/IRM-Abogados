@@ -152,6 +152,9 @@ export default function ContactoPage() {
       <section className={`section ${styles.faqSection}`}>
         <div className="eyebrow">Antes de contactar</div>
         <h2>Preguntas <em>frecuentes</em></h2>
+        <p style={{fontSize:'15px', fontWeight:300, color:'rgba(0,0,0,.6)', maxWidth:'640px', marginTop:'24px', lineHeight:1.85}}>
+          Lo que más nos preguntan antes de la primera consulta.
+        </p>     
         <div className={styles.faqGrid}>
           {faqs.map((f,i) => (
             <div key={i} className={`${styles.faqItem} ${openFaq === i ? styles.faqOpen : ''}`} onClick={() => setOpenFaq(openFaq === i ? null : i)}>
