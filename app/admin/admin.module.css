@@ -77,7 +77,7 @@
 .actionDel:hover { border-color:#C0392B !important; background:#FDECEA !important; }
 
 /* EDITOR */
-.editWrap { flex:1; display:flex; flex-direction:column; min-width:0; overflow-y:auto; }
+.editWrap { flex:1; display:flex; flex-direction:column; min-width:0; min-height:0; overflow:hidden; }
 .tabs { background:#fff; border-bottom:1px solid #e5e7eb; display:flex; padding:0 28px; flex-shrink:0; overflow-x:auto; }
 .tab, .tabActive { padding:12px 20px; font-family:'Outfit',sans-serif; font-size:13px; font-weight:400; border:none; cursor:pointer; background:none; border-bottom:2px solid transparent; margin-bottom:-1px; transition:all .15s; color:#6b7280; white-space:nowrap; }
 .tabActive { color:#0D1B2A; border-bottom-color:#B8975A; font-weight:500; }
