@@ -157,13 +157,12 @@ export default function GarantiasPage() {
           <div className="eyebrow">Por qué IRM</div>
           <h2 className={styles.difTitle}>Lo que nos diferencia<br />en <em>garantías tributarias</em></h2>
           <div className={styles.difList}>
-            {[
-             <div className={styles.difIcon}>
-                {i.icon === '🛡' && <Shield size={18} strokeWidth={1.5} color="#B8975A" />}
-                {i.icon === '⏱' && <Clock size={18} strokeWidth={1.5} color="#B8975A" />}
-                {i.icon === '💲' && <DollarSign size={18} strokeWidth={1.5} color="#B8975A" />}
-                {i.icon === '👤' && <Users size={18} strokeWidth={1.5} color="#B8975A" />}
-              </div>
+          <div className={styles.difIcon}>
+            {i.icon === '🛡' && <Shield size={18} strokeWidth={1.5} color="#B8975A" />}
+            {i.icon === '⏱' && <Clock size={18} strokeWidth={1.5} color="#B8975A" />}
+            {i.icon === '💲' && <DollarSign size={18} strokeWidth={1.5} color="#B8975A" />}
+            {i.icon === '👤' && <Users size={18} strokeWidth={1.5} color="#B8975A" />}
+            </div>
           ].map((i,k) => (
             <div key={k} className={styles.difItem}>
                 <div className={styles.difIcon}>{i.icon}</div>
