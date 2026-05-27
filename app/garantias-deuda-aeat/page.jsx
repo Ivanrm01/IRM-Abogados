@@ -157,7 +157,12 @@ export default function GarantiasPage() {
           <div className="eyebrow">Por qué IRM</div>
           <h2 className={styles.difTitle}>Lo que nos diferencia<br />en <em>garantías tributarias</em></h2>
         <div className={styles.difList}>
-        {[...].map((i,k) => (
+        ﻿{[
+          { icon: '🛡', t: 'Especialización exclusiva en derecho fiscal', d: 'No somos generalistas. La AEAT conoce bien a los despachos especializados, y eso se nota en la negociación.' },
+          { icon: '⏱', t: 'Actuación en menos de 24 horas', d: 'En garantías, los plazos son críticos. Analizamos tu caso el mismo día que nos contactas para que no pierdas ninguna oportunidad.' },
+          { icon: '💲', t: 'Honorarios transparentes desde el inicio', d: 'Conoces el coste exacto antes de empezar. Sin sorpresas, sin honorarios variables que dependan del resultado.' },
+          { icon: '👤', t: 'Trato directo con tu abogado', d: 'Ningún intermediario. Hablas siempre con el abogado responsable de tu expediente, no con un gestor administrativo.' },
+        ].map((i,k) => (
           <div key={k} className={styles.difItem}>
             <div className={styles.difIcon}>
               {i.icon === '🛡' && <Shield size={18} strokeWidth={1.5} color="#B8975A" />}
