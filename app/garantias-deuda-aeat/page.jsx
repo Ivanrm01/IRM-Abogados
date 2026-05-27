@@ -189,7 +189,7 @@ export default function GarantiasPage() {
         </ul>
     </div>
     <div className={styles.gainBox}>
-      <div className={styles.gainTitle}>Con IRM Tax & Legal puedes conseguir:</div>
+      <div className={styles.gainTitle}>Con IRM Abogados puedes conseguir:</div>
       <ul className={styles.gainList}>
         {['Paralizar embargos','Pagar en cómodas cuotas mensuales','Suspender la deuda mientras se recurre','Proteger tu patrimonio y el de tu empresa'].map(i => (
           <li key={i}><span>✓</span>{i}</li>
