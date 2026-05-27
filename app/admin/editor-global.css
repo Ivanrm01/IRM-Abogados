@@ -1,0 +1,61 @@
+/* TipTap editor content styles — global (not a CSS module) */
+.irm-editor-content {
+  padding: 24px;
+  outline: none;
+  min-height: 400px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: #1a1a2e;
+}
+.irm-editor-content h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #0D1B2A;
+  margin: 28px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #B8975A;
+}
+.irm-editor-content h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0D1B2A;
+  margin: 20px 0 8px;
+}
+.irm-editor-content p { margin-bottom: 16px; }
+.irm-editor-content strong { font-weight: 600; }
+.irm-editor-content em { font-style: italic; color: #B8975A; }
+.irm-editor-content ul,
+.irm-editor-content ol { margin: 0 0 16px 24px; }
+.irm-editor-content li { margin-bottom: 6px; }
+.irm-editor-content a { color: #B8975A; text-decoration: underline; }
+.irm-editor-content blockquote {
+  border-left: 3px solid #B8975A;
+  margin: 20px 0;
+  padding: 12px 20px;
+  background: #F5EDD8;
+  font-style: italic;
+  color: #4A5568;
+}
+.irm-editor-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 16px 0;
+  display: block;
+}
+.irm-editor-content hr {
+  border: none;
+  border-top: 2px solid #EDE6DA;
+  margin: 28px 0;
+}
+.ProseMirror-focused { outline: none; }
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
