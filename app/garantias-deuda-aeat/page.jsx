@@ -154,13 +154,13 @@ export default function GarantiasPage() {
       {/* SIN ASESORAMIENTO / CON IRM */}
       <section className={styles.diferencial}>
         <div className={styles.difLeft}>
-          <div className="eyebrow">Por qué IRM</div>
+          <div className="eyebrow">Por qué IRM ABOGADOS</div>
           <h2 className={styles.difTitle}>Lo que nos diferencia<br />en <em>garantías tributarias</em></h2>
         <div className={styles.difList}>
         ﻿{[
-          { icon: '🛡', t: 'Especialización exclusiva en derecho fiscal', d: 'No somos generalistas. La AEAT conoce bien a los despachos especializados, y eso se nota en la negociación.' },
+          { icon: '🛡', t: 'Especialización en derecho fiscal', d: 'No somos un despacho de abogados generalista.' },
           { icon: '⏱', t: 'Actuación en menos de 24 horas', d: 'En garantías, los plazos son críticos. Analizamos tu caso el mismo día que nos contactas para que no pierdas ninguna oportunidad.' },
-          { icon: '💲', t: 'Honorarios transparentes desde el inicio', d: 'Conoces el coste exacto antes de empezar. Sin sorpresas, sin honorarios variables que dependan del resultado.' },
+          { icon: '💲', t: 'Honorarios transparentes desde el inicio', d: 'Conoces el coste exacto antes de empezar. Sin sorpresas.' },
           { icon: '👤', t: 'Trato directo con tu abogado', d: 'Ningún intermediario. Hablas siempre con el abogado responsable de tu expediente, no con un gestor administrativo.' },
         ].map((i,k) => (
           <div key={k} className={styles.difItem}>
@@ -183,7 +183,7 @@ export default function GarantiasPage() {
         <div className={styles.riskBox}>
           <div className={styles.riskTitle}>Sin asesoramiento especializado, te arriesgas a:</div>
             <ul className={styles.riskList}>
-              {['Embargo de cuentas bancarias sin previo aviso','Embargo de nómina o pensión','Anotación de embargo sobre inmuebles','Recargos del 5%, 10% o 20% sobre la deuda original','Intereses de demora acumulados','Declaración de responsabilidad solidaria o subsidiaria'].map(i => (
+              {['Embargo de cuentas bancarias','Embargo de nómina o pensión','Anotación de embargo sobre inmuebles','Recargos del 5%, 10% o 20% sobre la deuda original','Intereses de demora'].map(i => (
                 <li key={i}><span>→</span>{i}</li>
             ))}
         </ul>
@@ -191,7 +191,7 @@ export default function GarantiasPage() {
     <div className={styles.gainBox}>
       <div className={styles.gainTitle}>Con IRM Tax & Legal puedes conseguir:</div>
       <ul className={styles.gainList}>
-        {['Paralizar cualquier embargo en curso','Pagar en cómodas cuotas mensuales','Reducir o anular sanciones improcedentes','Suspender la deuda mientras se recurre','Negociar condiciones favorables con la AEAT','Proteger tu patrimonio y el de tu empresa'].map(i => (
+        {['Paralizar embargos','Pagar en cómodas cuotas mensuales','Suspender la deuda mientras se recurre','Proteger tu patrimonio y el de tu empresa'].map(i => (
           <li key={i}><span>✓</span>{i}</li>
         ))}
       </ul>
