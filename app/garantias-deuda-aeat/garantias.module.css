@@ -112,6 +112,93 @@
 .badge { display: flex; align-items: center; gap: 10px; margin-top: 24px; background: rgba(184,151,90,.1); border: 1px solid rgba(184,151,90,.25); padding: 10px 14px; font-size: 12px; font-weight: 300; color: rgba(255,255,255,.55); }
 .badgeDot { width: 8px; height: 8px; border-radius: 50%; background: #2ECC71; flex-shrink: 0; animation: pulse 2s infinite; }
 
+.diferencial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: var(--white);
+}
+.difLeft {
+  background: var(--navy);
+  padding: 80px 60px;
+}
+.difTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 300;
+  color: var(--white);
+  margin-bottom: 48px;
+  line-height: 1.15;
+}
+.difTitle em { font-style: italic; color: var(--gold); }
+.difList { display: flex; flex-direction: column; }
+.difItem {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  align-items: flex-start;
+}
+.difItem:first-child { border-top: 1px solid rgba(255,255,255,.1); }
+.difIcon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(184,151,90,.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.difTit { font-size: 14px; font-weight: 500; color: var(--white); margin-bottom: 6px; }
+.difDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.65; }
+
+.difRight {
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: var(--white);
+}
+.riskBox {
+  background: #FEF2F2;
+  border-left: 4px solid #C0392B;
+  padding: 28px 32px;
+}
+.riskTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #C0392B;
+  margin-bottom: 16px;
+}
+.riskList { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.riskList li { display: flex; align-items: flex-start; gap: 12px; font-size: 13px; color: #7B241C; font-weight: 300; }
+.riskList li span { color: #C0392B; font-weight: 600; flex-shrink: 0; margin-top: 1px; }
+
+.gainBox {
+  background: #F0FFF4;
+  border-left: 4px solid #1A6B4A;
+  padding: 28px 32px;
+}
+.gainTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #1A6B4A;
+  margin-bottom: 16px;
+}
+.gainList { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.gainList li { display: flex; align-items: flex-start; gap: 12px; font-size: 13px; color: #1A4A35; font-weight: 300; }
+.gainList li span { color: #1A6B4A; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+@media (max-width: 960px) {
+  .diferencial { grid-template-columns: 1fr; }
+  .difLeft, .difRight { padding: 56px 24px; }
+}
+
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
 
 @media (max-width: 960px) {
