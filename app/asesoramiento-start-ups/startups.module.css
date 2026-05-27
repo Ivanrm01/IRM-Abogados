@@ -1,0 +1,100 @@
+.hero { background: var(--navy); padding: 140px 60px 0; position: relative; overflow: hidden; }
+.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.heroBg { position: absolute; bottom: -40px; right: -20px; font-family: 'Cormorant Garamond', serif; font-size: 260px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; user-select: none; }
+.breadcrumb { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 24px; position: relative; z-index: 2; }
+.breadcrumb span { color: var(--gold); }
+.eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; position: relative; z-index: 2; }
+.eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
+.eyebrow2 { font-size: 11px; font-weight: 500; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.eyebrow2::after { content: ''; width: 40px; height: 1px; background: var(--gold); }
+.heroTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(40px,5vw,64px); font-weight: 300; line-height: 1.08; color: var(--white); margin-bottom: 24px; position: relative; z-index: 2; }
+.heroTitle em { font-style: italic; color: var(--gold); }
+.heroDesc { font-size: 15px; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,.6); max-width: 600px; margin-bottom: 36px; position: relative; z-index: 2; }
+.heroBtns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; position: relative; z-index: 2; }
+.heroBadges { background: rgba(255,255,255,.05); border-top: 1px solid rgba(184,151,90,.15); padding: 20px 0; display: flex; gap: 32px; flex-wrap: wrap; position: relative; z-index: 2; }
+.badge { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 300; color: rgba(255,255,255,.6); }
+.badgeDot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+.sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--text); }
+.sectionTitle em { font-style: italic; color: var(--gold); }
+.sectionTitleLight { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; line-height: 1.1; margin-bottom: 16px; color: var(--white); }
+.sectionTitleLight em { font-style: italic; color: var(--gold); }
+.sectionIntro { font-size: 15px; font-weight: 300; line-height: 1.85; color: var(--mid); max-width: 640px; margin-bottom: 56px; }
+
+.fasesSection { background: var(--white); padding: 96px 60px; }
+.fasesGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.faseCard { background: var(--cream); padding: 48px 40px; position: relative; overflow: hidden; transition: transform .3s; }
+.faseCard:hover { transform: translateY(-4px); }
+.faseCard::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .4s; }
+.faseCard:hover::before { transform: scaleX(1); }
+.faseNum { font-family: 'Cormorant Garamond', serif; font-size: 80px; font-weight: 300; color: rgba(184,151,90,.12); position: absolute; top: 12px; right: 20px; line-height: 1; }
+.faseTag { font-size: 10px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; display: block; }
+.faseTitle { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 400; color: var(--text); margin-bottom: 10px; }
+.faseDesc { font-size: 13px; font-weight: 300; line-height: 1.8; color: var(--mid); margin-bottom: 20px; }
+.faseList { list-style: none; }
+.faseList li { font-size: 13px; font-weight: 300; color: var(--mid); padding: 6px 0; border-bottom: 1px solid var(--cream-dark); display: flex; gap: 10px; align-items: flex-start; }
+.faseList li:last-child { border-bottom: none; }
+.faseList li::before { content: '✓'; color: var(--gold); flex-shrink: 0; font-size: 12px; margin-top: 1px; }
+
+.serviciosSection { background: var(--navy); padding: 96px 60px; }
+.sdGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin-top: 48px; }
+.sdCard { background: var(--navy-mid); padding: 36px; border-top: 3px solid transparent; transition: border-color .3s; }
+.sdCard:hover { border-top-color: var(--gold); }
+.sdTitle { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 400; color: var(--white); margin-bottom: 10px; }
+.sdDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.5); line-height: 1.75; margin-bottom: 16px; }
+.sdTags { display: flex; flex-wrap: wrap; gap: 6px; }
+.sdTag { font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; background: rgba(184,151,90,.12); color: var(--gold); padding: 3px 10px; }
+
+.porqueSection { background: var(--cream); padding: 96px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.porqueDesc { font-size: 14px; font-weight: 300; color: var(--mid); line-height: 1.85; margin-bottom: 32px; }
+.porqueItems { display: flex; flex-direction: column; }
+.porqueItem { display: flex; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--cream-dark); align-items: flex-start; }
+.porqueItem:first-child { border-top: 1px solid var(--cream-dark); }
+.porqueIcon { width: 36px; height: 36px; border: 1px solid var(--gold); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); }
+.porqueTit { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 4px; }
+.porqueDescItem { font-size: 13px; font-weight: 300; color: var(--mid); line-height: 1.65; }
+.testCard { background: var(--navy); border: 1px solid rgba(184,151,90,.2); padding: 32px; position: relative; margin-bottom: 16px; }
+.testQuote { font-family: 'Cormorant Garamond', serif; font-size: 80px; font-weight: 300; color: rgba(184,151,90,.2); position: absolute; top: -8px; left: 24px; line-height: 1; }
+.testText { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 300; font-style: italic; color: rgba(255,255,255,.8); line-height: 1.6; padding-top: 32px; margin-bottom: 20px; }
+.testAuthor { font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+.testRole { font-size: 12px; font-weight: 300; color: rgba(255,255,255,.4); margin-top: 2px; }
+.infoBox { background: var(--navy); border-left: 3px solid var(--gold); padding: 22px 26px; }
+.infoTitle { font-size: 14px; font-weight: 500; color: var(--white); margin-bottom: 8px; }
+.infoDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.5); line-height: 1.65; }
+
+.faqSection { background: var(--white); padding: 96px 60px; }
+.faqGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-top: 48px; }
+.faqItem { background: var(--cream); border-left: 3px solid transparent; transition: all .2s; }
+.faqItem[open] { border-left-color: var(--gold); background: var(--gold-pale); }
+.faqQ { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 22px 28px; cursor: pointer; font-size: 14px; font-weight: 500; color: var(--text); line-height: 1.4; list-style: none; }
+.faqQ::-webkit-details-marker { display: none; }
+.faqIcon { width: 20px; height: 20px; border: 1px solid var(--gold); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); font-size: 15px; }
+.faqA { font-size: 13px; font-weight: 300; color: var(--mid); line-height: 1.8; padding: 0 28px 20px; }
+
+.cta { background: var(--gold); display: grid; grid-template-columns: 1fr 1fr; }
+.ctaLeft { padding: 72px 60px; }
+.ctaEyebrow { font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: rgba(13,27,42,.55); margin-bottom: 16px; }
+.ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,3.5vw,46px); font-weight: 300; color: var(--navy); line-height: 1.08; margin-bottom: 14px; }
+.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); line-height: 1.8; margin-bottom: 32px; }
+.ctaBtns { display: flex; gap: 16px; flex-wrap: wrap; }
+.ctaRight { background: var(--navy); padding: 72px 60px; display: flex; flex-direction: column; justify-content: center; }
+.ctaRow { display: flex; gap: 14px; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,.08); align-items: flex-start; }
+.ctaRow:first-child { border-top: 1px solid rgba(255,255,255,.08); }
+.ctaIcon { font-size: 18px; flex-shrink: 0; margin-top: 2px; }
+.ctaLabel { font-size: 10px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: 3px; }
+.ctaValue { font-size: 14px; font-weight: 300; color: rgba(255,255,255,.8); text-decoration: none; display: block; }
+.ctaValue:hover { color: var(--gold); }
+.ctaBadge { display: flex; align-items: center; gap: 10px; margin-top: 24px; background: rgba(184,151,90,.1); border: 1px solid rgba(184,151,90,.25); padding: 10px 14px; font-size: 12px; font-weight: 300; color: rgba(255,255,255,.55); }
+.ctaBadgeDot { width: 8px; height: 8px; border-radius: 50%; background: #2ECC71; flex-shrink: 0; animation: pulse 2s infinite; }
+
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+@media (max-width: 960px) {
+  .hero { padding: 120px 24px 0; }
+  .heroBadges { gap: 16px; padding: 16px 0; }
+  .fasesSection, .serviciosSection, .faqSection { padding: 64px 24px; }
+  .fasesGrid, .sdGrid, .faqGrid { grid-template-columns: 1fr; }
+  .porqueSection { grid-template-columns: 1fr; padding: 64px 24px; gap: 40px; }
+  .cta { grid-template-columns: 1fr; }
+  .ctaLeft, .ctaRight { padding: 56px 24px; }
+  .ctaBtns { flex-direction: column; }
+}

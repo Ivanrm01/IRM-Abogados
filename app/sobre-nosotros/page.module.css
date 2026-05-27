@@ -1,0 +1,55 @@
+.hero { background: var(--navy); padding: 160px 60px 100px; position: relative; overflow: hidden; }
+.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.heroBg { position: absolute; bottom: -40px; right: -20px; font-family: 'Cormorant Garamond', serif; font-size: 260px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; }
+.breadcrumb { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 24px; }
+.breadcrumb span { color: var(--gold); }
+.hero h1 { color: var(--white); margin-bottom: 24px; max-width: 700px; }
+.heroDesc { font-size: 15px; color: rgba(255,255,255,.6); max-width: 560px; margin-bottom: 48px; }
+.heroStats { display: flex; gap: 48px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,.1); flex-wrap: wrap; }
+.stat { }
+.statN { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 300; color: var(--gold); line-height: 1; }
+.statL { font-size: 11px; font-weight: 400; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.45); margin-top: 4px; }
+
+.pilares { background: var(--white); }
+.pilaresGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px; }
+.pilarCard { background: var(--cream); padding: 48px 40px; position: relative; overflow: hidden; transition: transform .3s; }
+.pilarCard:hover { transform: translateY(-4px); }
+.pilarCard::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .4s; }
+.pilarCard:hover::before { transform: scaleX(1); }
+.pilarNum { font-family: 'Cormorant Garamond', serif; font-size: 72px; font-weight: 300; color: rgba(184,151,90,.12); position: absolute; top: 12px; right: 20px; line-height: 1; }
+.pilarCard h3 { font-size: 26px; color: var(--text); margin-bottom: 14px; }
+.pilarCard p { font-size: 14px; color: var(--mid); line-height: 1.8; }
+
+.diferencial { background: var(--cream); padding: 96px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.difList { margin-top: 40px; }
+.difItem { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--cream-dark); align-items: flex-start; }
+.difItem:first-child { border-top: 1px solid var(--cream-dark); }
+.difMark { width: 28px; height: 28px; border: 1px solid var(--gold); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; color: var(--gold); font-size: 12px; }
+.difTit { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 4px; }
+.difDesc { font-size: 13px; font-weight: 300; color: var(--mid); line-height: 1.65; }
+.difVisual { background: var(--navy); display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.difCell { background: var(--navy-mid); padding: 40px 32px; text-align: center; transition: background .2s; }
+.difCell:hover { background: var(--navy-light); }
+.difCellN { font-family: 'Cormorant Garamond', serif; font-size: 48px; font-weight: 300; color: var(--gold); line-height: 1; margin-bottom: 8px; }
+.difCellL { font-size: 10px; font-weight: 500; letter-spacing: .15em; text-transform: uppercase; color: rgba(255,255,255,.5); }
+
+.sedes { background: var(--navy-mid); }
+.sedesGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 48px; }
+.sedeCard { background: var(--navy); border: 1px solid rgba(184,151,90,.2); padding: 48px; transition: border-color .3s; }
+.sedeCard:hover { border-color: rgba(184,151,90,.5); }
+.sedeTag { font-size: 10px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+.sedeCity { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 300; color: var(--white); margin-bottom: 20px; }
+.sedeAddr, .sedePhone, .sedeEmail { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.6; margin-bottom: 6px; display: block; text-decoration: none; }
+
+.ctaSection { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,4vw,48px); font-weight: 300; color: var(--navy); margin-bottom: 12px; line-height: 1.1; }
+.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); }
+.ctaBtns { display: flex; gap: 16px; flex-shrink: 0; flex-wrap: wrap; }
+
+@media (max-width: 960px) {
+  .hero { padding: 120px 24px 80px; }
+  .pilaresGrid, .sedesGrid { grid-template-columns: 1fr; }
+  .diferencial { grid-template-columns: 1fr; padding: 64px 24px; }
+  .ctaSection { flex-direction: column; padding: 64px 24px; }
+  .ctaBtns { flex-direction: column; width: 100%; }
+}
