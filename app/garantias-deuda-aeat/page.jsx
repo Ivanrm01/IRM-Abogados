@@ -169,7 +169,8 @@ export default function GarantiasPage() {
               {i.icon === '⏱' && <Clock size={18} strokeWidth={1.5} color="#B8975A" />}
               {i.icon === '💲' && <DollarSign size={18} strokeWidth={1.5} color="#B8975A" />}
               {i.icon === '👤' && <Users size={18} strokeWidth={1.5} color="#B8975A" />}
-          </div>
+            </div>
+            <div>
                   <div className={styles.difTit}>{i.t}</div>
                   <div className={styles.difDesc}>{i.d}</div>
                 </div>
