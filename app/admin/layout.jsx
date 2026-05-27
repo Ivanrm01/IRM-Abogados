@@ -7,7 +7,7 @@ export default function AdminLayout({ children }) {
     <div style={{
       position: 'fixed',
       top: 0, left: 0, right: 0, bottom: 0,
-      zIndex: 9999,
+      zIndex: 10001,
       background: '#f4f5f7',
     }}>
       {children}
