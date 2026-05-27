@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './garantias.module.css'
+import { Shield, Clock, DollarSign, Users } from 'lucide-react'
 
 export const metadata = {
   title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda',
