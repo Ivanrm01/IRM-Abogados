@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from './page.module.css'
-import { Shield, Clock, DollarSign, Users } from 'lucide-react'
 
 export const metadata = {
   title: 'Sobre Nosotros | Abogados Fiscalistas Madrid y Castellón',
