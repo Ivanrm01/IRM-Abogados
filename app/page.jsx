@@ -32,7 +32,7 @@ export default function HomePage() {
             <div key={c.href} className={styles.heroCard}>
               <div className={styles.heroCardIcon}>
                 {c.icon === '⚖️' && c.title.includes('Fiscal') && <Scale size={24} strokeWidth={1.5} color="#B8975A" />}
-                {c.icon === '🛡' && c.title.includes('Garantías') && <Shield size={24} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '⚖️' && c.title.includes('Garantías') && <Shield size={24} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === '🚀' && <Rocket size={24} strokeWidth={1.5} color="#B8975A" />}
               </div>
               <div className={styles.heroCardTitle}>{c.title}</div>
