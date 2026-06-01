@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './page.module.css'
-import { Scale, Rocket, Shield } from 'lucide-react'
+import { Rocket, Shield } from 'lucide-react'
+import { Scale } from 'lucide-react'
 
 export const metadata = {
   title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
