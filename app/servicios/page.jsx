@@ -106,7 +106,7 @@ export default function ServiciosPage() {
 
       {/* CTA */}
       <section className={styles.ctaSection}>
-        <div style={{flex: 1}}>
+        <div>
           <div className={styles.ctaTitle}>¿No encuentras el servicio que necesitas?</div>
           <div className={styles.ctaDesc}>Cuéntanos tu caso y te decimos si podemos ayudarte. Sin compromiso.</div>
         </div>
