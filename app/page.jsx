@@ -30,7 +30,11 @@ export default function HomePage() {
             { icon: '🚀', title: 'Asesoramiento a Start-Ups', desc: 'Desde la constitución hasta la ronda de inversión. Escala sin riesgos legales.', href: '/asesoramiento-start-ups' },
           ].map(c => (
             <div key={c.href} className={styles.heroCard}>
-              <div className={styles.heroCardIcon}>{c.icon}</div>
+              <div className={styles.heroCardIcon}>
+                {s.icon === '🛡' && s.title.includes('Fiscal') && <Scale size={24} strokeWidth={1.5} color="#B8975A" />}
+                {s.icon === '⚖️' && s.title.includes('Garantías') && <Shield size={24} strokeWidth={1.5} color="#B8975A" />}
+                {s.icon === '🚀' && <Rocket size={24} strokeWidth={1.5} color="#B8975A" />}
+              </div>
               <div className={styles.heroCardTitle}>{c.title}</div>
               <div className={styles.heroCardDesc}>{c.desc}</div>
               <Link href={c.href} className={styles.heroCardLink}>Ver servicio →</Link>
