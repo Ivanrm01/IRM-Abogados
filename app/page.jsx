@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './page.module.css'
-import { Scale, Rocket, Shield } from 'lucide-react'
+import { BarChart2, Rocket, Shield } from 'lucide-react'
 
 export const metadata = {
   title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
@@ -31,7 +31,7 @@ export default function HomePage() {
           ].map(c => (
             <div key={c.href} className={styles.heroCard}>
               <div className={styles.heroCardIcon}>
-                {c.icon === 'fiscal' && c.title.includes('Fiscal') && <Scale size={24} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === 'fiscal' && c.title.includes('Fiscal') && <BarChart2 size={24} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === 'garantias' && c.title.includes('Garantías') && <Shield size={24} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === 'startups' && <Rocket size={24} strokeWidth={1.5} color="#B8975A" />}
               </div>
