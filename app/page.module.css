@@ -51,7 +51,7 @@
 
 @media (max-width: 960px) {
   .hero { grid-template-columns: 1fr; padding: 120px 24px 64px; }
-  .heroRight { display: none; }
+  .heroRight { display: flex; flex-direction: column; gap: 12px; margin-top: 40px; }
   .areasGrid { grid-template-columns: 1fr; }
   .porque { grid-template-columns: 1fr; }
   .porqueLeft { padding: 64px 24px; }
