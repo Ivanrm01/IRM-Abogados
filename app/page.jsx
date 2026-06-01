@@ -31,7 +31,7 @@ export default function HomePage() {
           ].map(c => (
             <div key={c.href} className={styles.heroCard}>
               <div className={styles.heroCardIcon}>
-                {c.icon === 'fiscal' && c.title.includes('Fiscal') && <Gavel size={24} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === 'fiscal' && <Gavel size={24} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === 'garantias' && c.title.includes('Garantías') && <Shield size={24} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === 'startups' && <Rocket size={24} strokeWidth={1.5} color="#B8975A" />}
               </div>
