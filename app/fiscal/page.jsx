@@ -86,7 +86,7 @@ export default function FiscalPage() {
           </div>
         </div>
         <div className={styles.enfoqueRight}>
-          {[{label:'Para autónomos',t:'Gestión fiscal completa',d:'IRPF, IVA trimestral, declaraciones anuales y optimización de gastos deducibles.'},{label:'Para empresas',t:'Asesoramiento corporativo continuo',d:'Sociedades, grupos fiscales, operaciones vinculadas y cumplimiento en tiempo real.'},{label:'Para particulares',t:'Fiscalidad de patrimonio e inversión',d:'Inversiones, rentas del capital, herencias y planificación sucesoria.'},{label:'Para no residentes',t:'Fiscalidad internacional',d:'IRNR, convenios de doble imposición, impatriados y activos en el extranjero.'}].map(p => (
+          {[{label:'Para autónomos',t:'Gestión fiscal completa',d:'IRPF, IVA trimestral, declaraciones anuales y optimización de gastos deducibles.'},{label:'Para empresas',t:'Asesoramiento corporativo continuo',d:'Sociedades, grupos fiscales, operaciones vinculadas y cumplimiento en tiempo.'},{label:'Para particulares',t:'Fiscalidad de patrimonio e inversión',d:'Inversiones, rentas del capital, herencias y planificación sucesoria a largo plazo.'},{label:'Para no residentes',t:'Fiscalidad internacional',d:'IRNR, convenios de doble imposición, impatriados y activos en el extranjero.'}].map(p => (
             <div key={p.label} className={styles.perfilCard}>
               <div className={styles.perfilLabel}>{p.label}</div>
               <div className={styles.perfilTitle}>{p.t}</div>
