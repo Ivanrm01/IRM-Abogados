@@ -57,7 +57,7 @@ export default function ContactoPage() {
           </div>
           <div className={styles.quickLinks}>
             <a href="tel:+34614149465" className={styles.quickCard}>
-              <div className={styles.quickIcon}>📞</div>
+              <div className={styles.quickIcon}><Phone size={20} strokeWidth={1.5} color="#B8975A" /></div>
               <div><div className={styles.quickLabel}>Llámanos ahora</div><div className={styles.quickValue}>+34 614 149 465</div></div>
               <span className={styles.quickArrow}>→</span>
             </a>
