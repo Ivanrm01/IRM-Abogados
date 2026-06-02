@@ -2,8 +2,8 @@ import Link from 'next/link'
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Sobre Nosotros | Abogados Fiscalistas Madrid y Castellón',
-  description: 'Conoce al equipo de IRM Tax & Legal, despacho especializado en derecho tributario. Compromiso, excelencia y tarifas transparentes.',
+  title: 'Sobre Nosotros | IRM Abogados Fiscalistas Madrid y Castellón',
+  description: 'Conoce al equipo de IRM Abogados, despacho especializado en derecho tributario. Compromiso, excelencia y tarifas transparentes.',
 }
 
 export default function SobreNosotrosPage() {
