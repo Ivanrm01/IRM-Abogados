@@ -119,8 +119,8 @@ export default function ContactoPage() {
                 </select>
               </div>
               <label className={styles.checkLabel}>
-                <input type="checkbox" checked={form.privacidad} onChange={set('privacidad')} />
-                He leído y acepto la<Link href="/politica-de-privacidad">política de privacidad</Link>.Mis datos serán tratados con total confidencialidad.
+                <input type="checkbox" required />
+                <span>He leído y acepto la <Link href="/politica-de-privacidad" style={{color:'var(--gold)'}}>política de privacidad</Link>. Mis datos serán tratados con total confidencialidad.</span>
               </label>
               {error && <div className={styles.errorMsg}>{error}</div>}
               <button onClick={submit} disabled={sending} className={styles.submitBtn}>
