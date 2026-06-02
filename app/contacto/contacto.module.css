@@ -28,7 +28,7 @@
 .group input, .group select, .group textarea { padding: 14px 16px; border: 1px solid var(--cream-dark); background: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; color: var(--text); outline: none; transition: border-color .2s; }
 .group input:focus, .group select:focus, .group textarea:focus { border-color: var(--gold); background: var(--white); }
 .group textarea { resize: vertical; line-height: 1.6; }
-.checkLabel { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; font-weight: 300; color: var(--mid); cursor: pointer; margin-bottom: 20px; line-height: 1.65; }
+.checkLabel { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 300; color: var(--mid); cursor: pointer; margin-bottom: 20px; line-height: 1.65; }
 .checkLabel input { width: 16px; min-width: 16px; height: 16px; margin-top: 2px; accent-color: var(--gold); }
 .checkLabel a { color: var(--gold); }
 .errorMsg { font-size: 13px; color: var(--red); background: var(--red-pale); padding: 10px 16px; margin-bottom: 16px; }
