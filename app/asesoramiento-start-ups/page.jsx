@@ -42,11 +42,11 @@ export default function StartupsPage() {
         <h1 className={styles.heroTitle}>Asesoramiento legal<br />y fiscal para<br /><em>nuevas empresas</em></h1>
         <p className={styles.heroDesc}>Acompañamos a emprendedores y startups desde la idea hasta la ronda de inversión. Construimos la estructura legal y fiscal que tu empresa necesita para crecer de forma sólida, atraer capital y escalar sin riesgos legales.</p>
         <div className={styles.heroBtns}>
-          <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
+          <Link href="/contacto" className="btn-gold">Solicitar consulta</Link>
           <a href="#fases" className="btn-ghost">Ver servicios por fase</a>
         </div>
         <div className={styles.heroBadges}>
-          {['Constitución de sociedades','Pactos de socios','ESOPs y phantom shares','Due diligence fiscal','Rondas de inversión','Fiscalidad de la startup'].map(b => (
+          {['Constitución de sociedades','Pactos de socios','ESOPs','Due diligence fiscal','Rondas de inversión','Fiscalidad de la startup'].map(b => (
             <div key={b} className={styles.badge}><div className={styles.badgeDot}></div>{b}</div>
           ))}
         </div>
