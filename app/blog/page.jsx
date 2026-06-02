@@ -4,7 +4,7 @@ import styles from './blog.module.css'
 
 export const metadata = {
   title: 'Actualidad Tributaria | IRM Abogados',
-  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
+  description: 'Artículos de actualidad fiscal redactados por los especialistas de IRM Abogados.',
 }
 
 export const revalidate = 60
