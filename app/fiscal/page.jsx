@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './fiscal.module.css'
+import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
 
 export const metadata = {
   title: 'Asesoramiento Fiscal para Empresas y Particulares',
