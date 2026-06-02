@@ -124,7 +124,11 @@ export default function FiscalPage() {
         <div className={styles.ctaRight}>
           {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',href:'tel:+34614149465'},{icon:'✉️',label:'Email',value:'correo@irmabogados.es',href:'mailto:correo@irmabogados.es'},{icon:'📍',label:'Sedes',value:'Madrid · Castellón · Online',href:'/contacto'}].map(c => (
             <div key={c.label} className={styles.ctaRow}>
-              <div className={styles.ctaIcon}>{c.icon}</div>
+              <div className={styles.ctaIcon}>
+                {c.icon === '📞' && <Phone size={20} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '✉️' && <Mail size={20} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '📍' && <MapPin size={20} strokeWidth={1.5} color="#B8975A" />}
+              </div>
               <div><div className={styles.ctaLabel}>{c.label}</div><a href={c.href} className={styles.ctaValue}>{c.value}</a></div>
             </div>
           ))}
