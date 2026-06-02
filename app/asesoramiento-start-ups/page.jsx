@@ -8,9 +8,9 @@ export const metadata = {
 }
 
 const fases = [
-  { n:'01', tag:'Fase 1 · Constitución', t:'Nace tu empresa', d:'Todo lo que necesitas para arrancar con una estructura sólida desde el primer día.', items:['Elección de forma jurídica óptima (SL, SA...)','Redacción de estatutos sociales a medida','Pacto de socios fundadores completo','Régimen fiscal más ventajoso para el inicio','Alta y registro en la Agencia Tributaria','Estructura de capital y cap table'] },
-  { n:'02', tag:'Fase 2 · Operaciones', t:'Primeros clientes y equipo', d:'Cuando empiezas a generar ingresos y a incorporar personas, la estructura fiscal y laboral cobra toda su importancia.', items:['Fiscalidad operativa — IS, IVA, IRPF trimestral','Contratos con empleados y freelances','Planes de incentivos — ESOPs y phantom shares','Protección de propiedad intelectual','Contratos con clientes y proveedores clave','Cumplimiento LOPD y RGPD'] },
-  { n:'03', tag:'Fase 3 · Inversión', t:'Rondas de financiación', d:'Preparación legal y fiscal para atraer inversores y cerrar rondas en las mejores condiciones posibles.', items:['Due diligence fiscal preventiva','Estructuración societaria para inversión','Fiscalidad de business angels y fondos VC','Phantom shares, warrants y opciones','Ampliaciones de capital y dilución','Pacto de socios para entrada de inversores'] },
+  { n:'01', tag:'Fase 1 · Constitución', t:'Nace tu empresa', d:'Todo lo que necesitas para arrancar con una estructura sólida y bien diseñada desde el primer día. Las decisiones que tomes aquí condicionan todo lo que viene después.', items:['Elección de forma jurídica óptima (SL, SA...)','Redacción de estatutos sociales a medida','Pacto de socios fundadores completo','Régimen fiscal más ventajoso para el inicio','Alta y registro en la Agencia Tributaria'] },
+  { n:'02', tag:'Fase 2 · Operaciones', t:'Primeros clientes y equipo', d:'Cuando empiezas a generar ingresos y a incorporar personas, la estructura fiscal y laboral cobra toda su importancia. Construimos bien para que puedas escalar.', items:['Fiscalidad operativa — IS, IVA, IRPF trimestral','Contratos con empleados y freelances','Planes de incentivos — ESOPs y phantomshares','Contratos con clientes y proveedores clave','Cumplimiento LOPD y RGPD'] },
+  { n:'03', tag:'Fase 3 · Inversión', t:'Rondas de financiación', d:'Preparación legal y fiscal para atraer inversores y cerrar rondas en las mejores condiciones posibles. La due diligence no te pillará por sorpresa.', items:['Due diligence fiscal preventiva','Estructuración societaria para inversión','Fiscalidad de business angels y fondos VC','Ampliaciones de capital y dilución','Pacto de socios para entrada de inversores'] },
 ]
 
 const servicios = [
@@ -55,7 +55,7 @@ export default function StartupsPage() {
       <section className={styles.fasesSection} id="fases">
         <div className={styles.eyebrow}>Por fase de crecimiento</div>
         <h2 className={styles.sectionTitle}>Te acompañamos en<br /><em>cada etapa</em></h2>
-        <p className={styles.sectionIntro}>Cada fase de una startup tiene sus propias necesidades legales y fiscales. Adaptamos nuestro asesoramiento al momento exacto en el que se encuentra tu empresa.</p>
+        <p className={styles.sectionIntro}>Cada fase de una Start-Up tiene sus propias necesidades legales y fiscales. Adaptamos nuestro asesoramiento al momento exacto en el que se encuentra tu empresa, desde el día cero hasta el cierre de tu primera ronda.</p>
         <div className={styles.fasesGrid}>
           {fases.map(f => (
             <div key={f.n} className={styles.faseCard}>
