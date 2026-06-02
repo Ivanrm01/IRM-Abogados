@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import styles from './contacto.module.css'
+import { Phone, MessageCircle, Mail } from 'lucide-react'
 
 export default function ContactoPage() {
   const [form, setForm] = useState({ nombre:'', apellidos:'', email:'', telefono:'', servicio:'', mensaje:'', como:'', privacidad: false })
