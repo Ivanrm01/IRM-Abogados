@@ -67,7 +67,7 @@ export default function ContactoPage() {
               <span className={styles.quickArrow}>→</span>
             </a>
             <a href="mailto:correo@irmabogados.es" className={styles.quickCard}>
-              <div className={styles.quickIcon}>✉️</div>
+              <div className={styles.quickIcon}><Mail size={20} strokeWidth={1.5} color="#B8975A" /></div>
               <div><div className={styles.quickLabel}>Email</div><div className={styles.quickValue}>correo@irmabogados.es</div></div>
               <span className={styles.quickArrow}>→</span>
             </a>
