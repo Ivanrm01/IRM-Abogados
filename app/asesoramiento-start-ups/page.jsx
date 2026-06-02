@@ -139,7 +139,7 @@ export default function StartupsPage() {
             <div key={c.label} className={styles.ctaRow}>
               <div className={styles.ctaIcon}>
                 {c.icon === '📞' && <Phone size={20} strokeWidth={1.5} color="#B8975A" />}
-                {c.icon === '✉️' && <MessageCircle size={20} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '💬' && <MessageCircle size={20} strokeWidth={1.5} color="#B8975A" />}
                 {c.icon === '📍' && <MapPin size={20} strokeWidth={1.5} color="#B8975A" />}
               </div> 
               <div><div className={styles.ctaLabel}>{c.label}</div><a href={c.href} className={styles.ctaValue}>{c.value}</a></div>
