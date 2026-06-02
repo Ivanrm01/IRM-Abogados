@@ -135,7 +135,7 @@ export default function StartupsPage() {
           </div>
         </div>
         <div className={styles.ctaRight}>
-          {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',href:'tel:+34614149465'},{icon:'💬',label:'WhatsApp',value:'Escríbenos directamente'}{icon:'✉️',label:'Email',value:'correo@irmabogados.es',href:'mailto:correo@irmabogados.es'}].map(c => (
+          {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',href:'tel:+34614149465'},{icon:'💬',label:'WhatsApp',value:'Escríbenos directamente'},{icon:'✉️',label:'Email',value:'correo@irmabogados.es',href:'mailto:correo@irmabogados.es'}].map(c => (
             <div key={c.label} className={styles.ctaRow}>
               <div className={styles.ctaIcon}>
                 {c.icon === '📞' && <Phone size={20} strokeWidth={1.5} color="#B8975A" />}
