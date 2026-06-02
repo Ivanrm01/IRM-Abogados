@@ -62,7 +62,7 @@ export default function ContactoPage() {
               <span className={styles.quickArrow}>→</span>
             </a>
             <a href="https://wa.me/34614149465" className={styles.quickCard}>
-              <div className={styles.quickIcon}>💬</div>
+              <div className={styles.quickIcon}><MessageCircle size={20} strokeWidth={1.5} color="#B8975A" /></div>
               <div><div className={styles.quickLabel}>WhatsApp</div><div className={styles.quickValue}>Escríbenos directamente</div></div>
               <span className={styles.quickArrow}>→</span>
             </a>
