@@ -15,12 +15,6 @@ const serviciosFiscales = [
   { n:'06', t:'Planificación y optimización fiscal', d:'Estrategia fiscal preventiva para reducir legalmente tu carga impositiva. Estructuración de operaciones y aprovechamiento de todos los incentivos disponibles.', items:['Planificación fiscal anual','Reestructuraciones empresariales','Fiscalidad internacional — IRNR','Convenios de doble imposición','Régimen de impatriados'] },
 ]
 
-const perfiles = [
-  { t:'Particulares', d:'Personas físicas que quieren optimizar su fiscalidad personal y gestionar su patrimonio de forma eficiente.', items:['Rentas complejas con actividad económica','Inversores en bolsa, fondos o criptos','Propietarios con inmuebles en alquiler','Personas con herencias o donaciones pendientes'] },
-  { t:'Autónomos', d:'Trabajadores por cuenta propia que necesitan gestionar su fiscalidad trimestral y anual con eficacia y sin sobresaltos.', items:['IRPF en estimación directa simplificada','IVA trimestral — modelo 303','Gastos deducibles y optimización','Transición de autónomo a sociedad'] },
-  { t:'Empresas y pymes', d:'Sociedades que necesitan asesoramiento fiscal continuo y estratégico para mantener su actividad cumplida y optimizada.', items:['Impuesto sobre Sociedades anual','IVA, retenciones e impuestos periódicos','Reestructuraciones y reorganizaciones','Operaciones vinculadas y precios de transferencia'] },
-]
-
 const faqs = [
   { q:'¿Cuándo es obligatorio presentar la declaración de la Renta?', a:'Con carácter general, están obligados quienes obtengan rendimientos del trabajo superiores a 22.000€ de un único pagador (o 15.000€ si hay más de uno). Existen otras causas de obligación: rendimientos del capital, actividades económicas, ganancias patrimoniales, etc.' },
   { q:'¿Cuáles son los gastos deducibles para autónomos?', a:'Los autónomos pueden deducir gastos vinculados a su actividad: suministros del local, material de trabajo, cuotas de Seguridad Social, seguros profesionales, formación, amortizaciones y gastos de difícil justificación (hasta el 5% del rendimiento neto).' },
@@ -72,20 +66,6 @@ export default function FiscalPage() {
               <h3 className={styles.sfTitle}>{s.t}</h3>
               <p className={styles.sfDesc}>{s.d}</p>
               <ul className={styles.sfList}>{s.items.map(i => <li key={i}>{i}</li>)}</ul>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className={styles.paraQuien}>
-        <div className={styles.eyebrow2}>Para quién</div>
-        <h2 className={styles.sectionTitleLight}>Asesoramiento fiscal<br /><em>para todos los perfiles</em></h2>
-        <div className={styles.pqGrid}>
-          {perfiles.map(p => (
-            <div key={p.t} className={styles.pqCard}>
-              <h3 className={styles.pqTitle}>{p.t}</h3>
-              <p className={styles.pqDesc}>{p.d}</p>
-              <ul className={styles.pqList}>{p.items.map(i => <li key={i}>{i}</li>)}</ul>
             </div>
           ))}
         </div>
