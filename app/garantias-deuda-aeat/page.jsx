@@ -221,7 +221,7 @@ export default function GarantiasPage() {
         <div className={styles.ctaLeft}>
           <div className={styles.ctaEyebrow}>Primera consulta gratuita</div>
           <div className={styles.ctaTitle}>¿Tienes una deuda<br />con Hacienda?<br />Cuéntanos tu caso</div>
-          <p className={styles.ctaDesc}>Analizamos tu situación sin coste y te decimos exactamente qué opciones tienes. Te respondemos en menos de 24 horas.</p>
+          <p className={styles.ctaDesc}>Analizamos tu situación sin coste y te decimos exactamente qué opciones tienes. Sin compromiso, sin letra pequeña. Te respondemos en menos de 24 horas.</p>
           <div className={styles.ctaBtns}>
             <a href="mailto:correo@irmabogados.es" className="btn-navy">SOLICITAR CONSULTA</a>
             <a href="tel:+34614149465" className="btn-outline-navy">HABLAR CON UN EXPERTO</a>
