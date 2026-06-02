@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './startups.module.css'
+import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
 
 export const metadata = {
   title: 'Asesoramiento Legal y Fiscal para Start-Ups',
@@ -136,7 +137,11 @@ export default function StartupsPage() {
         <div className={styles.ctaRight}>
           {[{icon:'📞',label:'Teléfono',value:'+34 614 149 465',href:'tel:+34614149465'},{icon:'💬',label:'WhatsApp',value:'Escríbenos directamente',href:'https://wa.me/34614149465'},{icon:'✉️',label:'Email',value:'correo@irmabogados.es',href:'mailto:correo@irmabogados.es'}].map(c => (
             <div key={c.label} className={styles.ctaRow}>
-              <div className={styles.ctaIcon}>{c.icon}</div>
+              <div className={styles.ctaIcon}>
+                {c.icon === '📞' && <Phone size={20} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '✉️' && <Mail size={20} strokeWidth={1.5} color="#B8975A" />}
+                {c.icon === '📍' && <MapPin size={20} strokeWidth={1.5} color="#B8975A" />}
+              </div> 
               <div><div className={styles.ctaLabel}>{c.label}</div><a href={c.href} className={styles.ctaValue}>{c.value}</a></div>
             </div>
           ))}
