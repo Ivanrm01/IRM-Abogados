@@ -3,8 +3,8 @@ import { getPosts, readingTime } from '@/lib/posts'
 import styles from './blog.module.css'
 
 export const metadata = {
-  title: 'Blog Fiscal | IRM Tax & Legal',
-  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Tax & Legal.',
+  title: 'Actualidad Tributaria | IRM Abogados',
+  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
 }
 
 export const revalidate = 60
@@ -20,7 +20,7 @@ export default async function BlogPage() {
       <section className={styles.hero}>
         <div className={styles.heroLine}></div>
         <div className="eyebrow">Actualidad fiscal</div>
-        <h1>Blog de <em>IRM Tax & Legal</em></h1>
+        <h1>El Blog de <em>IRM Abogados</em></h1>
         <p className={styles.heroDesc}>Artículos, guías y análisis redactados por nuestros especialistas en derecho tributario.</p>
       </section>
 
