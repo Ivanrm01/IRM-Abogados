@@ -38,7 +38,7 @@ export default function StartupsPage() {
         <div className={styles.heroLine}></div>
         <div className={styles.heroBg}>VC</div>
         <div className={styles.breadcrumb}>Inicio <span>/ Servicios / Start-Ups</span></div>
-        <div className={styles.eyebrow}>Servicio Start-Ups</div>
+        <div className={styles.eyebrow}>Start-Ups</div>
         <h1 className={styles.heroTitle}>Asesoramiento legal<br />y fiscal para<br /><em>nuevas empresas</em></h1>
         <p className={styles.heroDesc}>Acompañamos a emprendedores y startups desde la idea hasta la ronda de inversión. Construimos la estructura legal y fiscal que tu empresa necesita para crecer de forma sólida, atraer capital y escalar sin riesgos legales.</p>
         <div className={styles.heroBtns}>
