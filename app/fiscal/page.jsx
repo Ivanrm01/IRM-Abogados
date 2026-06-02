@@ -43,17 +43,16 @@ export default function FiscalPage() {
             <h1 className={styles.heroTitle}>Especialistas en derecho<br />tributario para <em>empresas<br />y personas</em></h1>
             <p className={styles.heroDesc}>Optimizamos tu carga fiscal, planificamos tu patrimonio y te defendemos ante cualquier procedimiento de la AEAT. Todo con rigor técnico, transparencia total y resultados medibles.</p>
             <div className={styles.heroBtns}>
-              <Link href="/contacto" className="btn-gold">Consulta gratuita ahora</Link>
+              <Link href="/contacto" className="btn-gold">Solicitar Consulta</Link>
               <a href="#servicios" className="btn-ghost">Ver servicios</a>
             </div>
           </div>
           <div className={styles.urgencyCard}>
             <div className={styles.urgencyTitle}>¿Te identificas con alguna de estas situaciones?</div>
             <ul className={styles.urgencyList}>
-              <li>Quieres pagar menos impuestos de forma legal</li>
               <li>Has recibido una notificación o carta de Hacienda</li>
               <li>Tu declaración de la Renta es compleja</li>
-              <li>Tienes una empresa y necesitas asesoría fiscal continua</li>
+              <li>Tienes una empresa y necesitas asesoramiento fiscal</li>
               <li>Vas a vender, heredar o donar un bien</li>
               <li className={styles.urgencyOk}>Podemos ayudarte. Consulta gratuita.</li>
             </ul>
