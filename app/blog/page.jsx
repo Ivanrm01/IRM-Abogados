@@ -21,7 +21,7 @@ export default async function BlogPage() {
         <div className={styles.heroLine}></div>
         <div className="eyebrow">Actualidad fiscal</div>
         <h1>El Blog de <em>IRM Abogados</em></h1>
-        <p className={styles.heroDesc}>Artículos, guías y análisis redactados por nuestros especialistas en derecho tributario.</p>
+        <p className={styles.heroDesc}>Artículos de actualidad fiscal redactados por los especialistas de IRM Abogados.</p>
       </section>
 
       <section className={styles.content}>
