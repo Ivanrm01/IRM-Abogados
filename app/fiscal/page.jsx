@@ -116,7 +116,7 @@ export default function FiscalPage() {
           <div className={styles.ctaTitle}>¿Tienes dudas sobre<br />tu situación fiscal?</div>
           <p className={styles.ctaDesc}>Analizamos tu caso sin coste y sin compromiso. Te decimos exactamente qué podemos hacer por ti. Respondemos en menos de 24 horas.</p>
           <div className={styles.ctaBtns}>
-            <a href="mailto:correo@irmabogados.es" className="btn-navy">Enviar consulta</a>
+            <a href="mailto:correo@irmabogados.es" className="btn-navy">Solicitar consulta</a>
             <a href="tel:+34614149465" className="btn-outline-navy">Llamar ahora</a>
           </div>
         </div>
