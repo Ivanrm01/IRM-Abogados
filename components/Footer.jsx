@@ -36,7 +36,7 @@ export default function Footer() {
           <p className={styles.tagline}>Especialistas en derecho tributario con sedes en Madrid y Castellón. Compromiso, excelencia y transparencia en cada caso.</p>
           <div className={styles.contactMini}>
             <a href="tel:+34614149465" className={styles.contactItem}>
-              <span className={styles.contactIcon}>📞</span>
+              <span className={styles.contactIcon}><Phone size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>+34 614 149 465</span>
             </a>
             <a href="mailto:correo@irmabogados.es" className={styles.contactItem}>
