@@ -88,9 +88,9 @@ export default function StartupsPage() {
         <div className={styles.porqueLeft}>
           <div className={styles.eyebrow}>Por qué IRM para tu startup</div>
           <h2 className={styles.sectionTitle}>No somos una gestoría.<br /><em>Somos tu socio legal</em></h2>
-          <p className={styles.porqueDesc}>Entendemos el mundo startup. Sabemos que la velocidad importa, que los recursos son limitados y que los errores legales al principio pueden costar muy caro en las siguientes rondas.</p>
+          <p className={styles.porqueDesc}>Entendemos el mundo Start-Up. Sabemos que la velocidad importa, que los recursos son limitados y que los errores legales al principio pueden costar muy caro en las siguientes rondas.</p>
           <div className={styles.porqueItems}>
-            {[{t:'Velocidad de respuesta',d:'Las startups no pueden esperar. Respondemos en 24 horas y actuamos con la agilidad que tu empresa necesita.'},{t:'Conocimiento del ecosistema',d:'Conocemos ESOPs, notas convertibles, SAFEs y rondas seed. Hablamos tu idioma.'},{t:'Honorarios flexibles',d:'Sabemos que en early stage los recursos son escasos. Adaptamos nuestra forma de trabajar a tu momento.'},{t:'Visión a largo plazo',d:'Las decisiones que tomes hoy condicionan lo que podrás hacer mañana. Te ayudamos a construir bien desde el principio.'}].map(i => (
+            {[{t:'Velocidad de respuesta',d:'Las Start-Ups no pueden esperar. Respondemos en 24 horas y actuamos con la agilidad que tu empresa necesita.'},{t:'Conocimiento del ecosistema',d:'Conocemos ESOPs, notas convertibles, SAFEs y rondas seed. Hablamos tu idioma.'},{t:'Estructura de honorarios flexibles',d:'Sabemos que en early stage los recursos son escasos. Adaptamos nuestra forma de trabajar a tu momento y presupuesto.'},{t:'Visión a largo plazo',d:'Las decisiones que tomes hoy condicionan lo que podrás hacer mañana. Te ayudamos a construir bien desde el principio.'}].map(i => (
               <div key={i.t} className={styles.porqueItem}>
                 <div className={styles.porqueIcon}>✓</div>
                 <div><div className={styles.porqueTit}>{i.t}</div><div className={styles.porqueDescItem}>{i.d}</div></div>
@@ -101,13 +101,13 @@ export default function StartupsPage() {
         <div className={styles.porqueRight}>
           <div className={styles.testCard}>
             <div className={styles.testQuote}>"</div>
-            <p className={styles.testText}>Gracias a IRM estructuramos correctamente el pacto de socios y el ESOP desde el principio. Cuando llegó la due diligence de los inversores, todo estaba en orden.</p>
+            <p className={styles.testText}>Gracias a IRM estructuramos correctamente el pacto de socios desde el principio. Cuando llegó la due diligence de los inversores, todo estaba en orden.</p>
             <div className={styles.testAuthor}>Fundador de startup tecnológica</div>
             <div className={styles.testRole}>Cliente desde la fase de constitución</div>
           </div>
           <div className={styles.infoBox}>
             <div className={styles.infoTitle}>Deducción del 50% para business angels</div>
-            <div className={styles.infoDesc}>Los inversores que invierten en tu startup pueden deducirse hasta el 50% de su inversión en el IRPF (base máx. 100.000€). Una ventaja fiscal enorme que debes conocer y comunicar a tus inversores potenciales.</div>
+            <div className={styles.infoDesc}>Los inversores que invierten en tu Start-Up pueden deducirse hasta el 50% de su inversión en el IRPF (base máx. 100.000€). Una ventaja fiscal enorme que debes conocer y comunicar a tus inversores potenciales.</div>
           </div>
         </div>
       </section>
