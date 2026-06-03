@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Footer.module.css'
+import { Phone, Mail, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   return (
