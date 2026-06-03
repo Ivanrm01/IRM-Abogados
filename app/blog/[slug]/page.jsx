@@ -49,8 +49,8 @@ export default async function PostPage({ params }) {
     '@type': 'Article',
     headline: post.title,
     description: post.seo?.metaDescription || post.excerpt,
-    author: { '@type': 'Organization', name: 'IRM Tax & Legal' },
-    publisher: { '@type': 'Organization', name: 'IRM Tax & Legal', url: 'https://www.irmabogadosasesores.com' },
+    author: { '@type': 'Organization', name: 'IRM Abogados' },
+    publisher: { '@type': 'Organization', name: 'IRM Abogados', url: 'https://www.irmabogadosasesores.com' },
     datePublished: post.date,
     image: post.image ? [post.image] : [],
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.irmabogadosasesores.com/blog/${post.slug}` }
