@@ -14,12 +14,12 @@ const fases = [
 ]
 
 const servicios = [
-  { t:'Pacto de socios', d:'El documento más importante que firmarás con tus cofundadores. Regula derechos, obligaciones y mecanismos de resolución de conflictos.', tags:['Vesting','Drag & Tag Along','Antidilución','Good/Bad Leaver'] },
-  { t:'ESOPs y planes de incentivos', d:'Diseño de planes de opciones sobre acciones para retener y atraer talento. Optimización fiscal para la empresa y para los empleados.', tags:['Stock Options','Phantom Shares','Warrants','RSUs'] },
-  { t:'Due diligence fiscal preventiva', d:'Revisión completa de la situación fiscal antes de que lleguen los inversores. Identificamos y solucionamos problemas antes de que sean dealbreakers.', tags:['Revisión fiscal','Riesgo tributario','Pre-inversión','VDR'] },
-  { t:'Fiscalidad de la inversión', d:'Estructuración fiscal de las rondas de inversión. Optimización para inversores business angel, fondos de capital riesgo y family offices.', tags:['Business Angels','Capital riesgo','ENISA','Deducción 50%'] },
-  { t:'Fiscalidad operativa continua', d:'Gestión fiscal del día a día de tu startup. IS, IVA, retenciones y cumplimiento de todas las obligaciones periódicas.', tags:['IS','IVA trimestral','Retenciones','Modelos informativos'] },
-  { t:'Expansión internacional', d:'Estructuración fiscal para startups que escalan fuera de España. Establecimiento permanente, precios de transferencia y estructura holding.', tags:['Holding','Delaware','Transfer Pricing','IP Box'] },
+  { t:'Pacto de socios', d:'El documento más importante que firmarás con tus cofundadores. Regula derechos, obligaciones y mecanismos de resolución de conflictos.', tags:['Vesting','Drag & Tag Along','Antidilución'] },
+  { t:'ESOPs y planes de incentivos', d:'Diseño de planes de opciones sobre acciones para retener y atraer talento. Optimización fiscal para la empresa y para los empleados.', tags:['Stock Options','Phantom Shares','RSUs'] },
+  { t:'Due diligence fiscal preventiva', d:'Revisión completa de la situación fiscal de tu Start-Up antes de que lleguen los inversores. Identificamos y solucionamos los problemas antes de que se conviertan en dealbreakers.', tags:['Revisión fiscal','Pre-inversión','VDR'] },
+  { t:'Fiscalidad de la inversión', d:'Estructuración fiscal de las rondas de inversión. Optimización para inversores business angel, fondos de capital riesgo y family offices.', tags:['Capital riesgo','ENISA','Deducción fiscal'] },
+  { t:'Fiscalidad operativa continua', d:'Gestión fiscal del día a día de tu Start-Up. Impuesto sobre Sociedades, IVA, retenciones y cumplimiento de todas las obligaciones periódicas.', tags:['IS','IVA','Declaraciones'] },
+  { t:'Expansión internacional', d:'Estructuración fiscal para Start-Ups que escalan fuera de España. Establecimiento permanente, precios de transferencia y optimización de la estructura holding.', tags:['Holding','Transfer Pricing','IP Box'] },
 ]
 
 const faqs = [
