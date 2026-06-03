@@ -60,7 +60,6 @@ export default async function BlogPage() {
       {totalPages > 1 && (
         <div style={{display:'flex',justifyContent:'center',gap:'8px',marginTop:'48px',flexWrap:'wrap'}}>
           {Array.from({length: totalPages}, (_, i) => (
-      
             key={i}
             href={i === 0 ? '/blog' : `/blog?page=${i + 1}`}
             style={{
