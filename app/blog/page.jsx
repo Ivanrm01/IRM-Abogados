@@ -34,10 +34,10 @@ export default async function BlogPage() {
             <p>Próximamente publicaremos artículos de actualidad fiscal.</p>
             <Link href="/contacto" className="btn-gold">Contactar</Link>
           </div>
-    ) : (
-    <>
-      <div className={styles.grid}>
-        {posts.map(p => (
+        ) : (
+          <>
+            <div className={styles.grid}>
+            {posts.map(p => (
           <Link key={p.id} href={`/blog/${p.slug}`} className={styles.card}>
             <div className={styles.cardImg}>
               {p.image
