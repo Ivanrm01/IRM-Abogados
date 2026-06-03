@@ -74,7 +74,6 @@ export default function StartupsPage() {
         <h2 className={styles.sectionTitleLight}>Todo lo que necesita<br /><em>tu Start-Up</em></h2>
         <p className={styles.heroServic}>Estos son los servicios concretos que más demandan nuestros clientes del ecosistema Start-Up. Todos están diseñados pensando en la velocidad, la escalabilidad y la seguridad jurídica.</p>
         <div className={styles.fasesGrid}>
-        <div className={styles.sdGrid}>
           {servicios.map(s => (
             <div key={s.t} className={styles.sdCard}>
               <h3 className={styles.sdTitle}>{s.t}</h3>
