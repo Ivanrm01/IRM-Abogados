@@ -73,12 +73,12 @@ export default function AvisoLegalPage() {
 
           <div className={styles.block}>
             <h2>7. Jurisdicción y ley aplicable</h2>
-            <p>Las presentes condiciones se rigen por la legislación española. Para la resolución de cualquier controversia que pudiera surgir en relación con el Sitio Web o los servicios prestados a través del mismo, las partes se someten, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, a los Juzgados y Tribunales de Madrid (España).</p>
+            <p>Las presentes condiciones se rigen por la legislación española. Para la resolución de cualquier controversia que pudiera surgir en relación con el Sitio Web o los servicios prestados a través del mismo, las partes se someten, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, a los Juzgados y Tribunales de Castellón (España).</p>
           </div>
 
           <div className={styles.block}>
             <h2>8. Contacto</h2>
-            <p>Para cualquier consulta relacionada con el presente Aviso Legal, el usuario puede contactar con IRM Abogados & Asesores a través de los siguientes medios:</p>
+            <p>Para cualquier consulta relacionada con el presente Aviso Legal, el usuario puede contactar con IRM Abogados a través de los siguientes medios:</p>
             <ul>
               <li>Email: <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a></li>
               <li>Teléfono: <a href="tel:+34614149465">+34 614 149 465</a></li>
