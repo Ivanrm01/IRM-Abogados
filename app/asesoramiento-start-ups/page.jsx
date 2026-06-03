@@ -115,6 +115,7 @@ export default function StartupsPage() {
       <section className={styles.faqSection}>
         <div className={styles.eyebrow}>Preguntas frecuentes</div>
         <h2 className={styles.sectionTitle}>Lo que nos preguntan<br /><em>los fundadores</em></h2>
+        <p className={styles.pqIntro}>Las dudas más habituales de los emprendedores antes de su primera consulta.</p>
         <div className={styles.faqGrid}>
           {faqs.map((f, i) => (
             <details key={i} className={styles.faqItem}>
