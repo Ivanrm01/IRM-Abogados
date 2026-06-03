@@ -87,7 +87,7 @@ export default async function PostPage({ params }) {
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.content }}/>
           <div className={styles.inlineCta}>
             <div className={styles.inlineCtaTitle}>¿Necesitas asesoramiento sobre este tema?</div>
-            <p>En IRM Tax &amp; Legal somos especialistas. Primera consulta gratuita y sin compromiso.</p>
+            <p>En IRM Abogados somos especialistas. Primera consulta gratuita y sin compromiso.</p>
             <Link href="/contacto" className="btn-gold">Consultar ahora</Link>
           </div>
         </div>
