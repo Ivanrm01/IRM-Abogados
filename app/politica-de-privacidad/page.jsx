@@ -1,8 +1,8 @@
 import styles from './legal.module.css'
 
 export const metadata = {
-  title: 'Política de Privacidad | IRM Tax & Legal',
-  description: 'Política de privacidad de IRM Abogados & Asesores. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD.',
+  title: 'Política de Privacidad | IRM Abogados',
+  description: 'Política de privacidad de IRM Abogados. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD.',
 }
 
 export default function PrivacidadPage() {
@@ -23,8 +23,8 @@ export default function PrivacidadPage() {
           <div className={styles.block}>
             <h2>1. Responsable del tratamiento</h2>
             <div className={styles.dataTable}>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Responsable</div><div className={styles.dataVal}>IRM Abogados & Asesores</div></div>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio</div><div className={styles.dataVal}>C/ José Ortega y Gasset, 84 — 2º C, 28006 Madrid</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Responsable</div><div className={styles.dataVal}>IRM Abogados</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio</div><div className={styles.dataVal}>C/ En medio, 22 — 6º, 12001 Castellón</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Email</div><div className={styles.dataVal}>correo@irmabogados.es</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Teléfono</div><div className={styles.dataVal}>+34 614 149 465</div></div>
             </div>
@@ -32,7 +32,7 @@ export default function PrivacidadPage() {
 
           <div className={styles.block}>
             <h2>2. Datos que tratamos y finalidades</h2>
-            <p>En función de los servicios que el usuario solicite o utilice, IRM Abogados & Asesores puede tratar las siguientes categorías de datos personales:</p>
+            <p>En función de los servicios que el usuario solicite o utilice, IRM Abogados puede tratar las siguientes categorías de datos personales:</p>
 
             <h3>2.1 Formulario de contacto</h3>
             <ul>
@@ -61,7 +61,7 @@ export default function PrivacidadPage() {
 
           <div className={styles.block}>
             <h2>3. Destinatarios de los datos</h2>
-            <p>IRM Abogados & Asesores no cede ni comunica datos personales a terceros, salvo en los siguientes supuestos:</p>
+            <p>IRM Abogados no cede ni comunica datos personales a terceros, salvo en los siguientes supuestos:</p>
             <ul>
               <li>Proveedores de servicios tecnológicos necesarios para el funcionamiento del Sitio Web y la prestación de servicios (hosting, email, etc.), con los que se mantienen los contratos de encargo de tratamiento exigidos por la normativa.</li>
               <li>Administraciones Públicas y Organismos Reguladores cuando sea legalmente exigible (Agencia Tributaria, Tribunales, etc.).</li>
@@ -74,7 +74,7 @@ export default function PrivacidadPage() {
             <h2>4. Derechos del interesado</h2>
             <p>En virtud de lo establecido en el RGPD y la LOPDGDD, el interesado puede ejercer en cualquier momento los siguientes derechos:</p>
             <ul>
-              <li><strong>Acceso:</strong> Conocer qué datos personales trata IRM Abogados & Asesores sobre usted.</li>
+              <li><strong>Acceso:</strong> Conocer qué datos personales trata IRM Abogados sobre usted.</li>
               <li><strong>Rectificación:</strong> Solicitar la corrección de datos inexactos o incompletos.</li>
               <li><strong>Supresión:</strong> Solicitar la eliminación de sus datos cuando, entre otros motivos, ya no sean necesarios para los fines para los que fueron recogidos.</li>
               <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos en determinadas circunstancias.</li>
@@ -82,18 +82,18 @@ export default function PrivacidadPage() {
               <li><strong>Portabilidad:</strong> Recibir sus datos en un formato estructurado, de uso común y lectura mecánica.</li>
               <li><strong>Retirada del consentimiento:</strong> Retirar en cualquier momento el consentimiento prestado, sin que ello afecte a la licitud del tratamiento previo a su retirada.</li>
             </ul>
-            <p>Para ejercer estos derechos, el interesado puede dirigirse a IRM Abogados & Asesores mediante escrito a la dirección postal indicada o al email <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a>, adjuntando copia de su DNI o documento identificativo equivalente.</p>
+            <p>Para ejercer estos derechos, el interesado puede dirigirse a IRM Abogados mediante escrito a la dirección postal indicada o al email <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a>, adjuntando copia de su DNI o documento identificativo equivalente.</p>
             <p>Asimismo, el interesado tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) si considera que el tratamiento de sus datos no es conforme a la normativa vigente. Puede hacerlo a través de la sede electrónica de la AEPD en <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">www.aepd.es</a>.</p>
           </div>
 
           <div className={styles.block}>
             <h2>5. Confidencialidad y secreto profesional</h2>
-            <p>En virtud de la relación de asesoramiento jurídico, IRM Abogados & Asesores está sujeto al deber de secreto profesional respecto de toda la información y documentación que el cliente le facilite con ocasión de la prestación de los servicios contratados. Dicho deber se mantiene con carácter indefinido, incluso tras la finalización de la relación profesional.</p>
+            <p>En virtud de la relación de asesoramiento jurídico, IRM Abogados está sujeto al deber de secreto profesional respecto de toda la información y documentación que el cliente le facilite con ocasión de la prestación de los servicios contratados. Dicho deber se mantiene con carácter indefinido, incluso tras la finalización de la relación profesional.</p>
           </div>
 
           <div className={styles.block}>
             <h2>6. Medidas de seguridad</h2>
-            <p>IRM Abogados & Asesores ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad de los datos personales y evitar su alteración, pérdida, tratamiento o acceso no autorizado, teniendo en cuenta el estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a los que están expuestos, según lo establecido en la normativa vigente en materia de protección de datos.</p>
+            <p>IRM Abogados ha adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad de los datos personales y evitar su alteración, pérdida, tratamiento o acceso no autorizado, teniendo en cuenta el estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a los que están expuestos, según lo establecido en la normativa vigente en materia de protección de datos.</p>
           </div>
 
           <div className={styles.block}>
