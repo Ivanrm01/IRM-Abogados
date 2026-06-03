@@ -29,11 +29,11 @@ export default async function BlogPage() {
       </section>
 
       <section className={styles.content}>
-  {posts.length === 0 ? (
-    <div className={styles.empty}>
-      <p>Próximamente publicaremos artículos de actualidad fiscal.</p>
-      <Link href="/contacto" className="btn-gold">Contactar</Link>
-    </div>
+        {posts.length === 0 ? (
+          <div className={styles.empty}>
+            <p>Próximamente publicaremos artículos de actualidad fiscal.</p>
+            <Link href="/contacto" className="btn-gold">Contactar</Link>
+          </div>
   ) : (
     <>
       <div className={styles.grid}>
