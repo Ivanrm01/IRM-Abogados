@@ -36,6 +36,7 @@
 .faseList li::before { content: '✓'; color: var(--gold); flex-shrink: 0; font-size: 12px; margin-top: 1px; }
 
 .serviciosSection { background: var(--navy); padding: 96px 60px; }
+.heroServic { font-size: 15px; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,.6); max-width: 600px; margin-bottom: 36px; position: relative; z-index: 2; }
 .sdGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin-top: 48px; }
 .sdCard { background: var(--navy-mid); padding: 36px; border-top: 3px solid transparent; transition: border-color .3s; }
 .sdCard:hover { border-top-color: var(--gold); }
