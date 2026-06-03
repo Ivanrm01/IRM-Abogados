@@ -40,11 +40,11 @@ export default function Footer() {
               <span>+34 614 149 465</span>
             </a>
             <a href="mailto:correo@irmabogados.es" className={styles.contactItem}>
-              <span className={styles.contactIcon}>✉️</span>
+              <span className={styles.contactIcon}><Mail size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>correo@irmabogados.es</span>
             </a>
             <a href="https://wa.me/34614149465" className={styles.contactItem}>
-              <span className={styles.contactIcon}>💬</span>
+              <span className={styles.contactIcon}><MessageCircle size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>WhatsApp</span>
             </a>
           </div>
