@@ -98,7 +98,7 @@ export default function PrivacidadPage() {
 
           <div className={styles.block}>
             <h2>7. Actualización de la política</h2>
-            <p>IRM Abogados & Asesores se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a cambios normativos o jurisprudenciales. En todo caso, las modificaciones realizadas serán notificadas a los usuarios con suficiente antelación y publicadas en el Sitio Web.</p>
+            <p>IRM Abogados se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a cambios normativos o jurisprudenciales. En todo caso, las modificaciones realizadas serán notificadas a los usuarios con suficiente antelación y publicadas en el Sitio Web.</p>
           </div>
 
         </div>
