@@ -11,7 +11,11 @@ export const revalidate = 60
 
 export default async function BlogPage() {
   const all = await getPosts()
-  const posts = all.filter(p => p.published)
+  const POSTS_PER_PAGE = 9
+  const page = 1
+  const posts = all.filter(p => p.published).slice(0, POSTS_PER_PAGE)
+  const total = all.filter(p => p.published).length
+  const totalPages = Math.ceil(total / POSTS_PER_PAGE)
 
   const categories = [...new Set(posts.map(p => p.category).filter(Boolean))]
 
