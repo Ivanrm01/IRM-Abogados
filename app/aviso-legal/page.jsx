@@ -1,8 +1,8 @@
 import styles from './legal.module.css'
 
 export const metadata = {
-  title: 'Aviso Legal | IRM Tax & Legal',
-  description: 'Aviso legal de IRM Abogados & Asesores. Información sobre el titular del sitio web, condiciones de uso y propiedad intelectual.',
+  title: 'Aviso Legal | IRM Abogados',
+  description: 'Aviso legal de IRM Abogados. Información sobre el titular del sitio web, condiciones de uso y propiedad intelectual.',
 }
 
 export default function AvisoLegalPage() {
@@ -24,9 +24,9 @@ export default function AvisoLegalPage() {
             <h2>1. Datos identificativos del titular</h2>
             <p>En cumplimiento con el deber de información dispuesto en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE), se facilitan a continuación los datos identificativos del titular del sitio web:</p>
             <div className={styles.dataTable}>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Denominación social</div><div className={styles.dataVal}>IRM Abogados & Asesores</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Denominación social</div><div className={styles.dataVal}>IRM Abogados</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Nombre comercial</div><div className={styles.dataVal}>IRM Tax & Legal</div></div>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ José Ortega y Gasset, 84 — 2º C, 28006 Madrid</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ Enmedio, 22 — 6º C, 12001 Castellón</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Teléfono</div><div className={styles.dataVal}>+34 614 149 465</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Email</div><div className={styles.dataVal}>correo@irmabogados.es</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Sitio web</div><div className={styles.dataVal}>www.irmabogadosasesores.com</div></div>
@@ -35,8 +35,8 @@ export default function AvisoLegalPage() {
 
           <div className={styles.block}>
             <h2>2. Objeto y ámbito de aplicación</h2>
-            <p>El presente Aviso Legal regula el acceso y uso del sitio web www.irmabogadosasesores.com (en adelante, el "Sitio Web"), del que es titular IRM Abogados & Asesores. El acceso al Sitio Web y el uso de sus contenidos implica la aceptación expresa y sin reservas de los presentes términos y condiciones.</p>
-            <p>IRM Abogados & Asesores se reserva el derecho a modificar en cualquier momento el contenido del Sitio Web, las presentes condiciones de uso y las condiciones particulares que pudieran existir. Las modificaciones realizadas serán eficaces desde el momento de su publicación en el Sitio Web.</p>
+            <p>El presente Aviso Legal regula el acceso y uso del sitio web www.irmabogadosasesores.com (en adelante, el "Sitio Web"), del que es titular IRM Abogados. El acceso al Sitio Web y el uso de sus contenidos implica la aceptación expresa y sin reservas de los presentes términos y condiciones.</p>
+            <p>IRM Abogados se reserva el derecho a modificar en cualquier momento el contenido del Sitio Web, las presentes condiciones de uso y las condiciones particulares que pudieran existir. Las modificaciones realizadas serán eficaces desde el momento de su publicación en el Sitio Web.</p>
           </div>
 
           <div className={styles.block}>
@@ -45,10 +45,10 @@ export default function AvisoLegalPage() {
             <p>El usuario se compromete a hacer un uso adecuado y lícito del Sitio Web y de los contenidos en él alojados, de conformidad con la legislación aplicable, las presentes condiciones y las exigencias de la buena fe, los usos generalmente aceptados y el orden público.</p>
             <p>Queda expresamente prohibido:</p>
             <ul>
-              <li>Reproducir, distribuir o utilizar con fines comerciales los contenidos del Sitio Web sin autorización expresa de IRM Abogados & Asesores.</li>
+              <li>Reproducir, distribuir o utilizar con fines comerciales los contenidos del Sitio Web sin autorización expresa de IRM Abogados.</li>
               <li>Utilizar el Sitio Web con fines ilícitos o contrarios a las presentes condiciones.</li>
-              <li>Introducir programas, virus, macros, applets, controles ActiveX o cualquier otro dispositivo lógico o secuencia de caracteres que causen o sean susceptibles de causar cualquier tipo de alteración en los sistemas informáticos de IRM Abogados & Asesores o de terceros.</li>
-              <li>Vulnerar los derechos de propiedad intelectual o industrial pertenecientes a IRM Abogados & Asesores o a terceros.</li>
+              <li>Introducir programas, virus, macros, applets, controles ActiveX o cualquier otro dispositivo lógico o secuencia de caracteres que causen o sean susceptibles de causar cualquier tipo de alteración en los sistemas informáticos de IRM Abogados o de terceros.</li>
+              <li>Vulnerar los derechos de propiedad intelectual o industrial pertenecientes a IRM Abogados o a terceros.</li>
             </ul>
           </div>
 
