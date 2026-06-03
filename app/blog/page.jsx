@@ -60,25 +60,22 @@ export default async function BlogPage() {
       {totalPages > 1 && (
         <div style={{display:'flex',justifyContent:'center',gap:'8px',marginTop:'48px',flexWrap:'wrap'}}>
           {Array.from({length: totalPages}, (_, i) => (
-            
-              key={i}
-              href={i === 0 ? '/blog' : `/blog?page=${i + 1}`}
-              style={{
-                padding:'8px 16px',
-                border:'1px solid',
-                borderColor: i === 0 ? '#B8975A' : '#e5e7eb',
-                background: i === 0 ? '#B8975A' : 'transparent',
-                color: i === 0 ? '#0D1B2A' : '#4A5568',
-                fontSize:'13px',
-                textDecoration:'none',
-                fontFamily:'Outfit,sans-serif'
-              }}
-            >
-              {i + 1}
-            </a>
-          ))}
-        </div>
-      )}
-    </>
-  )}
-</section>
+      
+            key={i}
+            href={i === 0 ? '/blog' : `/blog?page=${i + 1}`}
+            style={{
+              padding:'8px 16px',
+              border:'1px solid',
+              borderColor: i === 0 ? '#B8975A' : '#e5e7eb',
+              background: i === 0 ? '#B8975A' : 'transparent',
+              color: i === 0 ? '#0D1B2A' : '#4A5568',
+              fontSize:'13px',
+              textDecoration:'none',
+              fontFamily:'Outfit,sans-serif'
+            }}
+          >
+            {i + 1}
+          </a>
+        ))}
+      </div>
+    )}
