@@ -94,7 +94,7 @@ export default function CookiesPage() {
 
           <div className={styles.block}>
             <h2>7. Actualización de la política de cookies</h2>
-            <p>IRM Abogados & Asesores puede modificar la presente Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos. Cuando se produzcan cambios significativos, el usuario será informado mediante un aviso visible en el sitio web.</p>
+            <p>IRM Abogados puede modificar la presente Política de Cookies en función de exigencias legislativas, reglamentarias, o con la finalidad de adaptar dicha política a las instrucciones dictadas por la Agencia Española de Protección de Datos. Cuando se produzcan cambios significativos, el usuario será informado mediante un aviso visible en el sitio web.</p>
           </div>
 
           <div className={styles.block}>
