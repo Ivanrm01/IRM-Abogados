@@ -26,7 +26,7 @@ export default function AvisoLegalPage() {
             <div className={styles.dataTable}>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Denominación social</div><div className={styles.dataVal}>IRM Abogados</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Nombre comercial</div><div className={styles.dataVal}>IRM Tax & Legal</div></div>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ Enmedio, 22 — 6º C, 12001 Castellón</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ En medio, 22 — 6º C, 12001 Castellón</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Teléfono</div><div className={styles.dataVal}>+34 614 149 465</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Email</div><div className={styles.dataVal}>correo@irmabogados.es</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Sitio web</div><div className={styles.dataVal}>www.irmabogadosasesores.com</div></div>
@@ -54,21 +54,21 @@ export default function AvisoLegalPage() {
 
           <div className={styles.block}>
             <h2>4. Propiedad intelectual e industrial</h2>
-            <p>Todos los contenidos del Sitio Web —incluyendo, sin carácter limitativo, textos, fotografías, gráficos, imágenes, iconos, tecnología, software, links y demás contenidos audiovisuales o sonoros, así como su diseño gráfico y códigos fuente— son propiedad intelectual de IRM Abogados & Asesores o de terceros, sin que puedan entenderse cedidos al usuario ninguno de los derechos de explotación reconocidos por la normativa vigente en materia de propiedad intelectual sobre los mismos.</p>
-            <p>Las marcas, nombres comerciales o signos distintivos son titularidad de IRM Abogados & Asesores o de terceros, sin que el acceso al Sitio Web pueda entenderse como atribución de derecho alguno sobre las citadas marcas, nombres comerciales o signos distintivos.</p>
+            <p>Todos los contenidos del Sitio Web —incluyendo, sin carácter limitativo, textos, fotografías, gráficos, imágenes, iconos, tecnología, software, links y demás contenidos audiovisuales o sonoros, así como su diseño gráfico y códigos fuente— son propiedad intelectual de IRM Abogados o de terceros, sin que puedan entenderse cedidos al usuario ninguno de los derechos de explotación reconocidos por la normativa vigente en materia de propiedad intelectual sobre los mismos.</p>
+            <p>Las marcas, nombres comerciales o signos distintivos son titularidad de IRM Abogados o de terceros, sin que el acceso al Sitio Web pueda entenderse como atribución de derecho alguno sobre las citadas marcas, nombres comerciales o signos distintivos.</p>
           </div>
 
           <div className={styles.block}>
             <h2>5. Exclusión de garantías y responsabilidad</h2>
-            <p>IRM Abogados & Asesores no garantiza la disponibilidad y continuidad del funcionamiento del Sitio Web y de sus servicios. Cuando ello sea razonablemente posible, advertirá previamente las interrupciones en el funcionamiento del Sitio Web.</p>
-            <p>La información publicada en el Sitio Web tiene carácter meramente informativo y general, y no constituye en ningún caso asesoramiento jurídico individualizado. IRM Abogados & Asesores no asume responsabilidad alguna derivada del uso de dicha información o de las decisiones adoptadas por el usuario en base a la misma.</p>
-            <p>IRM Abogados & Asesores no controla ni garantiza la ausencia de virus ni de otros elementos en los contenidos que puedan producir alteraciones en su sistema informático, en los documentos electrónicos o en los ficheros almacenados en su sistema informático.</p>
+            <p>IRM Abogados no garantiza la disponibilidad y continuidad del funcionamiento del Sitio Web y de sus servicios. Cuando ello sea razonablemente posible, advertirá previamente las interrupciones en el funcionamiento del Sitio Web.</p>
+            <p>La información publicada en el Sitio Web tiene carácter meramente informativo y general, y no constituye en ningún caso asesoramiento jurídico individualizado. IRM Abogados no asume responsabilidad alguna derivada del uso de dicha información o de las decisiones adoptadas por el usuario en base a la misma.</p>
+            <p>IRM Abogados no controla ni garantiza la ausencia de virus ni de otros elementos en los contenidos que puedan producir alteraciones en su sistema informático, en los documentos electrónicos o en los ficheros almacenados en su sistema informático.</p>
           </div>
 
           <div className={styles.block}>
             <h2>6. Política de enlaces</h2>
-            <p>El Sitio Web puede contener enlaces a páginas web de terceros. IRM Abogados & Asesores no asume ninguna responsabilidad respecto a la información contenida en dichas páginas de terceros, incluyendo pero no limitando, la veracidad, exactitud y exhaustividad de la misma.</p>
-            <p>Quien desee introducir en su página web un enlace que dirija al Sitio Web, deberá obtener previamente la autorización expresa de IRM Abogados & Asesores.</p>
+            <p>El Sitio Web puede contener enlaces a páginas web de terceros. IRM Abogados no asume ninguna responsabilidad respecto a la información contenida en dichas páginas de terceros, incluyendo pero no limitando, la veracidad, exactitud y exhaustividad de la misma.</p>
+            <p>Quien desee introducir en su página web un enlace que dirija al Sitio Web, deberá obtener previamente la autorización expresa de IRM Abogados.</p>
           </div>
 
           <div className={styles.block}>
@@ -82,7 +82,7 @@ export default function AvisoLegalPage() {
             <ul>
               <li>Email: <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a></li>
               <li>Teléfono: <a href="tel:+34614149465">+34 614 149 465</a></li>
-              <li>Dirección: C/ José Ortega y Gasset, 84 — 2º C, 28006 Madrid</li>
+              <li>Dirección: C/ En medio, 22 — 6º C, 12001 Castellón</li>
             </ul>
           </div>
 
