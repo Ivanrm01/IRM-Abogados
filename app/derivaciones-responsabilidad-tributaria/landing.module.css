@@ -1,0 +1,92 @@
+/* HERO */
+.hero { background: var(--navy); padding: 160px 60px 100px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; overflow: hidden; }
+.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.eyebrow { font-size: 10px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+.eyebrow::after { content: ''; display: block; width: 40px; height: 1px; background: var(--gold); }
+.eyebrowDark { font-size: 10px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
+.eyebrowDark::after { content: ''; display: block; width: 40px; height: 1px; background: var(--gold); }
+.heroTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(40px, 5vw, 64px); font-weight: 300; color: var(--white); line-height: 1.05; margin-bottom: 24px; }
+.heroTitle em { font-style: italic; color: var(--gold); }
+.heroDesc { font-size: 15px; font-weight: 300; color: rgba(255,255,255,.65); line-height: 1.85; margin-bottom: 32px; max-width: 520px; }
+.heroBtns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 24px; }
+.btnPhone { font-size: 12px; font-weight: 500; letter-spacing: .1em; color: rgba(255,255,255,.7); text-decoration: none; display: flex; align-items: center; gap: 8px; padding: 14px 0; transition: color .2s; }
+.btnPhone:hover { color: var(--gold); }
+.heroAlert { background: rgba(192,57,43,.12); border: 1px solid rgba(192,57,43,.3); padding: 12px 16px; font-size: 13px; color: rgba(255,255,255,.7); display: flex; align-items: center; gap: 10px; max-width: 480px; }
+.alertDot { width: 8px; height: 8px; border-radius: 50%; background: #C0392B; flex-shrink: 0; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+.heroCards { display: flex; flex-direction: column; gap: 16px; }
+.heroCard { background: var(--navy-mid); border: 1px solid rgba(184,151,90,.2); padding: 28px 32px; border-left: 3px solid var(--gold); }
+.heroCardLabel { font-size: 10px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.heroCardTitle { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 400; color: var(--white); margin-bottom: 8px; }
+.heroCardDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.65; }
+
+/* QUÉ ES */
+.queEs { background: var(--cream); padding: 96px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 3.5vw, 44px); font-weight: 300; color: var(--text); margin-bottom: 24px; line-height: 1.15; }
+.sectionTitle em { font-style: italic; color: var(--gold); }
+.sectionTitleLight { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 3.5vw, 44px); font-weight: 300; color: var(--white); margin-bottom: 24px; line-height: 1.15; }
+.sectionTitleLight em { font-style: italic; color: var(--gold); }
+.sectionDesc { font-size: 14px; font-weight: 300; color: var(--mid); line-height: 1.85; margin-bottom: 16px; }
+.alertBox { background: #0D1B2A; padding: 32px; }
+.alertBoxTitle { font-size: 12px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: #C0392B; margin-bottom: 20px; }
+.alertBoxItem { display: flex; align-items: baseline; gap: 14px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+.alertBoxItem strong { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 300; color: var(--gold); flex-shrink: 0; min-width: 80px; }
+.alertBoxItem span { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.6); line-height: 1.5; }
+.alertBoxNote { font-size: 11px; color: rgba(255,255,255,.3); margin-top: 16px; line-height: 1.65; }
+
+/* ARTÍCULOS */
+.articulos { background: var(--white); padding: 96px 60px; }
+.articulosGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.articuloCard { background: var(--navy); padding: 56px 48px; }
+.articuloNum { font-family: 'Cormorant Garamond', serif; font-size: 80px; font-weight: 300; color: rgba(184,151,90,.15); line-height: 1; margin-bottom: 8px; }
+.articuloTitle { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: var(--white); margin-bottom: 16px; }
+.articuloDesc { font-size: 14px; font-weight: 300; color: rgba(255,255,255,.6); line-height: 1.85; margin-bottom: 24px; }
+.articuloList { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+.articuloList li { display: flex; gap: 12px; font-size: 13px; font-weight: 300; color: rgba(255,255,255,.65); line-height: 1.6; }
+.listDash { color: var(--gold); flex-shrink: 0; font-weight: 500; }
+.articuloNote { background: rgba(184,151,90,.08); border-left: 2px solid var(--gold); padding: 12px 16px; font-size: 12px; font-weight: 300; color: rgba(255,255,255,.5); line-height: 1.65; }
+
+/* ARGUMENTOS */
+.argumentos { background: var(--cream); padding: 96px 60px; text-align: center; }
+.argumentosGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px; text-align: left; }
+.argumentoCard { background: var(--white); padding: 36px; border-top: 3px solid transparent; transition: border-color .3s; }
+.argumentoCard:hover { border-top-color: var(--gold); }
+.argumentoNum { font-family: 'Cormorant Garamond', serif; font-size: 56px; font-weight: 300; color: rgba(184,151,90,.15); line-height: 1; margin-bottom: 8px; }
+.argumentoTitle { font-size: 16px; font-weight: 500; color: var(--text); margin-bottom: 10px; }
+.argumentoDesc { font-size: 13px; font-weight: 300; color: var(--mid); line-height: 1.75; }
+
+/* PROCESO */
+.proceso { background: var(--white); padding: 96px 60px; }
+.fasesGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; margin-top: 48px; }
+.faseCard { background: var(--cream); padding: 36px 28px; position: relative; }
+.faseNum { font-family: 'Cormorant Garamond', serif; font-size: 64px; font-weight: 300; color: rgba(184,151,90,.15); line-height: 1; margin-bottom: 12px; }
+.faseTitle { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 10px; line-height: 1.4; }
+.faseDesc { font-size: 12px; font-weight: 300; color: var(--mid); line-height: 1.75; }
+
+/* JURISPRUDENCIA */
+.juris { background: var(--navy); padding: 96px 60px; }
+.jurisInner { }
+.jurisGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px; }
+.jurisCard { background: var(--navy-mid); padding: 36px; border-top: 2px solid rgba(184,151,90,.3); }
+.jurisCita { font-size: 11px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+.jurisCard p { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.6); line-height: 1.8; }
+
+/* CTA */
+.cta { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.ctaLeft { flex: 1; }
+.ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(26px, 3.5vw, 44px); font-weight: 300; color: var(--navy); line-height: 1.1; margin-bottom: 12px; }
+.ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); max-width: 560px; line-height: 1.75; }
+.ctaBtns { display: flex; gap: 16px; flex-wrap: wrap; flex-shrink: 0; }
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .hero { grid-template-columns: 1fr; padding: 120px 24px 80px; gap: 48px; }
+  .queEs { grid-template-columns: 1fr; padding: 64px 24px; }
+  .articulosGrid { grid-template-columns: 1fr; }
+  .argumentosGrid { grid-template-columns: 1fr; }
+  .fasesGrid { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .jurisGrid { grid-template-columns: 1fr; }
+  .cta { flex-direction: column; padding: 64px 24px; }
+  .ctaBtns { flex-direction: column; width: 100%; }
+  .articulos, .argumentos, .proceso, .juris { padding: 64px 24px; }
+}
