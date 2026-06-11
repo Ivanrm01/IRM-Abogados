@@ -100,7 +100,7 @@ export default function FiscalPage() {
       <section className={styles.faqSection}>
         <div className={styles.eyebrow}>Preguntas frecuentes</div>
         <h2 className={styles.sectionTitle}>Lo que más nos <em>preguntan</em></h2>
-        <p className={styles.pqIntro}>Resolvemos las deudas más habituales antes de la primera consulta.</p>
+        <p className={styles.pqIntro}>Resolvemos las dudas más habituales antes de la primera consulta.</p>
         <div className={styles.faqGrid}>
           {faqs.map((f, i) => (
             <details key={i} className={styles.faqItem}>
