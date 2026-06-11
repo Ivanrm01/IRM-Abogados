@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Admin | IRM Tax & Legal',
+  title: 'Admin | IRM Abogados',
 }
 
 export default function AdminLayout({ children }) {
