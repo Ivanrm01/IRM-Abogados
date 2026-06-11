@@ -3,8 +3,8 @@ import { getPosts } from '@/lib/posts'
 import styles from './blog.module.css'
 
 export const metadata = {
-  title: 'Blog Fiscal | IRM Tax & Legal',
-  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Tax & Legal.',
+  title: 'Blog Fiscal | IRM Abogados',
+  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
 }
 
 export const revalidate = 60
