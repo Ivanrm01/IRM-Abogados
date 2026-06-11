@@ -8,7 +8,7 @@ const ADMIN_KEY = process.env.NEXT_PUBLIC_ADMIN_KEY || 'irm-admin-2025'
 const CATEGORIES = ['Fiscal','IRPF','Impuesto Sociedades','IVA','Garantías tributarias','Start-Ups','Planificación fiscal','Fiscalidad internacional','General']
 const EMPTY = {
   title:'',slug:'',excerpt:'',content:'',
-  category:'Fiscal',author:'IRM Tax & Legal',
+  category:'Fiscal',author:'IRM Abogados',
   date:new Date().toISOString().split('T')[0],
   published:false,image:'',
   seo:{metaTitle:'',metaDescription:'',keywords:'',canonical:'',ogImage:'',robots:'index, follow'}
