@@ -17,7 +17,7 @@ const servicios = [
   {
     num: '02', href: '/asesoramiento-start-ups',
     title: 'Start-Ups',
-    desc: 'Asesoramiento legal y fiscal integral para nuevas empresas y emprendedores. Desde la idea hasta la ronca de inversión, cubriendo todas las etapas de crecimiento.',
+    desc: 'Asesoramiento legal y fiscal integral para nuevas empresas y emprendedores. Desde la idea hasta la ronda de inversión, cubriendo todas las etapas de crecimiento.',
     tags: ['Constitución', 'Pacto de socios', 'ESOP', 'Due diligence', 'Inversión'],
   },
   {
