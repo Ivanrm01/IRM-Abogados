@@ -295,8 +295,8 @@ export default function Plazos() {
     try {
       if (!window.XLSX) await loadScript('https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js')
       const XLSX = window.XLSX
-      const rows = [['IRM ABOGADOS & ASESORES']]
-      rows.push(['IRM Tax & Legal · ivanrojasmonfort@icam.es'])
+      const rows = [['IRM ABOGADOS']]
+      rows.push(['IRM Abogados · ivanrojasmonfort@icam.es'])
       rows.push(['Calendario de vencimientos procesales'])
       rows.push(['Generado', new Date().toLocaleDateString('es-ES')])
       rows.push([])
