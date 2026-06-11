@@ -23,7 +23,7 @@ export default async function BlogPage({ searchParams }) {
       <section className={styles.hero}>
         <div className={styles.heroLine}></div>
         <div className="eyebrow">Actualidad fiscal</div>
-        <h1>Blog de <em>IRM Tax & Legal</em></h1>
+        <h1>Blog de <em>IRM Abogados</em></h1>
         <p className={styles.heroDesc}>Artículos, guías y análisis redactados por nuestros especialistas en derecho tributario.</p>
       </section>
 
