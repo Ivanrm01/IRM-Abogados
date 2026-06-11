@@ -19,7 +19,7 @@ const nextConfig = {
       { source: '/política-de-cookies', destination: '/politica-de-cookies', permanent: true },
 
       // ===== Artículos del blog con TILDE en el slug viejo → slug nuevo SIN tilde =====
-      { source: '/blog/deducibilidad-iva-vehículos-alta-gama', destination: '/blog/deducibilidad-iva-vehiculos-alta-gama', permanent: true },
+      { source: '/blog/deducibilidad-iva-veh%C3%ADculos-alta-gama', destination: '/blog/deducibilidad-iva-vehiculos-alta-gama', permanent: true },
       { source: '/blog/suspensión-ejecución-acto-impugnado-vía-económico-administrativa', destination: '/blog/suspension-ejecucion-acto-impugnado-via-economico-administrativa', permanent: true },
       { source: '/blog/tsjcv-anulación-declaración-responsabilidad-subsidiaria-43-1-b-lgt', destination: '/blog/tsjcv-anulacion-declaracion-responsabilidad-subsidiaria-43-1-b-lgt', permanent: true },
       { source: '/blog/cambio-residencia-criptomonedas-exit-tax-artículo-95-bis-lirpf', destination: '/blog/cambio-residencia-criptomonedas-exit-tax-articulo-95-bis-lirpf', permanent: true },
