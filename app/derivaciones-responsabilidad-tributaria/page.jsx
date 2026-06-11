@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './landing.module.css'
 
 export const metadata = {
-  title: 'Derivación de Responsabilidad Tributaria | Art. 42 y 43 LGT | IRM Tax & Legal',
+  title: 'Derivación de Responsabilidad Tributaria | Art. 42 y 43 LGT | IRM Abogados',
   description: 'Especialistas en impugnar y paralizar derivaciones de responsabilidad tributaria solidaria (art. 42 LGT) y subsidiaria (art. 43 LGT). Defendemos a administradores y terceros ante la AEAT.',
   keywords: 'derivación responsabilidad tributaria, artículo 42 LGT, artículo 43 LGT, responsabilidad subsidiaria administradores, responsabilidad solidaria, AEAT responsabilidad tributaria',
 }
