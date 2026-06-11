@@ -193,7 +193,7 @@ export default function Calculadoras() {
 
       doc.setDrawColor(...GOLD); doc.setLineWidth(0.4); doc.line(M, PH-16, PW-M, PH-16)
       doc.setFont('times','normal'); doc.setFontSize(7.5); doc.setTextColor(...GREY)
-      doc.text('IRM Tax & Legal · Abogados & Asesores · ivanrojasmonfort@icam.es', M, PH-11)
+      doc.text('IRM Abogados · ivanrojasmonfort@icam.es', M, PH-11)
 
       doc.save('Informe-garantia-'+(cliente||'calculo').replace(/\s+/g,'-')+'.pdf')
     } catch(e){ alert('Error al generar el PDF: '+e.message) }
@@ -207,8 +207,8 @@ export default function Calculadoras() {
       if (!window.XLSX) await loadScript('https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js')
       const XLSX = window.XLSX
       const rows = []
-      rows.push(['IRM ABOGADOS & ASESORES'])
-      rows.push(['IRM Tax & Legal · ivanrojasmonfort@icam.es'])
+      rows.push(['IRM ABOGADOS'])
+      rows.push(['IRM Abogados · ivanrojasmonfort@icam.es'])
       rows.push(['Informe de cálculo de garantía'])
       rows.push([resultado.titulo])
       if (cliente) rows.push(['Cliente', cliente])
