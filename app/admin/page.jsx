@@ -153,7 +153,7 @@ export default function AdminPage(){
       <div className={styles.loginBox}>
         <Image src="/logo-irm.png" alt="IRM" width={120} height={70} style={{height:'52px',width:'auto',marginBottom:'28px',objectFit:'contain'}}/>
         <div className={styles.loginTitle}>Panel de administración</div>
-        <p className={styles.loginDesc}>Acceso restringido al equipo de IRM Tax & Legal</p>
+        <p className={styles.loginDesc}>Acceso restringido al equipo de IRM Abogados</p>
         <input type="password" placeholder="Contraseña de acceso" value={pw} onChange={e=>setPw(e.target.value)} onKeyDown={e=>e.key==='Enter'&&login()} className={styles.loginInput} autoFocus/>
         <button onClick={login} className={styles.loginBtn}>Entrar al panel</button>
         {msg.text&&<div className={styles.loginError}>{msg.text}</div>}
