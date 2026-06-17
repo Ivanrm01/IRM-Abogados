@@ -91,7 +91,7 @@ export default function DerivacionesPage() {
           </p>
           <div className={styles.heroBtns}>
             <Link href="/contacto" className="btn-gold">Consulta gratuita urgente</Link>
-            <a href="tel:+34614149465" className={styles.btnPhone}>+34 614 149 465</a>
+            <a href="tel:+34614149465" className={"btn-ghost"}>+34 614 149 465</a>
           </div>
           <div className={styles.heroAlert}>
             <span className={styles.alertDot}></span>
