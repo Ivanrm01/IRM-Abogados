@@ -90,7 +90,7 @@ export default function DerivacionesPage() {
             artículo 42 y 43 de la LGT. <strong>Primera consulta gratuita.</strong>
           </p>
           <div className={styles.heroBtns}>
-            <Link href="/contacto" className="btn-gold">Consulta gratuita urgente</Link>
+            <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
             <a href="tel:+34614149465" className={"btn-ghost"}>+34 614 149 465</a>
           </div>
           <div className={styles.heroAlert}>
@@ -260,7 +260,7 @@ export default function DerivacionesPage() {
           <p className={styles.ctaDesc}>Actúa ahora. Los plazos son muy cortos y cada día cuenta. En IRM Tax & Legal analizamos tu caso de forma gratuita y te decimos si la derivación es impugnable.</p>
         </div>
         <div className={styles.ctaBtns}>
-          <Link href="/contacto" className="btn-navy">Consulta gratuita urgente</Link>
+          <Link href="/contacto" className="btn-navy">Solicitar Consulta</Link>
           <a href="tel:+34614149465" className="btn-outline-navy">+34 614 149 465</a>
         </div>
       </section>
