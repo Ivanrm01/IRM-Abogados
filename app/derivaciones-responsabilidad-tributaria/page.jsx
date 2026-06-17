@@ -204,7 +204,7 @@ export default function DerivacionesPage() {
       {/* ARGUMENTOS */}
       <section className={styles.argumentos}>
         <div className="eyebrow" style={{color:'var(--gold)'}}>Por qué muchas derivaciones son anulables</div>
-        <h2 className={styles.sectionTitleLight}>Argumentos que utilizamos<br />para <em>ganar el recurso</em></h2>
+        <h2 className={styles.sectionTitle}>Argumentos que utilizamos<br />para <em>ganar el recurso</em></h2>
         <div className={styles.argumentosGrid}>
           {argumentos.map((a, i) => (
             <div key={i} className={styles.argumentoCard}>
