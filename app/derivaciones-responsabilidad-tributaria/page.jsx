@@ -49,7 +49,7 @@ const fases = [
 const argumentos = [
   {
     t: 'Prescripción de la acción',
-    d: 'La AEAT tiene un plazo limitado para derivar la responsabilidad. Analizamos si la derivación se ha realizado fuera de plazo y si el expediente del deudor principal estaba prescrito.'
+    d: 'La AEAT tiene un plazo limitado para derivar la responsabilidad. Analizamos si la derivación se ha realizado fuera de plazo y si el expediente se encuentra prescrito.'
   },
   {
     t: 'Falta de culpabilidad del administrador',
