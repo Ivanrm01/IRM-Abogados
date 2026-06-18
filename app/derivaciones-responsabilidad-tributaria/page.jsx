@@ -257,7 +257,7 @@ export default function DerivacionesPage() {
       <section className={styles.cta}>
         <div className={styles.ctaLeft}>
           <h2 className={styles.ctaTitle}>¿Has recibido un acuerdo<br />de derivación de responsabilidad?</h2>
-          <p className={styles.ctaDesc}>Actúa ahora. Los plazos son muy cortos y cada día cuenta. En IRM Tax & Legal analizamos tu caso de forma gratuita y te decimos si la derivación es impugnable.</p>
+          <p className={styles.ctaDesc}>Actúa ahora. Los plazos son muy cortos y cada día cuenta. En IRM Abogados analizamos tu caso de forma gratuita y te decimos si la derivación es impugnable.</p>
         </div>
         <div className={styles.ctaBtns}>
           <Link href="/contacto" className="btn-navy">Solicitar Consulta</Link>
