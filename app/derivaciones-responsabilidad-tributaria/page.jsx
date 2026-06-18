@@ -175,7 +175,7 @@ export default function DerivacionesPage() {
               ))}
             </ul>
             <div className={styles.articuloNote}>
-              La AEAT puede embargar directamente sin declaración previa de insolvencia del deudor principal.
+              La AEAT puede actuar directamente sin declaración previa de insolvencia del deudor principal.
             </div>
           </div>
           <div className={styles.articuloCard}>
