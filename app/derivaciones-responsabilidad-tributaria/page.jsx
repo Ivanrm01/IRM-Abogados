@@ -32,12 +32,12 @@ const fases = [
   {
     n: '02',
     t: 'Recurso de reposición o reclamación económico-administrativa',
-    d: 'Presentamos el recurso ante la AEAT o el TEAR en plazo, argumentando la improcedencia de la derivación y solicitando la suspensión de la ejecución sin garantía o con garantía reducida.'
+    d: 'Presentamos el recurso ante la AEAT o el TEAR en plazo, argumentando la improcedencia de la derivación y solicitando la suspensión de la ejecución sin garantía o con garantía según proceda.'
   },
   {
     n: '03',
     t: 'Suspensión de la ejecución',
-    d: 'Paralizamos el cobro coactivo mientras se resuelve la impugnación, evitando embargos sobre el patrimonio personal del derivado.'
+    d: 'Paralizamos el cobro mientras se resuelve el recurso, evitando embargos sobre el patrimonio personal del derivado.'
   },
   {
     n: '04',
