@@ -238,7 +238,7 @@ export default function DerivacionesPage() {
           <h2 className={styles.sectionTitleLight}>Jurisprudencia que<br /><em>protege al responsable</em></h2>
           <div className={styles.jurisGrid}>
             <div className={styles.jurisCard}>
-              <div className={styles.jurisCita}>STS 5016/2024</div>
+              <div className={styles.jurisCita}>STS 594/2025</div>
               <p>El TS exige que la AEAT acredite la conducta activa y culpable del administrador. No basta con la condición formal de administrador para derivar la responsabilidad subsidiaria.</p>
             </div>
             <div className={styles.jurisCard}>
