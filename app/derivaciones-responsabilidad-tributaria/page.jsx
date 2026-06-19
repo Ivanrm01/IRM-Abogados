@@ -242,11 +242,11 @@ export default function DerivacionesPage() {
               <p>El TS exige que la AEAT acredite la conducta activa y culpable del administrador. No basta con la condición formal de administrador para derivar la responsabilidad subsidiaria.</p>
             </div>
             <div className={styles.jurisCard}>
-              <div className={styles.jurisCita}>STS 1093/2023</div>
+              <div className={styles.jurisCita}>STS 217/2023</div>
               <p>La declaración de responsabilidad solidaria del art. 42.2.a) LGT tiene carácter tendencial: requiere que el acto sea idóneo para impedir la actuación recaudatoria.</p>
             </div>
             <div className={styles.jurisCard}>
-              <div className={styles.jurisCita}>STS 2876/2022</div>
+              <div className={styles.jurisCita}>STS 1217/2023</div>
               <p>El procedimiento de derivación debe respetar todas las garantías del procedimiento sancionador cuando la responsabilidad derive de infracciones tributarias.</p>
             </div>
           </div>
