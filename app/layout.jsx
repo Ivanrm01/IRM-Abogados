@@ -18,6 +18,7 @@ export const metadata = {
     card: 'summary_large_image',
     images: ['/og-default.jpg'],
   },
+}
 
 export default function RootLayout({ children }) {
   return (
