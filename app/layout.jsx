@@ -7,8 +7,17 @@ export const metadata = {
   title: { default: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón', template: '%s | IRM Abogados' },
   description: 'Especialistas en derecho tributario. Asesoramiento para empresas y particulares en Madrid y Castellón. Primera consulta gratuita.',
   keywords: ['abogados fiscalistas', 'derecho tributario', 'asesoramiento fiscal Madrid', 'aplazar deuda Hacienda'],
-  openGraph: { type: 'website', locale: 'es_ES', siteName: 'IRM Abogados' },
-}
+  metadataBase: new URL('https://www.irmabogadosasesores.com'),
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-default.jpg'],
+  },
 
 export default function RootLayout({ children }) {
   return (
