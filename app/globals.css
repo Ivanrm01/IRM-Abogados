@@ -84,4 +84,6 @@ p { font-weight: 300; line-height: 1.85; }
 /* RESPONSIVE */
 @media (max-width: 960px) {
   .section { padding: 64px 24px; }
+  .eyebrow { display: block; }
+  .eyebrow::after { display: inline-block; vertical-align: middle; margin-left: 12px; }
 }
