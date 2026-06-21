@@ -91,4 +91,6 @@
   .articulos, .argumentos, .proceso, .juris { padding: 64px 24px; }
   .eyebrow { display: block; }
   .eyebrow::after { display: inline-block; vertical-align: middle; margin-left: 12px; }
+  .eyebrowDark { display: block; }
+  .eyebrowDark::after { display: inline-block; vertical-align: middle; margin-left: 12px; }
 }
