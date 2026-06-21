@@ -13,6 +13,10 @@ const nextConfig = {
       { source: '/abogados-fiscalistas-en-madrid-castellón', destination: '/sobre-nosotros', permanent: true },
       { source: '/abogados-fiscalistas-en-madrid-castell%C3%B3n', destination: '/sobre-nosotros', permanent: true },
       { source: '/garantias-inmobiliarias-aplazar-fraccionar-suspender-deuda-aeat', destination: '/garantias-deuda-aeat', permanent: true },
+      { source: '/abogados-tributarios', destination: '/fiscal', permanent: true },
+      { source: '/despacho-de-abogados-en-castellón', destination: '/sobre-nosotros', permanent: true },
+      { source: '/despacho-de-abogados-en-castell%C3%B3n', destination: '/sobre-nosotros', permanent: true },
+
 
       // Política de privacidad / cookies (con y sin tilde codificada)
       { source: '/pol%C3%ADtica-de-privacidad', destination: '/politica-de-privacidad', permanent: true },
