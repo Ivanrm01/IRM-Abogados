@@ -89,4 +89,6 @@
   .cta { flex-direction: column; padding: 64px 24px; }
   .ctaBtns { flex-direction: column; width: 100%; }
   .articulos, .argumentos, .proceso, .juris { padding: 64px 24px; }
+  .eyebrow { display: block; }
+  .eyebrow::after { display: inline-block; vertical-align: middle; margin-left: 12px; }
 }
