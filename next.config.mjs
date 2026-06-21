@@ -30,6 +30,8 @@ const nextConfig = {
       { source: '/blog/tsjcv-anulaci%C3%B3n-declaraci%C3%B3n-responsabilidad-subsidiaria-43-1-b-lgt', destination: '/blog/tsjcv-anulacion-declaracion-responsabilidad-subsidiaria-43-1-b-lgt', permanent: true },
       { source: '/blog/cambio-residencia-criptomonedas-exit-tax-art%C3%ADculo-95-bis-lirpf', destination: '/blog/cambio-residencia-criptomonedas-exit-tax-articulo-95-bis-lirpf', permanent: true },
       { source: '/blog/tear-comunidad-valenciana-anulaci%C3%B3n-declaraci%C3%B3n-responsabilidad-43-1-a-lgt', destination: '/blog/tear-comunidad-valenciana-anulacion-declaracion-responsabilidad-43-1-a-lgt', permanent: true },
+      { source: '/blog/categories/:path*', destination: '/blog', permanent: true },
+
 
       // ===== Artículos del blog antiguos /post/... → /blog/... (slugs sin tilde) =====
       { source: '/post/:slug*', destination: '/blog/:slug*', permanent: true },
