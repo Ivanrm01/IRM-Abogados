@@ -10,6 +10,8 @@ const nextConfig = {
       // ===== Páginas estáticas antiguas (Wix) → nuevas =====
       { source: '/abogados-tributarios-fiscales', destination: '/fiscal', permanent: true },
       { source: '/abogados-fiscalistas-madrid-castellon', destination: '/sobre-nosotros', permanent: true },
+      { source: '/abogados-fiscalistas-en-madrid-castellón', destination: '/sobre-nosotros', permanent: true },
+      { source: '/abogados-fiscalistas-en-madrid-castell%C3%B3n', destination: '/sobre-nosotros', permanent: true },
       { source: '/garantias-inmobiliarias-aplazar-fraccionar-suspender-deuda-aeat', destination: '/garantias-deuda-aeat', permanent: true },
 
       // Política de privacidad / cookies (con y sin tilde codificada)
