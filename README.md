@@ -1,6 +1,6 @@
-# IRM Tax & Legal — Web Oficial
+# IRM Abogados — Web Oficial
 
-Web completa de IRM Tax & Legal construida con Next.js 14, lista para desplegar en Vercel.
+Web completa de IRM Abogados construida con Next.js 14, lista para desplegar en Vercel.
 
 ## 🚀 Instalación local
 
@@ -76,7 +76,7 @@ Funcionalidades:
 ```bash
 git init
 git add .
-git commit -m "IRM Tax & Legal — primera versión"
+git commit -m "IRM Abogados — primera versión"
 git remote add origin https://github.com/TU_USUARIO/irm-web.git
 git push -u origin main
 ```
@@ -133,4 +133,4 @@ Para páginas de servicio adicionales, simplemente crea una carpeta en `app/` co
 
 ---
 
-Desarrollado para IRM Tax & Legal · Madrid & Castellón
+Desarrollado para IRM Abogados · Madrid & Castellón
