@@ -32,7 +32,6 @@ const nextConfig = {
       { source: '/blog/tear-comunidad-valenciana-anulaci%C3%B3n-declaraci%C3%B3n-responsabilidad-43-1-a-lgt', destination: '/blog/tear-comunidad-valenciana-anulacion-declaracion-responsabilidad-43-1-a-lgt', permanent: true },
       { source: '/blog/categories/:path*', destination: '/blog', permanent: true },
 
-
       // ===== Artículos del blog antiguos /post/... → /blog/... (slugs sin tilde) =====
       { source: '/post/:slug*', destination: '/blog/:slug*', permanent: true },
     ]
