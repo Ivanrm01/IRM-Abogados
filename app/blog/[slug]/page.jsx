@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
     description: post.seo?.metaDescription || post.excerpt,
     keywords: post.seo?.keywords,
     robots: post.seo?.robots || 'index, follow',
-    alternates: post.seo?.canonical ? { canonical: post.seo.canonical } : {},
+    alternates: { canonical: post.seo?.canonical || `/blog/${post.slug}` },
     openGraph: {
       title: post.seo?.metaTitle || post.title,
       description: post.seo?.metaDescription || post.excerpt,
