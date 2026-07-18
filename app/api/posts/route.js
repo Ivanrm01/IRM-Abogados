@@ -21,7 +21,7 @@ export async function POST(req) {
   if (!body.title?.trim()) return NextResponse.json({ error: 'Título obligatorio' }, { status: 400 })
 
   // Slug: use provided or generate from title
-  let slug = body.slug?.trim() || generateSlug(body.title)
+  let slug = generateSlug(body.slug?.trim() || body.title)
 
   // Check uniqueness
   const { data: existing } = await sb().from('posts').select('id').eq('slug', slug).single()
