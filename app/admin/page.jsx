@@ -82,7 +82,7 @@ export default function AdminPage(){
     F('excerpt',v)
     if(!post.seo.metaDescription) S('metaDescription',v)
   }
-  const onSlug=v=>{F('slug',v);setSlugManual(true)}
+  const onSlug=v=>{F('slug',slugify(v));setSlugManual(true)}
 
   const uploadImg=async(file)=>{
     if(!file)return
