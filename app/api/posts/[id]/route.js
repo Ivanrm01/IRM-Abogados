@@ -17,6 +17,8 @@ export async function PUT(req, { params }) {
   if (auth !== process.env.ADMIN_KEY) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json()
+  // Slug siempre saneado (sin tildes ni caracteres raros) al editar
+  if (body.slug) body.slug = generateSlug(body.slug)
 
   // Merge SEO fields carefully
   const { data: current } = await sb().from('posts').select('seo').eq('id', params.id).single()
