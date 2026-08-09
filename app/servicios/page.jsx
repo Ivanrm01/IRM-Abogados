@@ -5,6 +5,7 @@ import styles from './servicios.module.css'
 export const metadata = {
   title: 'Servicios | Asesoramiento Fiscal y Tributario',
   description: 'Servicios de derecho fiscal y tributario para empresas y particulares. Especialistas en IRPF, Sociedades, IVA, start-ups y garantías ante la AEAT.',
+  alternates: { canonical: '/fiscal' },
 }
 
 const servicios = [
