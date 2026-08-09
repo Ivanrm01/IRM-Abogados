@@ -2,6 +2,7 @@ import './globals.css'
 import Script from 'next/script'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import { JsonLdOrganizacion } from '@/components/JsonLd'
 
 export const metadata = {
   title: { default: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón', template: '%s | IRM Abogados' },
