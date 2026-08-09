@@ -5,6 +5,7 @@ import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-re
 export const metadata = {
   title: 'Asesoramiento Fiscal para Empresas y Particulares',
   description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Primera consulta gratuita.',
+  alternates: { canonical: '/fiscal' },
 }
 
 const serviciosFiscales = [
