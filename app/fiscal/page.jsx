@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './fiscal.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
+import { JsonLdFaq } from '@/components/JsonLd'
 
 export const metadata = {
   title: 'Asesoramiento Fiscal para Empresas y Particulares',
@@ -29,6 +30,7 @@ const faqs = [
 export default function FiscalPage() {
   return (
     <>
+      <JsonLdFaq faqs={faqs} />
       <section className={styles.hero}>
         <div className={styles.heroLine}></div>
         <div className={styles.heroBg}>TAX</div>
