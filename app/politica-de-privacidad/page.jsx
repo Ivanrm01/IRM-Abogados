@@ -3,6 +3,7 @@ import styles from './legal.module.css'
 export const metadata = {
   title: 'Política de Privacidad',
   description: 'Política de privacidad de IRM Abogados. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD.',
+  alternates: { canonical: '/politica-de-privacidad' },
 }
 
 export default function PrivacidadPage() {
