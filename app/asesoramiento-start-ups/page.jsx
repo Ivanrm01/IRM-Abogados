@@ -3,7 +3,7 @@ import styles from './startups.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
 
 export const metadata = {
-  title: 'Asesoramiento Legal y Fiscal para Start-Ups | IRM Abogados',
+  title: 'Asesoramiento Legal y Fiscal para Start-Ups',
   description: 'Asesoramiento integral para start-ups desde su constitución hasta la ronda de inversión. Pactos de socios, ESOPs, fiscalidad de la inversión y due diligence fiscal.',
 }
 
