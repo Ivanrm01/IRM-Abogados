@@ -3,7 +3,7 @@ import { getPosts } from '@/lib/posts'
 import styles from './blog.module.css'
 
 export const metadata = {
-  title: 'Blog Fiscal | IRM Abogados',
+  title: 'Blog Fiscal',
   description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
 }
 
