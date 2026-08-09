@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './garantias.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
+import { JsonLdFaq } from '@/components/JsonLd'
 
 export const metadata = {
   title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda',
