@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './page.module.css'
 
 export const metadata = {
-  title: 'Sobre Nosotros | Fiscalistas Madrid y Castellón',
+  title: 'Abogados Fiscalistas en Madrid y Castellón',
   description: 'Conoce al equipo de IRM Abogados, despacho especializado en derecho tributario. Compromiso, excelencia y tarifas transparentes.',
   alternates: { canonical: '/sobre-nosotros' },
 }
