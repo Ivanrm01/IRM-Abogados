@@ -4,7 +4,7 @@ import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-re
 import { JsonLdFaq } from '@/components/JsonLd'
 
 export const metadata = {
-  title: 'Asesoramiento Fiscal para Empresas y Particulares',
+  title: 'Asesoramiento Fiscal Empresas y Particulares',
   description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Primera consulta gratuita.',
   alternates: { canonical: '/fiscal' },
 }
