@@ -50,6 +50,7 @@ export default function GarantiasPage() {
   return (
     <>
       {/* HERO */}
+      <JsonLdFaq faqs={faqs} />
       <section className={styles.hero}>
         <div className={styles.heroLine}></div>
         <div className={styles.heroBg}>AEAT</div>
