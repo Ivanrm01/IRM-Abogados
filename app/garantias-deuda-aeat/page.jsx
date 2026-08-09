@@ -5,6 +5,7 @@ import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-re
 export const metadata = {
   title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda',
   description: 'Especialistas en aplazamiento, fraccionamiento y suspensión de deudas tributarias ante la AEAT. Protege tu patrimonio y evita embargos. Primera consulta gratuita.',
+  alternates: { canonical: '/garantias-deuda-aeat' },
 }
 
 const herramientas = [
