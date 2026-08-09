@@ -3,7 +3,7 @@ import styles from './fiscal.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
 
 export const metadata = {
-  title: 'Asesoramiento Fiscal para Empresas y Particulares | IRM Abogados',
+  title: 'Asesoramiento Fiscal para Empresas y Particulares',
   description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Primera consulta gratuita.',
 }
 
