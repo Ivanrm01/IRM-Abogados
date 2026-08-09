@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './startups.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
+import { JsonLdFaq } from '@/components/JsonLd'
 
 export const metadata = {
   title: 'Asesoramiento Legal y Fiscal para Start-Ups',
