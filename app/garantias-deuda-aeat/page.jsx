@@ -3,7 +3,7 @@ import styles from './garantias.module.css'
 import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-react'
 
 export const metadata = {
-  title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda | IRM Abogados',
+  title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda',
   description: 'Especialistas en aplazamiento, fraccionamiento y suspensión de deudas tributarias ante la AEAT. Protege tu patrimonio y evita embargos. Primera consulta gratuita.',
 }
 
