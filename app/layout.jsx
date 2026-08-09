@@ -13,7 +13,6 @@ export const metadata = {
   type: 'website',
   locale: 'es_ES',
   siteName: 'IRM Abogados',
-  url: 'https://www.irmabogadosasesores.com',
   title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
   description: 'Especialistas en derecho tributario. Planificación fiscal, defensa ante la AEAT y asesoramiento a Start-Ups.',
   images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
