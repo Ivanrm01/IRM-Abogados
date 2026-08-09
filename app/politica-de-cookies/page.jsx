@@ -1,7 +1,7 @@
 import styles from './legal.module.css'
 
 export const metadata = {
-  title: 'Política de Cookies | IRM Abogados',
+  title: 'Política de Cookies',
   description: 'Política de cookies de IRM Abogados. Información sobre los tipos de cookies utilizadas y cómo gestionarlas.',
 }
 
