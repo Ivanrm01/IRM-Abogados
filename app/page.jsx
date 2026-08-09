@@ -5,6 +5,7 @@ import { Gavel, Rocket, Shield } from 'lucide-react'
 export const metadata = {
   title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
   description: 'Especialistas en derecho fiscal y tributario. Asesoramiento para empresas y particulares. Primera consulta gratuita.',
+  alternates: { canonical: '/' },
 }
 
 export default function HomePage() {
