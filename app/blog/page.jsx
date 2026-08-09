@@ -5,6 +5,7 @@ import styles from './blog.module.css'
 export const metadata = {
   title: 'Blog Fiscal',
   description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
+  alternates: { canonical: '/blog' },
 }
 
 export const revalidate = 60
