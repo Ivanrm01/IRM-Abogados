@@ -36,6 +36,7 @@ const faqs = [
 export default function StartupsPage() {
   return (
     <>
+      <JsonLdFaq faqs={faqs} />
       <section className={styles.hero}>
         <div className={styles.heroLine}></div>
         <div className={styles.heroBg}>VC</div>
