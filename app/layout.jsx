@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
+        <JsonLdOrganizacion />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BQ057SC5B6"
           strategy="afterInteractive"
