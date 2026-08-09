@@ -1,7 +1,7 @@
 import styles from './legal.module.css'
 
 export const metadata = {
-  title: 'Aviso Legal | IRM Abogados',
+  title: 'Aviso Legal',
   description: 'Aviso legal de IRM Abogados. Información sobre el titular del sitio web, condiciones de uso y propiedad intelectual.',
 }
 
