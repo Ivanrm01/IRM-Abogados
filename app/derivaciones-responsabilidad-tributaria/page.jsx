@@ -5,6 +5,7 @@ export const metadata = {
   title: 'Derivación de Responsabilidad Tributaria | Art. 42 y 43 LGT',
   description: 'Especialistas en impugnar y paralizar derivaciones de responsabilidad tributaria solidaria (art. 42 LGT) y subsidiaria (art. 43 LGT). Defendemos a administradores y terceros ante la AEAT.',
   keywords: 'derivación responsabilidad tributaria, artículo 42 LGT, artículo 43 LGT, responsabilidad subsidiaria administradores, responsabilidad solidaria, AEAT responsabilidad tributaria',
+  alternates: { canonical: '/derivaciones-responsabilidad-tributaria' },
 }
 
 const riesgosArt42 = [
