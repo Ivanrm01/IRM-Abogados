@@ -4,9 +4,18 @@ import { Shield, Clock, DollarSign, Users, Phone, Mail, MapPin } from 'lucide-re
 import { JsonLdFaq } from '@/components/JsonLd'
 
 export const metadata = {
-  title: 'Aplazar, Fraccionar y Suspender Deuda con Hacienda',
+  title: 'Aplazar, Fraccionar y Suspender Deuda AEAT',
   description: 'Especialistas en aplazamiento, fraccionamiento y suspensión de deudas tributarias ante la AEAT. Protege tu patrimonio y evita embargos. Primera consulta gratuita.',
   alternates: { canonical: '/garantias-deuda-aeat' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/garantias-deuda-aeat',
+    title: 'Aplazar, fraccionar o suspender una deuda con Hacienda',
+    description: 'No todas las deudas se resuelven pagando de inmediato. Analizamos la fase del expediente y la vía aplicable.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 const herramientas = [
