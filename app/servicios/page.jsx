@@ -6,6 +6,15 @@ export const metadata = {
   title: 'Servicios | Asesoramiento Fiscal y Tributario',
   description: 'Servicios de derecho fiscal y tributario para empresas y particulares. Especialistas en IRPF, Sociedades, IVA, start-ups y garantías ante la AEAT.',
   alternates: { canonical: '/servicios' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/servicios',
+    title: 'Servicios de asesoramiento fiscal y tributario',
+    description: 'Fiscal, Start-Ups, garantías ante la AEAT y derivaciones de responsabilidad. Madrid, Castellón y toda España.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 const servicios = [
