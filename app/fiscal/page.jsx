@@ -7,6 +7,15 @@ export const metadata = {
   title: 'Asesoramiento Fiscal Empresas y Particulares',
   description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Primera consulta gratuita.',
   alternates: { canonical: '/fiscal' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/fiscal',
+    title: 'Asesoramiento fiscal para empresas y particulares',
+    description: 'IRPF, Sociedades, IVA, Patrimonio y defensa ante la AEAT. Planificamos antes de que exista el conflicto.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 const serviciosFiscales = [
