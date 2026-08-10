@@ -2,10 +2,19 @@ import Link from 'next/link'
 import styles from './landing.module.css'
 
 export const metadata = {
-  title: 'Derivación de Responsabilidad | Art. 42 y 43 LGT',
+  title: 'Derivación de Responsabilidad Art. 42 y 43 LGT',
   description: 'Especialistas en impugnar y paralizar derivaciones de responsabilidad tributaria solidaria (art. 42 LGT) y subsidiaria (art. 43 LGT). Defendemos a administradores y terceros ante la AEAT.',
   keywords: 'derivación responsabilidad tributaria, artículo 42 LGT, artículo 43 LGT, responsabilidad subsidiaria administradores, responsabilidad solidaria, AEAT responsabilidad tributaria',
   alternates: { canonical: '/derivaciones-responsabilidad-tributaria' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/derivaciones-responsabilidad-tributaria',
+    title: 'Derivación de responsabilidad tributaria: art. 42 y 43 LGT',
+    description: 'La condición formal de administrador no sustituye el análisis de los requisitos concretos de la derivación.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 const riesgosArt42 = [
