@@ -7,6 +7,15 @@ export const metadata = {
   title: 'Asesoramiento Legal y Fiscal para Start-Ups',
   description: 'Asesoramiento integral para start-ups desde su constitución hasta la ronda de inversión. Pactos de socios, ESOPs, fiscalidad de la inversión y due diligence fiscal.',
   alternates: { canonical: '/asesoramiento-start-ups' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/asesoramiento-start-ups',
+    title: 'Asesoramiento legal y fiscal para Start-Ups',
+    description: 'Construimos hoy la estructura que inversores y Administración revisarán mañana. Pacto de socios, ESOPs y due diligence.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 const fases = [
