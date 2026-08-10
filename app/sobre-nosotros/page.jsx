@@ -5,6 +5,15 @@ export const metadata = {
   title: 'Abogados Fiscalistas en Madrid y Castellón',
   description: 'Conoce al equipo de IRM Abogados, despacho especializado en derecho tributario. Compromiso, excelencia y tarifas transparentes.',
   alternates: { canonical: '/sobre-nosotros' },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'IRM Abogados',
+    url: '/sobre-nosotros',
+    title: 'Abogados fiscalistas en Madrid y Castellón',
+    description: 'Despacho especializado en derecho tributario. Trato directo con el abogado responsable y honorarios transparentes.',
+    images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+  },
 }
 
 export default function SobreNosotrosPage() {
