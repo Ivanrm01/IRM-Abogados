@@ -103,6 +103,7 @@ export default async function PostPage({ params }) {
             <div className={styles.sideTitle}>Nuestros servicios</div>
             <ul className={styles.sideLinks}>
               <li><Link href="/fiscal">Asesoramiento Fiscal →</Link></li>
+              <li><Link href="/derivaciones-responsabilidad-tributaria">Derivación de Responsabilidad →</Link></li>
               <li><Link href="/garantias-deuda-aeat">Garantías AEAT →</Link></li>
               <li><Link href="/asesoramiento-start-ups">Start-Ups →</Link></li>
             </ul>
