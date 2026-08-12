@@ -9,6 +9,8 @@ const links = [
   { href: '/', label: 'Inicio' },
   { href: '/sobre-nosotros', label: 'Sobre nosotros' },
   { href: '/servicios', label: 'Servicios' },
+  { href: '/fiscal', label: 'Fiscal' },
+  { href: '/derivaciones-responsabilidad-tributaria', label: 'Derivaciones' },
   { href: '/garantias-deuda-aeat', label: 'Garantías' },
   { href: '/blog', label: 'Blog' },
   { href: '/contacto', label: 'Contacto' },
