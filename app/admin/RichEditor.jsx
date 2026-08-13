@@ -127,6 +127,8 @@ const MenuBar = ({ editor, adminKey }) => {
           <B action={() => editor.chain().focus().setTextAlign('left').run()} title="Alinear izquierda" label="⬅" active={editor.isActive({ textAlign: 'left' })} />
           <B action={() => editor.chain().focus().setTextAlign('center').run()} title="Centrar" label="☰" active={editor.isActive({ textAlign: 'center' })} />
           <B action={() => editor.chain().focus().setTextAlign('right').run()} title="Alinear derecha" label="➡" active={editor.isActive({ textAlign: 'right' })} />
+          <B action={() => editor.chain().focus().indentLess().run()} title="Reducir sangría" label="⇤" active={false} />
+          <B action={() => editor.chain().focus().indentMore().run()} title="Aumentar sangría" label="⇥" active={false} />
         </div>
         <div className={styles.menuDivider}></div>
         <div className={styles.menuGroup}>
