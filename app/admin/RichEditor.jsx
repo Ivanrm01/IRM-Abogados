@@ -17,7 +17,7 @@ import { FontSize } from './extensions/FontSize'
 import { LineHeight } from './extensions/LineHeight'
 import styles from './editor.module.css'
 import './editor-global.css'
-import { Indet } from './extensions.Indent'
+import { Indent } from './extensions.Indent'
 
 const MenuBar = ({ editor, adminKey }) => {
   const fileRef = useRef()
