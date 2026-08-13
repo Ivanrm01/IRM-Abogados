@@ -192,6 +192,7 @@ export default function RichEditor({ content, onChange, adminKey }) {
       TextStyle,
       FontSize,
       LineHeight,
+      Indent,
       Highlight.configure({ multicolor: false }),
       Table.configure({ resizable: true }),
       TableRow,
