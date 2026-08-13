@@ -188,7 +188,7 @@ export default function RichEditor({ content, onChange, adminKey }) {
     extensions: [
       StarterKit.configure({ heading: { levels: [2, 3] } }),
       TipTapImage.configure({ inline: false, allowBase64: false }),
-      Link.configure({ openOnClick: false, HTMLAttributes: { rel: 'noopener noreferrer' } }),
+      Link.configure({ openOnClick: false, HTMLAttributes: { target: null, rel: 'noopener noreferrer' } }),
       TextAlign.configure({ types: ['heading', 'paragraph'] }),
       Underline,
       TextStyle,
