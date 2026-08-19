@@ -198,9 +198,6 @@ export default function Diagnostico() {
             <button type="button" className="btn-navy" onClick={() => calcular()}>
               Ver mis desviaciones
             </button>
-            <button type="button" className={styles.linkBtn} onClick={ejemplo}>
-              Rellenar con un caso de ejemplo
-            </button>
           </div>
           {error && <p className={styles.error}>{error}</p>}
         </div>
