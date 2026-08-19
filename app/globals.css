@@ -19,6 +19,7 @@
   --green-pale: #E8F5EE;
   --red: #C0392B;
   --red-pale: #FDECEA;
+  --gutter: clamp(24px, 6vw, 180px);
 }
 
 html { scroll-behavior: smooth; }
