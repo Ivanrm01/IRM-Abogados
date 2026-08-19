@@ -10,6 +10,7 @@ const FECHAS = {
   '/asesoramiento-start-ups': '2026-08-09',
   '/garantias-deuda-aeat': '2026-08-09',
   '/derivaciones-responsabilidad-tributaria': '2026-08-09',
+  '/diagnostico-fiscal': '2026-08-19',
   '/contacto': '2026-08-09',
   '/blog': '2026-08-09',
   '/aviso-legal': '2026-08-09',
