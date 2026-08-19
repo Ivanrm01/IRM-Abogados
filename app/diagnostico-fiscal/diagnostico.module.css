@@ -16,7 +16,7 @@
   align-items: center; position: relative; overflow: hidden;
 }
 .heroLine {
-  position: absolute; top: 0; left: 60px; width: 1px; height: 100%;
+  position: absolute; top: 0; left: var(--gutter); width: 1px; height: 100%;
   background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent);
   opacity: .25;
 }

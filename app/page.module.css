@@ -4,7 +4,7 @@
   align-items: center; padding: 120px var(--gutter) 80px;
   position: relative; overflow: hidden;
 }
-.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.heroLine { position: absolute; top: 0; left: var(--gutter); width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
 .heroBg { position: absolute; right: -100px; top: 50%; transform: translateY(-50%); font-family: 'Cormorant Garamond', serif; font-size: 320px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; user-select: none; }
 .heroLeft { position: relative; z-index: 2; }
 .heroEyebrow { font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }

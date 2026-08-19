@@ -1,5 +1,5 @@
 .hero { background: var(--navy); padding: 160px var(--gutter) 100px; position: relative; overflow: hidden; }
-.heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
+.heroLine { position: absolute; top: 0; left: var(--gutter); width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
 .heroBg { position: absolute; bottom: -40px; right: -20px; font-family: 'Cormorant Garamond', serif; font-size: 240px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; user-select: none; }
 .breadcrumb { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 24px; }
 .breadcrumb span { color: var(--gold); }
