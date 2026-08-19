@@ -35,7 +35,7 @@
 .porqueLeft { padding: 96px var(--gutter); display: flex; flex-direction: column; justify-content: center; }
 .porqueItem { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,.08); align-items: flex-start; }
 .porqueItem:first-of-type { border-top: 1px solid rgba(255,255,255,.08); }
-.porqueBox { width: 40px; height: 40px; border: 1px solid rgba(184,151,90,.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); font-size: 16px; }
+.porqueBox { width: 40px; height: 40px; border: 1px solid rgba(184,151,90,.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 300; line-height: 1; }
 .porqueTit { font-size: 14px; font-weight: 500; color: var(--white); margin-bottom: 4px; }
 .porqueDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.45); line-height: 1.65; }
 .porqueRight { background: var(--navy-mid); display: grid; grid-template-columns: 1fr 1fr; gap: 2px; align-content: center; }
