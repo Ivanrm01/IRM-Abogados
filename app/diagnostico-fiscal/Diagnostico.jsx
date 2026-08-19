@@ -362,7 +362,7 @@ export default function Diagnostico() {
                       <span>·</span>
                       <a href="tel:+34614149465">614 149 465</a>
                       <span>·</span>
-                      <Link href="/contacto">Consulta gratuita</Link>
+                      <Link href="/contacto">Solicitar Consulta</Link>
                     </div>
                     <p className={styles.legal}>
                       Responsable: IRM Abogados. Finalidad: atender tu solicitud de auditoría.
