@@ -331,7 +331,7 @@ export default function Diagnostico() {
                   <>
                     <h3 className={styles.formLeadTitle}>Solicitar la auditoría</h3>
                     <p className={styles.formLeadSub}>
-                      Enviamos con la solicitud el resultado de tu diagnóstico. Respondemos en menos de 24 horas.
+                      Te escribimos en menos de 24 horas con los siguientes pasos.
                     </p>
                     <div className={styles.campoLead}>
                       <label htmlFor="lead-nombre">Nombre y empresa</label>
