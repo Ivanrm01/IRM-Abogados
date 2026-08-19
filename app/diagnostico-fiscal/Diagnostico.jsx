@@ -101,7 +101,7 @@ export default function Diagnostico() {
           nombre: lead.nombre,
           email: lead.email,
           telefono: lead.telefono,
-          servicio: 'Auditoría fiscal — 500 € + IVA',
+          servicio: 'Auditoría fiscal — 620 € + IVA',
           como: 'Diagnóstico de desviación sectorial',
           mensaje:
             `Solicitud de auditoría fiscal desde el diagnóstico sectorial.\n\n` +
@@ -304,7 +304,7 @@ export default function Diagnostico() {
                   desviación explicada y documentada antes de que te la pregunten.
                 </p>
                 <div className={styles.precio}>
-                  <span className={styles.precioN}>500 €</span>
+                  <span className={styles.precioN}>620 €</span>
                   <span className={styles.precioD}>
                     <b>+ IVA · Precio cerrado</b>
                     Sin escalados por horas ni suplementos. El importe que ves es el que se factura.
