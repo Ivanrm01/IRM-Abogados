@@ -20,7 +20,6 @@ const INCLUYE = [
   { i:'03', t:'Revisión de operaciones vinculadas, retribución de socios y gastos de deducibilidad discutida.' },
   { i:'04', t:'Informe escrito con cada riesgo valorado, la documentación que lo sostiene y la que falta por reunir.' },
   { i:'05', t:'Si aparecen cuotas pagadas de más, cuantificamos lo recuperable vía rectificativa y el plazo que queda.' },
-  { i:'06', t:'Reunión de una hora con el abogado que ha hecho la revisión. Sin intermediarios.' },
 ]
 
 export default function Diagnostico() {
