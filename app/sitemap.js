@@ -30,6 +30,7 @@ export default async function sitemap() {
     '/asesoramiento-start-ups',
     '/garantias-deuda-aeat',
     '/derivaciones-responsabilidad-tributaria',
+    '/diagnostico-fiscal',
     '/contacto',
     '/blog',
     '/aviso-legal',
