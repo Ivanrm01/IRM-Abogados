@@ -1,6 +1,6 @@
 .hero {
   background: var(--navy);
-  padding: 160px 60px 80px;
+  padding: 160px var(--gutter) 80px;
   position: relative;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@
 /* CONTENT LAYOUT */
 .content {
   background: var(--white);
-  padding: 80px 60px;
+  padding: 80px var(--gutter);
   display: grid;
   grid-template-columns: 1fr 280px;
   gap: 64px;

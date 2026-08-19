@@ -1,4 +1,4 @@
-.footer { background: var(--navy); padding: 72px 60px 0; }
+.footer { background: var(--navy); padding: 72px var(--gutter) 0; }
 .topline { height: 3px; background: linear-gradient(to right, var(--gold), transparent); margin: 0 -60px 0; }
 .cta {
   display: flex; align-items: center; justify-content: space-between; gap: 40px;

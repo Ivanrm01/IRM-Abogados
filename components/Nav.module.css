@@ -1,12 +1,12 @@
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 10000;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 20px 60px;
+  padding: 20px var(--gutter);
   background: rgba(13,27,42,.97);
   backdrop-filter: blur(8px);
   transition: padding .3s;
 }
-.scrolled { padding: 14px 60px; }
+.scrolled { padding: 14px var(--gutter); }
 .logo {
   display: flex;
   align-items: center;

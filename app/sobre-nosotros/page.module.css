@@ -1,4 +1,4 @@
-.hero { background: var(--navy); padding: 160px 60px 100px; position: relative; overflow: hidden; }
+.hero { background: var(--navy); padding: 160px var(--gutter) 100px; position: relative; overflow: hidden; }
 .heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
 .heroBg { position: absolute; bottom: -40px; right: -20px; font-family: 'Cormorant Garamond', serif; font-size: 260px; font-weight: 300; color: rgba(184,151,90,.04); pointer-events: none; line-height: 1; }
 .breadcrumb { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 24px; }
@@ -20,7 +20,7 @@
 .pilarCard h3 { font-size: 26px; color: var(--text); margin-bottom: 14px; }
 .pilarCard p { font-size: 14px; color: var(--mid); line-height: 1.8; }
 
-.diferencial { background: var(--cream); padding: 96px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.diferencial { background: var(--cream); padding: 96px var(--gutter); display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .difList { margin-top: 40px; }
 .difItem { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--cream-dark); align-items: flex-start; }
 .difItem:first-child { border-top: 1px solid var(--cream-dark); }
@@ -42,7 +42,7 @@
 .sedeAddr, .sedePhone, .sedeEmail { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.6; margin-bottom: 6px; display: block; text-decoration: none; transition: color .2s; }
 .sedeAddr:hover, .sedePhone:hover, .sedeEmail:hover { color: #B8975A; }
 
-.ctaSection { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.ctaSection { background: var(--gold); padding: 80px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
 .ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,4vw,48px); font-weight: 300; color: var(--navy); margin-bottom: 12px; line-height: 1.1; }
 .ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); }
 .ctaBtns { display: flex; gap: 16px; flex-shrink: 0; flex-wrap: wrap; }

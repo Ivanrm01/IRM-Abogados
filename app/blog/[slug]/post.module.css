@@ -1,4 +1,4 @@
-.hero { background:var(--navy); padding:160px 60px 60px; position:relative; overflow:hidden; }
+.hero { background:var(--navy); padding:160px var(--gutter) 60px; position:relative; overflow:hidden; }
 .heroLine { position:absolute; top:0; left:60px; width:1px; height:100%; background:linear-gradient(to bottom,transparent,var(--gold) 30%,var(--gold) 70%,transparent); opacity:.25; }
 .breadcrumb { font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:rgba(255,255,255,.35); margin-bottom:20px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
 .breadcrumb a { color:rgba(255,255,255,.35); text-decoration:none; transition:color .2s; }
@@ -12,7 +12,7 @@
 .featuredImg { width:100%; max-height:500px; overflow:hidden; background:var(--navy-mid); }
 .featuredImgEl { width:100%; height:100%; object-fit:cover; max-height:500px; display:block; }
 
-.contentSection { background:var(--white); padding:72px 60px; display:grid; grid-template-columns:1fr 300px; gap:56px; align-items:start; }
+.contentSection { background:var(--white); padding:72px var(--gutter); display:grid; grid-template-columns:1fr 300px; gap:56px; align-items:start; }
 .contentWrapper { }
 .content { font-size:16px; font-weight:300; color:var(--text); line-height:1.9; }
 .content h2 { font-family:'Cormorant Garamond',serif; font-size:30px; font-weight:400; color:var(--text); margin:36px 0 14px; padding-bottom:10px; border-bottom:2px solid var(--gold); }
@@ -51,7 +51,7 @@
 .tagCloud { display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
 .tag { font-size:10px; font-weight:500; letter-spacing:.1em; text-transform:uppercase; background:rgba(184,151,90,.12); color:var(--gold); padding:3px 10px; }
 
-.related { background:var(--cream); padding:72px 60px; }
+.related { background:var(--cream); padding:72px var(--gutter); }
 .relTitle { font-family:'Cormorant Garamond',serif; font-size:clamp(28px,3.5vw,42px); font-weight:300; color:var(--text); margin-bottom:36px; }
 .relTitle em { font-style:italic; color:var(--gold); }
 .relGrid { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; }

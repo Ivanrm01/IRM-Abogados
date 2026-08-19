@@ -11,7 +11,7 @@
 
 /* ---------------- HERO ---------------- */
 .hero {
-  background: var(--navy); padding: 160px 60px 100px;
+  background: var(--navy); padding: 160px var(--gutter) 100px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
   align-items: center; position: relative; overflow: hidden;
 }
@@ -50,7 +50,7 @@
 .heroCardDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.65; }
 
 /* ---------------- FORMULARIO ---------------- */
-.form { background: var(--cream); padding: 96px 60px; }
+.form { background: var(--cream); padding: 96px var(--gutter); }
 .ficha { background: var(--white); padding: 36px 40px 40px; }
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 32px; }
 .campo { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
@@ -90,7 +90,7 @@
 }
 
 /* ---------------- RESULTADO ---------------- */
-.resultado { background: var(--white); padding: 96px 60px; }
+.resultado { background: var(--white); padding: 96px var(--gutter); }
 .cifrasFila { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-bottom: 2px; }
 .cifra { background: var(--cream); padding: 32px 24px; text-align: center; }
 .cifraV {
@@ -157,7 +157,7 @@
 .interna p { font-size: 14px; font-weight: 300; color: var(--mid); line-height: 1.8; max-width: 72ch; }
 
 /* ---------------- OFERTA ---------------- */
-.oferta { background: var(--navy); padding: 96px 60px; }
+.oferta { background: var(--navy); padding: 96px var(--gutter); }
 .ofertaGrid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 72px; align-items: start; }
 .ofertaTitle {
   font-family: 'Cormorant Garamond', serif; font-size: clamp(30px, 3.6vw, 46px);
@@ -206,7 +206,7 @@
 .gracias p { font-size: 14px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.8; }
 
 /* ---------------- METODOLOGÍA ---------------- */
-.metodo { background: var(--cream); padding: 80px 60px; }
+.metodo { background: var(--cream); padding: 80px var(--gutter); }
 .metodoGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
 .metodoGrid > div { background: var(--white); padding: 36px; border-top: 3px solid transparent; transition: border-color .3s; }
 .metodoGrid > div:hover { border-top-color: var(--gold); }

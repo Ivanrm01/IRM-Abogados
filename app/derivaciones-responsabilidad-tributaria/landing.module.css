@@ -1,5 +1,5 @@
 /* HERO */
-.hero { background: var(--navy); padding: 160px 60px 100px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; overflow: hidden; }
+.hero { background: var(--navy); padding: 160px var(--gutter) 100px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; overflow: hidden; }
 .heroLine { position: absolute; top: 0; left: 60px; width: 1px; height: 100%; background: linear-gradient(to bottom, transparent, var(--gold) 30%, var(--gold) 70%, transparent); opacity: .25; }
 .eyebrow { font-size: 10px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
 .eyebrow::after { content: ''; display: block; width: 40px; height: 1px; background: var(--gold); }
@@ -21,7 +21,7 @@
 .heroCardDesc { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.55); line-height: 1.65; }
 
 /* QUÉ ES */
-.queEs { background: var(--cream); padding: 96px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.queEs { background: var(--cream); padding: 96px var(--gutter); display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 .sectionTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 3.5vw, 44px); font-weight: 300; color: var(--text); margin-bottom: 24px; line-height: 1.15; }
 .sectionTitle em { font-style: italic; color: var(--gold); }
 .sectionTitleLight { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 3.5vw, 44px); font-weight: 300; color: var(--white); margin-bottom: 24px; line-height: 1.15; }
@@ -35,7 +35,7 @@
 .alertBoxNote { font-size: 11px; color: rgba(255,255,255,.3); margin-top: 16px; line-height: 1.65; }
 
 /* ARTÍCULOS */
-.articulos { background: var(--white); padding: 96px 60px; }
+.articulos { background: var(--white); padding: 96px var(--gutter); }
 .articulosGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
 .articuloCard { background: var(--navy); padding: 56px 48px; }
 .articuloNum { font-family: 'Cormorant Garamond', serif; font-size: 80px; font-weight: 300; color: rgba(184,151,90,.15); line-height: 1; margin-bottom: 8px; }
@@ -47,7 +47,7 @@
 .articuloNote { background: rgba(184,151,90,.08); border-left: 2px solid var(--gold); padding: 12px 16px; font-size: 12px; font-weight: 300; color: rgba(255,255,255,.5); line-height: 1.65; }
 
 /* ARGUMENTOS */
-.argumentos { background: var(--cream); padding: 96px 60px; text-align: left; }
+.argumentos { background: var(--cream); padding: 96px var(--gutter); text-align: left; }
 .argumentosGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px; text-align: left; }
 .argumentoCard { background: var(--white); padding: 36px; border-top: 3px solid transparent; transition: border-color .3s; }
 .argumentoCard:hover { border-top-color: var(--gold); }
@@ -56,7 +56,7 @@
 .argumentoDesc { font-size: 13px; font-weight: 300; color: var(--mid); line-height: 1.75; }
 
 /* PROCESO */
-.proceso { background: var(--white); padding: 96px 60px; }
+.proceso { background: var(--white); padding: 96px var(--gutter); }
 .fasesGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; margin-top: 48px; }
 .faseCard { background: var(--cream); padding: 36px 28px; position: relative; }
 .faseNum { font-family: 'Cormorant Garamond', serif; font-size: 64px; font-weight: 300; color: rgba(184,151,90,.15); line-height: 1; margin-bottom: 12px; }
@@ -64,7 +64,7 @@
 .faseDesc { font-size: 12px; font-weight: 300; color: var(--mid); line-height: 1.75; }
 
 /* JURISPRUDENCIA */
-.juris { background: var(--navy); padding: 96px 60px; }
+.juris { background: var(--navy); padding: 96px var(--gutter); }
 .jurisInner { }
 .jurisGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 48px; }
 .jurisCard { background: var(--navy-mid); padding: 36px; border-top: 2px solid rgba(184,151,90,.3); }
@@ -72,7 +72,7 @@
 .jurisCard p { font-size: 13px; font-weight: 300; color: rgba(255,255,255,.6); line-height: 1.8; }
 
 /* CTA */
-.cta { background: var(--gold); padding: 80px 60px; display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+.cta { background: var(--gold); padding: 80px var(--gutter); display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
 .ctaLeft { flex: 1; }
 .ctaTitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(26px, 3.5vw, 44px); font-weight: 300; color: var(--navy); line-height: 1.1; margin-bottom: 12px; }
 .ctaDesc { font-size: 14px; font-weight: 300; color: rgba(13,27,42,.65); max-width: 560px; line-height: 1.75; }
