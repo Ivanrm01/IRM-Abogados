@@ -19,10 +19,9 @@ export default function NotFound() {
     <section style={{ padding: '160px var(--gutter) 96px', maxWidth: '1100px', margin: '0 auto' }}>
       <div style={{ width: '60px', height: '2px', background: 'var(--gold)', marginBottom: '28px' }} />
       <div className="eyebrow">Error 404</div>
-      <h1>Esta página<br /><em>ya no existe</em></h1>
+      <h1>Esta página<br /><em>no existe</em></h1>
       <p style={{ maxWidth: '620px', marginTop: '20px', color: 'var(--mid)' }}>
         Puede que el enlace esté anticuado o que la dirección se haya escrito mal.
-        Renovamos la web recientemente y algunas direcciones antiguas cambiaron.
         Estas son las secciones principales:
       </p>
 
