@@ -85,8 +85,8 @@ export default function SobreNosotrosPage() {
         <h2 style={{color:'var(--white)'}}>Nuestras <em>sedes</em></h2>
         <div className={styles.sedesGrid}>
           {[
-            { city:'Madrid', tag:'Sede principal', addr:'C/ José Ortega y Gasset, 84 — 2º C · 28006 Madrid', maps:'https://www.google.es/maps/place/C.+de+Jos%C3%A9+Ortega+y+Gasset,+84,+Salamanca,+28006+Madrid/@40.4295449,-3.6728827,17z/data=!3m1!4b1!4m6!3m5!1s0xd4228b9fbbb5301:0x4776b8b6ca6404be!8m2!3d40.4295449!4d-3.6728827!16s%2Fg%2F11kr82vjc2?entry=ttu&g_ep=EgoyMDI2MDUzMS4wIKXMDSoASAFQAw%3D%3D' },
-            { city:'Castellón', tag:'Sede Levante', addr:'C/ En Medio, 22 — 6º · 12001 Castellón de la Plana', maps:'https://www.google.es/maps/place/C.+Enmedio,+22,+12001+Castell%C3%B3n+de+la+Plana,+Castell%C3%B3n/@39.9851606,-0.0413404,17z/data=!3m1!4b1!4m6!3m5!1s0xd5ffe2b6cc7efe5:0xe0d0f9eda5aeada4!8m2!3d39.9851606!4d-0.0387655!16s%2Fg%2F11c5kd44pf?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D' },
+            { city:'Madrid', tag:'Sede principal', addr:'C/ José Ortega y Gasset, 84 — 2º C · 28006 Madrid', maps:'https://www.google.com/maps/place/?q=place_id:ChIJKUiFqZgpQg0RV-I-ac1bG4s' },
+            { city:'Castellón', tag:'Sede Levante', addr:'C/ En Medio, 22 — 6º · 12001 Castellón de la Plana', maps:'https://www.google.com/maps/place/?q=place_id:ChIJtwgvmzv_Xw0RswyxvCi2JAs' },
           ].map(s => (
             <div key={s.city} className={styles.sedeCard}>
               <div className={styles.sedeTag}>{s.tag}</div>
