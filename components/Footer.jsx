@@ -97,7 +97,7 @@ export default function Footer() {
           <div className={styles.sede}>
             <div className={styles.sedeCity}>Madrid</div>
             <div className={styles.sedeAddr}>C/ José Ortega y Gasset, 84 — 2º C<br />28006 Madrid</div>
-            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd422998a9854829:0x8b1b5bcd693ee257?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJKUiFqZgpQg0RV-I-ac1bG4s" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
           </div>
           <div className={styles.sede}>
             <div className={styles.sedeCity}>Castellón</div>
