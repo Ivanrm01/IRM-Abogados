@@ -55,7 +55,14 @@ export function JsonLdOrganizacion() {
           addressRegion: 'Castellón',
           addressCountry: 'ES',
         },
-        geo: { '@type': 'GeoCoordinates', latitude: 39.9851606, longitude: -0.0387655 },
+        geo: { '@type': 'GeoCoordinates', latitude: 39.9851349, longitude: -0.0386878 },
+        hasMap: 'https://www.google.com/maps/place/?q=place_id:ChIJtwgvmzv_Xw0RswyxvCi2JAs',
+        openingHoursSpecification: [{
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'],
+          opens: '08:00',
+          closes: '19:00',
+        }],
       },
     ],
   }
