@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styles from './contacto.module.css'
 import { fbTrack } from '@/lib/pixel'
+import { gaTrack } from '@/lib/ga'
 import { Phone, MessageCircle, Mail } from 'lucide-react'
 
 export default function ContactoPage() {
@@ -27,6 +28,11 @@ export default function ContactoPage() {
     if (r.ok) {
       setSent(true)
       fbTrack('Lead', { content_name: form.servicio, content_category: 'Formulario de contacto' })
+      gaTrack('generate_lead', {
+        origen: 'formulario_contacto',
+        servicio: form.servicio,
+        como_nos_conocio: form.como || 'no_indicado',
+      })
     } else setError('Error al enviar. Por favor inténtalo de nuevo o contáctanos directamente.')
   }
 
