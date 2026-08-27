@@ -5,6 +5,7 @@ import Link from 'next/link'
 import styles from './diagnostico.module.css'
 import { SECTORES, RATIOS, CAMPOS, TRAMOS, desviacion, nivel } from '@/lib/benchmarks'
 import { fbTrack } from '@/lib/pixel'
+import { gaTrack } from '@/lib/ga'
 
 const CASO = {
   cn:'840000', gastos:'746000', pers:'52000', emp:'6', ivasop:'158900',
@@ -115,6 +116,13 @@ export default function Diagnostico() {
         fbTrack('Lead', {
           content_name: 'Auditoría fiscal',
           content_category: 'Diagnóstico fiscal',
+          value: 620,
+          currency: 'EUR',
+        })
+        gaTrack('generate_lead', {
+          origen: 'diagnostico_fiscal',
+          sector_cnae: sector,
+          indice_desviacion: res.indice,
           value: 620,
           currency: 'EUR',
         })
