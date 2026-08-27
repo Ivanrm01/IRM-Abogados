@@ -6,7 +6,7 @@ import { fbTrack } from '@/lib/pixel'
 import { Phone, MessageCircle, Mail } from 'lucide-react'
 
 export default function ContactoPage() {
-  const [form, setForm] = useState({ nombre:'', apellidos:'', email:'', telefono:'', servicio:'', mensaje:'', como:'', privacidad: false })
+  const [form, setForm] = useState({ nombre:'', apellidos:'', email:'', telefono:'', servicio:'', mensaje:'', como:'', privacidad: false, empresa_web: '' })
   const [sending, setSending] = useState(false)
   const [sent, setSent] = useState(false)
   const [error, setError] = useState('')
