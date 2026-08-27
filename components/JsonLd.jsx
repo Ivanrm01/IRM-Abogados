@@ -33,7 +33,14 @@ export function JsonLdOrganizacion() {
           addressRegion: 'Madrid',
           addressCountry: 'ES',
         },
-        geo: { '@type': 'GeoCoordinates', latitude: 40.4296419, longitude: -3.6728453 },
+        geo: { '@type': 'GeoCoordinates', latitude: 40.4295449, longitude: -3.6728827 },
+        hasMap: 'https://www.google.com/maps/place/?q=place_id:ChIJKUiFqZgpQg0RV-I-ac1bG4s',
+        openingHoursSpecification: [{
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'],
+          opens: '08:00',
+          closes: '19:00',
+        }],
       },
       {
         '@type': 'LegalService',
