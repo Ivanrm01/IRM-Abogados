@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Footer.module.css'
 import { Phone, Mail, MessageCircle } from 'lucide-react'
+import TrackedLink from '@/components/TrackedLink'
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
         </div>
         <div className={styles.ctaBtns}>
           <Link href="/contacto" className="btn-gold">Consultar ahora</Link>
-          <a href="tel:+34614149465" className={styles.btnPhone}>+34 614 149 465</a>
+          <TrackedLink ubicacion="footer" href="tel:+34614149465" className={styles.btnPhone}>+34 614 149 465</TrackedLink>
         </div>
       </div>
 
