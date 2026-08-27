@@ -102,7 +102,7 @@ export default function Footer() {
           <div className={styles.sede}>
             <div className={styles.sedeCity}>Castellón</div>
             <div className={styles.sedeAddr}>C/ En Medio, 22 — 6º<br />12001 Castellón de la Plana</div>
-            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd5fff3b9b2f08b7:0xb24b628bcb10cb3?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJtwgvmzv_Xw0RswyxvCi2JAs" target="_blank" rel="noopener noreferrer" className={styles.sedeMap}>Ver en mapa →</a>
           </div>
         </div>
       </div>
