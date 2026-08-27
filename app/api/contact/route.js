@@ -85,14 +85,14 @@ export async function POST(req) {
           <h2 style="margin:0;font-size:18px">Nueva consulta desde la web</h2>
         </div>
         <div style="padding:24px;border:1px solid #eee;border-top:none">
-          <p style="margin:0 0 14px"><strong>Nombre:</strong> ${nombreCompleto}</p>
-          <p style="margin:0 0 14px"><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-          <p style="margin:0 0 14px"><strong>Teléfono:</strong> ${telefono || '—'}</p>
-          <p style="margin:0 0 14px"><strong>Servicio de interés:</strong> ${servicio}</p>
-          <p style="margin:0 0 14px"><strong>Cómo nos conoció:</strong> ${como || '—'}</p>
+          <p style="margin:0 0 14px"><strong>Nombre:</strong> ${esc(nombreCompleto)}</p>
+          <p style="margin:0 0 14px"><strong>Email:</strong> <a href="mailto:${esc(email)}">${esc(email)}</a></p>
+          <p style="margin:0 0 14px"><strong>Teléfono:</strong> ${esc(telefono) || '—'}</p>
+          <p style="margin:0 0 14px"><strong>Servicio de interés:</strong> ${esc(servicio)}</p>
+          <p style="margin:0 0 14px"><strong>Cómo nos conoció:</strong> ${esc(como) || '—'}</p>
           <hr style="border:none;border-top:1px solid #eee;margin:18px 0">
           <p style="margin:0 0 6px"><strong>Mensaje:</strong></p>
-          <p style="margin:0;white-space:pre-wrap;background:#f8f6f0;padding:14px;border-radius:6px">${mensaje}</p>
+          <p style="margin:0;white-space:pre-wrap;background:#f8f6f0;padding:14px;border-radius:6px">${esc(mensaje)}</p>
         </div>
         <div style="padding:14px 24px;background:#f4f5f7;font-size:12px;color:#888">
           Enviado automáticamente desde el formulario de irmabogadosasesores.com
