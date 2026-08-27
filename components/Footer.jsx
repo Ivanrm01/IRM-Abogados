@@ -72,7 +72,7 @@ export default function Footer() {
             <li><Link href="/fiscal#sociedades">Impuesto Sociedades</Link></li>
             <li><Link href="/fiscal#iva">IVA</Link></li>
             <li><Link href="/fiscal#defensa">Defensa ante AEAT</Link></li>
-            <li><Link href="/derivaciones-responsabilidad-tributaria#derivacion">Derivación responsabilidad</Link></li>
+            <li><Link href="/derivaciones-responsabilidad-tributaria">Derivación responsabilidad</Link></li>
           </ul>
         </div>
 
