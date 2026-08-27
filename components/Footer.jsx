@@ -43,7 +43,7 @@ export default function Footer() {
               <span className={styles.contactIcon}><Mail size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>correo@irmabogados.es</span>
             </a>
-            <a href="https://wa.me/34614149465" className={styles.contactItem}>
+            <a href="https://wa.me/34614149465" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
               <span className={styles.contactIcon}><MessageCircle size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>WhatsApp</span>
             </a>
