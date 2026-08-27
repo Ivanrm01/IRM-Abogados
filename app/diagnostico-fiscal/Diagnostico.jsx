@@ -368,9 +368,9 @@ export default function Diagnostico() {
                       {envio === 'enviando' ? 'Enviando…' : 'Solicitar auditoría'}
                     </button>
                     <div className={styles.alternativas}>
-                      <a href="https://wa.me/34614149465">WhatsApp</a>
+                      <a href="https://wa.me/34614149465" target="_blank" rel="noopener noreferrer" onClick={() => gaTrack('click_whatsapp', { ubicacion: 'diagnostico' })}>WhatsApp</a>
                       <span>·</span>
-                      <a href="tel:+34614149465">614 149 465</a>
+                      <a href="tel:+34614149465" onClick={() => gaTrack('click_telefono', { ubicacion: 'diagnostico' })}>614 149 465</a>
                       <span>·</span>
                       <Link href="/contacto">Solicitar Consulta</Link>
                     </div>
