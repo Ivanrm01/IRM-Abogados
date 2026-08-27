@@ -36,7 +36,7 @@ export default function Footer() {
           </Link>
           <p className={styles.tagline}>Especialistas en derecho tributario con sedes en Madrid y Castellón. Compromiso, excelencia y transparencia en cada caso.</p>
           <div className={styles.contactMini}>
-            <a href="tel:+34614149465" className={styles.contactItem}>
+            <TrackedLink ubicacion="footer" href="tel:+34614149465" className={styles.contactItem}>
               <span className={styles.contactIcon}><Phone size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>+34 614 149 465</span>
             </a>
@@ -44,7 +44,7 @@ export default function Footer() {
               <span className={styles.contactIcon}><Mail size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>correo@irmabogados.es</span>
             </a>
-            <a href="https://wa.me/34614149465" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
+            <TrackedLink ubicacion="footer" href="https://wa.me/34614149465" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
               <span className={styles.contactIcon}><MessageCircle size={16} strokeWidth={1.5} color="#B8975A" /></span>
               <span>WhatsApp</span>
             </a>
