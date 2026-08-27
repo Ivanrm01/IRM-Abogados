@@ -27,7 +27,7 @@ export default function CookiesPage() {
             <p>El titular de este sitio web y responsable del tratamiento de los datos obtenidos mediante cookies es:</p>
             <div className={styles.dataTable}>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Titular</div><div className={styles.dataVal}>IRM Abogados (nombre comercial: IRM Tax &amp; Legal)</div></div>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio</div><div className={styles.dataVal}>C/ En medio, 22 — 6º C, 12001 Castellón de la Plana</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio</div><div className={styles.dataVal}>C/ En medio, 22 — 6º, 12001 Castellón de la Plana</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Email</div><div className={styles.dataVal}>correo@irmabogados.es</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Teléfono</div><div className={styles.dataVal}>+34 614 149 465</div></div>
             </div>
@@ -212,7 +212,7 @@ export default function CookiesPage() {
 
           <div className={styles.block}>
             <h2>9. Sus derechos</h2>
-            <p>Puede ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, así como retirar el consentimiento prestado, dirigiéndose a <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a> o a C/ En medio, 22 — 6º C, 12001 Castellón de la Plana, acreditando su identidad. La retirada del consentimiento no afecta a la licitud del tratamiento realizado con anterioridad.</p>
+            <p>Puede ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, así como retirar el consentimiento prestado, dirigiéndose a <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a> o a C/ En medio, 22 — 6º, 12001 Castellón de la Plana, acreditando su identidad. La retirada del consentimiento no afecta a la licitud del tratamiento realizado con anterioridad.</p>
             <p>Si considera que sus derechos no han sido debidamente atendidos, puede presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">www.aepd.es</a>), C/ Jorge Juan, 6, 28001 Madrid.</p>
           </div>
 
