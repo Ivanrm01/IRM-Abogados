@@ -27,7 +27,7 @@ export default function AvisoLegalPage() {
             <div className={styles.dataTable}>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Denominación social</div><div className={styles.dataVal}>IRM Abogados</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Nombre comercial</div><div className={styles.dataVal}>IRM Tax & Legal</div></div>
-              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ En medio, 22 — 6º C, 12001 Castellón</div></div>
+              <div className={styles.dataRow}><div className={styles.dataLabel}>Domicilio social</div><div className={styles.dataVal}>C/ En medio, 22 — 6º, 12001 Castellón</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Teléfono</div><div className={styles.dataVal}>+34 614 149 465</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Email</div><div className={styles.dataVal}>correo@irmabogados.es</div></div>
               <div className={styles.dataRow}><div className={styles.dataLabel}>Sitio web</div><div className={styles.dataVal}>www.irmabogadosasesores.com</div></div>
@@ -83,7 +83,7 @@ export default function AvisoLegalPage() {
             <ul>
               <li>Email: <a href="mailto:correo@irmabogados.es">correo@irmabogados.es</a></li>
               <li>Teléfono: <a href="tel:+34614149465">+34 614 149 465</a></li>
-              <li>Dirección: C/ En medio, 22 — 6º C, 12001 Castellón</li>
+              <li>Dirección: C/ En medio, 22 — 6º, 12001 Castellón</li>
             </ul>
           </div>
 
