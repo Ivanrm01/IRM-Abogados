@@ -3,6 +3,35 @@ import nodemailer from 'nodemailer'
 
 export const dynamic = 'force-dynamic'
 
+/**
+ * Escapa los caracteres con significado en HTML para que nada de lo que
+ * escriba un visitante pueda inyectar etiquetas en el correo que recibimos.
+ */
+function esc(valor) {
+  return String(valor ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+
+// Contador en memoria por IP. Se reinicia en cada arranque del servidor,
+// suficiente para frenar bots sin añadir dependencias.
+const envios = new Map()
+const VENTANA_MS = 10 * 60 * 1000
+const MAX_ENVIOS = 3
+
+function demasiadosEnvios(ip) {
+  const ahora = Date.now()
+  const previos = (envios.get(ip) || []).filter((t) => ahora - t < VENTANA_MS)
+  if (previos.length >= MAX_ENVIOS) return true
+  previos.push(ahora)
+  envios.set(ip, previos)
+  if (envios.size > 5000) envios.clear()
+  return false
+}
+
 export async function POST(req) {
   try {
     const body = await req.json()
