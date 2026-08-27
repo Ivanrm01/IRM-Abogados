@@ -144,7 +144,7 @@ export default function StartupsPage() {
           <div className={styles.ctaTitle}>¿Tienes una idea o<br />acabas de lanzar<br />tu startup?</div>
           <p className={styles.ctaDesc}>Cuéntanos en qué fase estás y diseñamos la estructura legal y fiscal perfecta. Sin compromiso y sin coste en la primera consulta.</p>
           <div className={styles.ctaBtns}>
-            <a href="mailto:correo@irmabogados.es" className="btn-navy">Solicitar consulta</a>
+            <Link href="/contacto" className="btn-navy">Solicitar consulta</Link>
             <a href="tel:+34614149465" className="btn-outline-navy">hablar con un experto</a>
           </div>
         </div>
