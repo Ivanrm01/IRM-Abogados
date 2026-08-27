@@ -37,10 +37,34 @@ export async function POST(req) {
     const body = await req.json()
     const { nombre, apellidos, email, telefono, servicio, mensaje, como } = body
 
+    // Trampa antispam: campo oculto que una persona nunca rellena.
+    // Si viene con contenido, respondemos 200 para que el bot crea que
+    // ha funcionado, pero no enviamos nada.
+    if (body.empresa_web) {
+      return NextResponse.json({ ok: true, message: 'Consulta recibida correctamente' })
+    }
+    
     if (!nombre || !email || !servicio || !mensaje) {
       return NextResponse.json({ error: 'Faltan campos obligatorios' }, { status: 400 })
     }
+    
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(email))) {
+      return NextResponse.json({ error: 'El email no es válido' }, { status: 400 })
+    }
 
+    if (String(mensaje).length > 5000) {
+      return NextResponse.json({ error: 'El mensaje es demasiado largo' }, { status: 400 })
+    }
+
+    // Límite por IP: máximo 3 envíos cada 10 minutos.
+    const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'desconocida'
+    if (demasiadosEnvios(ip)) {
+      return NextResponse.json(
+        { error: 'Has enviado demasiadas consultas seguidas. Inténtalo dentro de unos minutos.' },
+        { status: 429 }
+      )
+    }
+    
     // Configuración SMTP de IONOS (credenciales en variables de entorno de Vercel)
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || 'smtp.ionos.es',
