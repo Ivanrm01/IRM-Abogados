@@ -2,10 +2,25 @@ import Link from 'next/link'
 import { getPosts } from '@/lib/posts'
 import styles from './blog.module.css'
 
-export const metadata = {
-  title: 'Blog Fiscal',
-  description: 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.',
-  alternates: { canonical: '/blog' },
+export async function generateMetadata({ searchParams }) {
+  const page = Number(searchParams?.page) || 1
+  const titulo = page > 1 ? `Blog Fiscal — Página ${page}` : 'Blog Fiscal'
+  const descripcion = 'Artículos de actualidad fiscal, tributaria y legal redactados por los especialistas de IRM Abogados.'
+  const url = page > 1 ? `/blog?page=${page}` : '/blog'
+  return {
+    title: titulo,
+    description: descripcion,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'website',
+      locale: 'es_ES',
+      siteName: 'IRM Abogados',
+      url,
+      title: 'Blog fiscal de IRM Abogados',
+      description: descripcion,
+      images: [{ url: '/og-default.jpg', width: 1200, height: 630, alt: 'IRM Abogados' }],
+    },
+  }
 }
 
 export const revalidate = 60
