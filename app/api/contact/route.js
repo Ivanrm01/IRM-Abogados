@@ -89,7 +89,7 @@ export async function POST(req) {
           <p style="margin:0 0 14px"><strong>Email:</strong> <a href="mailto:${esc(email)}">${esc(email)}</a></p>
           <p style="margin:0 0 14px"><strong>Teléfono:</strong> ${esc(telefono) || '—'}</p>
           <p style="margin:0 0 14px"><strong>Servicio de interés:</strong> ${esc(servicio)}</p>
-          <p style="margin:0 0 14px"><strong>Cómo nos conoció:</strong> ${esc(como) || '—'}</p>
+          <p style="margin:0 0 14px"><strong>Cómo prefieres que te contactemos:</strong> ${esc(como) || '—'}</p>
           <hr style="border:none;border-top:1px solid #eee;margin:18px 0">
           <p style="margin:0 0 6px"><strong>Mensaje:</strong></p>
           <p style="margin:0;white-space:pre-wrap;background:#f8f6f0;padding:14px;border-radius:6px">${esc(mensaje)}</p>
@@ -106,7 +106,7 @@ export async function POST(req) {
       replyTo: email, // al responder, contestas directamente al cliente
       subject: `Nueva consulta web — ${servicio} — ${nombreCompleto}`,
       html,
-      text: `Nueva consulta desde la web\n\nNombre: ${nombreCompleto}\nEmail: ${email}\nTeléfono: ${telefono || '—'}\nServicio: ${servicio}\nCómo nos conoció: ${como || '—'}\n\nMensaje:\n${mensaje}`,
+      text: `Nueva consulta desde la web\n\nNombre: ${nombreCompleto}\nEmail: ${email}\nTeléfono: ${telefono || '—'}\nServicio: ${servicio}\nCómo prefieres que te contactemos: ${como || '—'}\n\nMensaje:\n${mensaje}`,
     })
 
     return NextResponse.json({ ok: true, message: 'Consulta recibida correctamente' })
