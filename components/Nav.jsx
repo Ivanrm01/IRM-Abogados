@@ -68,7 +68,7 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href="/contacto" className={styles.mobileCta}>Consulta gratuita</Link>
+          <Link href="/contacto" className={styles.mobileCta}>Cuéntanos tu caso</Link>
         </div>
       )}
     </nav>
