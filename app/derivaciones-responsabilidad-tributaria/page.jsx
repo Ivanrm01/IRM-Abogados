@@ -101,7 +101,7 @@ export default function DerivacionesPage() {
             artículo 42 y 43 de la LGT. <strong>Analizamos si es impugnable.</strong>
           </p>
           <div className={styles.heroBtns}>
-            <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
+            <Link href="/contacto" className="btn-gold">Cuéntanos tu caso</Link>
             <TrackedLink ubicacion="derivaciones" href="tel:+34614149465" className={"btn-ghost"}>+34 614 149 465</TrackedLink>
           </div>
           <div className={styles.heroAlert}>
