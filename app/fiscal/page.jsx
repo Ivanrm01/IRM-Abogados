@@ -126,9 +126,9 @@ export default function FiscalPage() {
 
       <section className={styles.cta}>
         <div className={styles.ctaLeft}>
-          <div className={styles.ctaEyebrow}>Primera consulta gratuita</div>
+          <div className={styles.ctaEyebrow}>Hablemos de tu caso</div>
           <div className={styles.ctaTitle}>¿Tienes dudas sobre<br />tu situación fiscal?</div>
-          <p className={styles.ctaDesc}>Analizamos tu caso sin coste y sin compromiso. Te decimos exactamente qué podemos hacer por ti. Respondemos en menos de 24 horas.</p>
+          <p className={styles.ctaDesc}>Analizamos tu caso y te decimos exactamente qué podemos hacer por ti, con el coste cerrado antes de empezar. Respondemos en menos de 24 horas.</p>
           <div className={styles.ctaBtns}>
             <Link href="/contacto" className="btn-navy">Solicitar consulta</Link>
             <TrackedLink ubicacion="fiscal" href="tel:+34614149465" className="btn-outline-navy">Llamar ahora</TrackedLink>
@@ -145,7 +145,7 @@ export default function FiscalPage() {
               <div><div className={styles.ctaLabel}>{c.label}</div><TrackedLink ubicacion="fiscal" href={c.href} className={styles.ctaValue}>{c.value}</TrackedLink></div>
             </div>
           ))}
-          <div className={styles.badge}><div className={styles.badgeDot}></div>Respondemos en menos de 24 horas · Consulta siempre gratuita</div>
+          <div className={styles.badge}><div className={styles.badgeDot}></div>Respondemos en menos de 24 horas · Presupuesto cerrado</div>
         </div>
       </section>
     </>
