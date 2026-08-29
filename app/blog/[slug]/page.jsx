@@ -95,8 +95,8 @@ export default async function PostPage({ params }) {
         </div>
         <div className={styles.sidebar}>
           <div className={styles.sideCard}>
-            <div className={styles.sideTitle}>Consulta gratuita</div>
-            <p>¿Tienes dudas sobre este tema? Analizamos tu caso sin coste.</p>
+            <div className={styles.sideTitle}>¿Tu caso es como este?</div>
+            <p>Cuéntanos tu situación concreta y te decimos qué opciones tienes.</p>
             <Link href="/contacto" className="btn-gold" style={{display:'block',textAlign:'center',marginTop:'14px',fontSize:'11px'}}>Contactar ahora</Link>
           </div>
           <div className={styles.sideCard}>
