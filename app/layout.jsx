@@ -8,7 +8,7 @@ import { JsonLdOrganizacion } from '@/components/JsonLd'
 
 export const metadata = {
   title: { default: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón', template: '%s | IRM Abogados' },
-  description: 'Especialistas en derecho tributario. Asesoramiento para empresas y particulares en Madrid y Castellón. Primera consulta gratuita.',
+  description: 'Especialistas en derecho tributario. Defensa ante la AEAT y planificación fiscal para empresas y particulares en Madrid y Castellón.',
   keywords: ['abogados fiscalistas', 'derecho tributario', 'asesoramiento fiscal Madrid', 'aplazar deuda Hacienda'],
   metadataBase: new URL('https://www.irmabogadosasesores.com'),
   openGraph: {
