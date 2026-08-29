@@ -160,7 +160,7 @@ export default function StartupsPage() {
               <div><div className={styles.ctaLabel}>{c.label}</div><TrackedLink ubicacion="startups" href={c.href} className={styles.ctaValue}>{c.value}</TrackedLink></div>
             </div>
           ))}
-          <div className={styles.ctaBadge}><div className={styles.ctaBadgeDot}></div>Respondemos en menos de 24 horas · Consulta siempre gratuita</div>
+          <div className={styles.ctaBadge}><div className={styles.ctaBadgeDot}></div>Respondemos en menos de 24 horas · Presupuesto cerrado</div>
         </div>
       </section>
     </>
