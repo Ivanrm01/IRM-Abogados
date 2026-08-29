@@ -74,7 +74,7 @@ export default function SobreNosotrosPage() {
           </div>
         </div>
         <div className={styles.difVisual}>
-          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Respuesta garantizada'],['0€','Consulta inicial']].map(([n,l]) => (
+          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Respuesta garantizada'],['0€','Estudio del expediente']].map(([n,l]) => (
             <div key={l} className={styles.difCell}><div className={styles.difCellN}>{n}</div><div className={styles.difCellL}>{l}</div></div>
           ))}
         </div>
