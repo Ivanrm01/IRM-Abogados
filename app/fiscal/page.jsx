@@ -6,7 +6,7 @@ import TrackedLink from '@/components/TrackedLink'
 
 export const metadata = {
   title: 'Asesoramiento Fiscal Empresas y Particulares',
-  description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Primera consulta gratuita.',
+  description: 'Especialistas en IRPF, Impuesto sobre Sociedades, IVA, Patrimonio, Sucesiones y defensa ante la AEAT. Madrid y Castellón. Presupuesto cerrado antes de empezar.',
   alternates: { canonical: '/fiscal' },
   openGraph: {
     type: 'website',
