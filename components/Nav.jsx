@@ -51,7 +51,8 @@ export default function Nav() {
         ))}
       </ul>
 
-      <Link href="/contacto" className={styles.cta}>Consulta gratuita</Link>
+      <Link href="/contacto" className={styles.cta}>Cuéntanos tu caso</Link>
+
 
       <button className={styles.burger} onClick={() => setOpen(!open)} aria-label="Menú">
         <span className={open ? styles.burgerOpen : ''}></span>
