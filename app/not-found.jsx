@@ -11,7 +11,7 @@ const enlaces = [
   { href: '/derivaciones-responsabilidad-tributaria', t: 'Derivación de responsabilidad', d: 'Defensa frente a los artículos 42 y 43 LGT.' },
   { href: '/asesoramiento-start-ups', t: 'Start-Ups', d: 'Constitución, pacto de socios, ESOPs y rondas de inversión.' },
   { href: '/blog', t: 'Blog fiscal', d: 'Actualidad tributaria analizada por nuestros especialistas.' },
-  { href: '/contacto', t: 'Contacto', d: 'Primera consulta gratuita. Respondemos en menos de 24 horas.' },
+  { href: '/contacto', t: 'Contacto', d: 'Cuéntanos tu caso. Respondemos en menos de 24 horas.' },
 ]
 
 export default function NotFound() {
