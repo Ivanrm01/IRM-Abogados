@@ -141,7 +141,7 @@ export default function DerivacionesPage() {
             se actúa con rapidez y con la argumentación jurídica correcta.
           </p>
           <Link href="/contacto" className="btn-gold" style={{display:'inline-block',marginTop:'16px'}}>
-            Analizar mi caso gratuitamente
+            Analizar mi caso
           </Link>
         </div>
         <div className={styles.queEsRight}>
@@ -268,7 +268,7 @@ export default function DerivacionesPage() {
       <section className={styles.cta}>
         <div className={styles.ctaLeft}>
           <h2 className={styles.ctaTitle}>¿Has recibido un acuerdo<br />de derivación de responsabilidad?</h2>
-          <p className={styles.ctaDesc}>Actúa ahora. Los plazos son muy cortos y cada día cuenta. En IRM Abogados analizamos tu caso de forma gratuita y te decimos si la derivación es impugnable.</p>
+          <p className={styles.ctaDesc}>Actúa ahora. Los plazos son muy cortos y cada día cuenta. En IRM Abogados analizamos tu caso y te decimos si la derivación es impugnable.</p>
         </div>
         <div className={styles.ctaBtns}>
           <Link href="/contacto" className="btn-navy">Solicitar Consulta</Link>
