@@ -29,7 +29,7 @@ export default function SobreNosotrosPage() {
         <h1>Derecho fiscal con<br /><em>precisión</em> y compromiso</h1>
         <p className={styles.heroDesc}>Somos un equipo joven y especializado en Derecho Fiscal y asesoramiento a Start-Ups. Acompañamos a personas y empresas con rigor técnico, transparencia y un trato cercano que marca la diferencia.</p>
         <div className={styles.heroStats}>
-          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Tiempo de respuesta'],['0€','Primera consulta']].map(([n,l]) => (
+          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Tiempo de respuesta'],['0€','Estudio del expediente']].map(([n,l]) => (
             <div key={l} className={styles.stat}><div className={styles.statN}>{n}</div><div className={styles.statL}>{l}</div></div>
           ))}
         </div>
