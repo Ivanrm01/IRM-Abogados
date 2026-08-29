@@ -104,7 +104,7 @@ export default function SobreNosotrosPage() {
       <section className={styles.ctaSection}>
         <div>
           <div className={styles.ctaTitle}>¿Hablamos sobre<br />tu situación fiscal?</div>
-          <div className={styles.ctaDesc}>Primera consulta gratuita y sin compromiso. Respondemos en menos de 24 horas.</div>
+          <div className={styles.ctaDesc}>Presupuesto cerrado antes de empezar. Respondemos en menos de 24 horas.</div>
         </div>
         <div className={styles.ctaBtns}>
           <Link href="/contacto" className="btn-navy">SOLICITAR CONSULTA</Link>
