@@ -62,7 +62,7 @@ export default function FiscalPage() {
               <li>Tu declaración de la Renta es compleja</li>
               <li>Tienes una empresa y necesitas asesoramiento fiscal</li>
               <li>Vas a vender, heredar o donar un bien</li>
-              <li className={styles.urgencyOk}>Podemos ayudarte. Consulta gratuita.</li>
+              <li className={styles.urgencyOk}>Podemos ayudarte.</li>
             </ul>
             <Link href="/contacto" className={styles.urgencyCta}>Hablar con un especialista</Link>
           </div>
