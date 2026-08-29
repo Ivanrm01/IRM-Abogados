@@ -12,7 +12,7 @@ export default function Footer() {
       {/* CTA STRIP */}
       <div className={styles.cta}>
         <div>
-          <div className={styles.ctaTag}>Primera consulta gratuita</div>
+          <div className={styles.ctaTag}>Presupuesto cerrado antes de empezar</div>
           <div className={styles.ctaTitle}>¿Tienes una duda fiscal?<br /><em>Cuéntanos tu caso</em></div>
         </div>
         <div className={styles.ctaBtns}>
