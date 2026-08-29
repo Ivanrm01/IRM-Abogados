@@ -5,7 +5,7 @@ import TrackedLink from '@/components/TrackedLink'
 
 export const metadata = {
   title: 'IRM Abogados | Abogados Fiscalistas Madrid y Castellón',
-  description: 'Especialistas en derecho fiscal y tributario. Asesoramiento para empresas y particulares. Primera consulta gratuita.',
+  description: 'Especialistas en derecho fiscal y tributario. Asesoramiento para empresas y particulares. Presupuesto cerrado antes de empezar.',
   alternates: { canonical: '/' },
 }
 
