@@ -21,7 +21,7 @@ export default function HomePage() {
           <h1 className={styles.heroTitle}>Tu defensa<br />ante <em>Hacienda</em><br />en manos expertas</h1>
           <p className={styles.heroDesc}>Especialistas en derecho tributario. Optimizamos tu carga fiscal, protegemos tu patrimonio y te acompañamos ante cualquier procedimiento de la AEAT.</p>
           <div className={styles.heroBtns}>
-            <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
+            <Link href="/contacto" className="btn-gold">Cuéntanos tu caso</Link>
             <Link href="/servicios" className="btn-ghost">Ver servicios</Link>
           </div>
         </div>
