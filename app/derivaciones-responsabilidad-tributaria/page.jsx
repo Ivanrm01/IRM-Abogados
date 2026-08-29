@@ -98,7 +98,7 @@ export default function DerivacionesPage() {
           <p className={styles.heroDesc}>
             La AEAT puede reclamar a administradores y terceros las deudas tributarias de otros. 
             Tenemos una tasa de éxito muy alta impugnando derivaciones de responsabilidad del 
-            artículo 42 y 43 de la LGT. <strong>Primera consulta gratuita.</strong>
+            artículo 42 y 43 de la LGT. <strong>Analizamos si es impugnable.</strong>
           </p>
           <div className={styles.heroBtns}>
             <Link href="/contacto" className="btn-gold">Consulta gratuita</Link>
