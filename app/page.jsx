@@ -88,7 +88,7 @@ export default function HomePage() {
           ))}
         </div>
         <div className={styles.porqueRight}>
-          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Tiempo de respuesta'],['0€','Primera consulta']].map(([n,l]) => (
+          {[['2','Sedes en España'],['100%','Especialización fiscal'],['24h','Tiempo de respuesta'],['0€','Estudio del expediente']].map(([n,l]) => (
             <div key={l} className={styles.statBox}>
               <div className={styles.statN}>{n}</div>
               <div className={styles.statL}>{l}</div>
