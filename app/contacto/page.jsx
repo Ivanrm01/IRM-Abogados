@@ -143,9 +143,9 @@ export default function ContactoPage() {
               </label>
               {error && <div className={styles.errorMsg}>{error}</div>}
               <button onClick={submit} disabled={sending} className={styles.submitBtn}>
-                {sending ? 'Enviando...' : '→ Enviar consulta gratuita'}
+                {sending ? 'Enviando...' : '→ Enviar mi consulta'}
               </button>
-              <div className={styles.guarantee}><div className={styles.greenDot}></div>Respuesta garantizada en menos de 24 horas · Consulta gratuita y confidencial</div>
+              <div className={styles.guarantee}><div className={styles.greenDot}></div>Respuesta garantizada en menos de 24 horas · Confidencial</div>
             </>
           )}
         </div>
