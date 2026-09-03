@@ -345,12 +345,6 @@ export default function NonResidentTaxPage() {
         </div>
         <div className={styles.calNote}>
           <div className={styles.calNoteTitle}>One transitional trap</div>
-          <p>
-            If you declare each rent payment separately rather than grouping the year, income
-            accrued between April and September 2026 keeps the old quarterly deadlines — July and
-            October 2026. Only income from the last quarter of 2026 moves to April 2027. Grouped
-            annual returns move in full.
-          </p>
         </div>
       </section>
 
