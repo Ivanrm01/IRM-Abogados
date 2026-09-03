@@ -25,7 +25,7 @@ export const metadata = {
 
 const cases = [
   {
-    tag: 'Income type 01 / 35',
+    tag: 'Income type 01 / 03',
     title: 'You rent the property out',
     desc:
       'Rent from a Spanish property is taxed in Spain, whether the tenant is long-term, seasonal or a holiday booking. The tax agency already receives the data: booking platforms report through the DAC7 rules and the Land Registry, the cadastre and Spanish banks all feed the same file.',
@@ -39,7 +39,7 @@ const cases = [
       'From the 2026 tax year the return is filed between 1 and 20 April of the following year, and expenses must be itemised in a new annex.',
   },
   {
-    tag: 'Income type 02',
+    tag: 'Income type 02 / 03',
     title: 'You keep it for your own use',
     desc:
       'This is the obligation owners are most often unaware of. If the property is not rented out, Spanish law still treats it as producing income for you — a notional amount calculated on the cadastral value shown on your IBI receipt. Nothing has to happen for the tax to arise: owning the property is enough.',
@@ -53,7 +53,7 @@ const cases = [
       'A typical bill is modest. The problem is that it repeats every year, and unfiled years accumulate with surcharges and interest.',
   },
   {
-    tag: 'Income type 28',
+    tag: 'Income type 03 / 03',
     title: 'You sell the property',
     desc:
       'The buyer is legally required to hold back 3% of the price and pay it to the tax agency on your account using form 211. You then declare the actual gain or loss. The 3% is a payment on account, not the tax itself — quite often it is more than the tax due, and the difference has to be claimed back.',
