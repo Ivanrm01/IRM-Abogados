@@ -175,11 +175,6 @@ const faqs = [
     a:
       'You need a NIE to file. If you already bought a property you will have one. You do not need to travel: we act under a power of attorney, which can be signed before a notary in your own country with an apostille, or at a Spanish consulate.',
   },
-  {
-    q: 'What does it cost?',
-    a:
-      'A fixed fee, quoted before we start, that depends on the number of properties, owners and years involved. Straightforward annual returns are inexpensive. Sales, refund claims and years of unfiled returns are quoted case by case.',
-  },
 ]
 
 export default function NonResidentTaxPage() {
