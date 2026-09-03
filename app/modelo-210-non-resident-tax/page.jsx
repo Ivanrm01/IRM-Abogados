@@ -301,8 +301,6 @@ export default function NonResidentTaxPage() {
           </div>
         </div>
         <p className={styles.rateFootnote}>
-          Rates as at August 2026. A double tax treaty may change how income other than property
-          income is taxed, but it does not usually reduce Spanish tax on Spanish property.
         </p>
       </section>
 
