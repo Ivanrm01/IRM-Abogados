@@ -343,9 +343,6 @@ export default function NonResidentTaxPage() {
             </div>
           </div>
         </div>
-        <div className={styles.calNote}>
-          <div className={styles.calNoteTitle}>One transitional trap</div>
-        </div>
       </section>
 
       {/* QUÉ REVISAMOS */}
