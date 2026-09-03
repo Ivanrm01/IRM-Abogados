@@ -71,7 +71,7 @@ export default function Footer() {
             <li><Link href="/garantias-deuda-aeat">Garantías AEAT</Link></li>
             <li><Link href="/fiscal#irpf">IRPF</Link></li>
             <li><Link href="/fiscal#sociedades">Impuesto Sociedades</Link></li>
-            <li><Link href="/fiscal#iva">IVA</Link></li>
+            <li><Link href="/modelo-210-non-resident-tax#iva">No residentes</Link></li>
             <li><Link href="/fiscal#defensa">Defensa ante AEAT</Link></li>
             <li><Link href="/derivaciones-responsabilidad-tributaria">Derivación responsabilidad</Link></li>
           </ul>
