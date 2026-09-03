@@ -488,16 +488,6 @@ export default function NonResidentTaxPage() {
           </TrackedLink>
         </div>
       </section>
-
-      {/* DISCLAIMER */}
-      <section className={styles.disclaimer}>
-        <p>
-          This page is general information about Spanish non-resident income tax, current at
-          August 2026, and is not tax or legal advice for a particular case. Rates, thresholds and
-          filing deadlines change, and the treatment of a specific property depends on its facts.
-          IRM Abogados is a Spanish law firm with offices in Madrid and Castellón de la Plana.
-        </p>
-      </section>
     </div>
   )
 }
