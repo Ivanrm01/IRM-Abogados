@@ -179,7 +179,7 @@
 
 /* Tablet vertical y móvil: todo a una columna */
 @media (max-width: 960px) {
-  .hero { grid-template-columns: 1fr; padding: 116px 24px 64px; gap: 40px; }
+  .hero { grid-template-columns: 1fr; padding: 120px 24px 64px; gap: 40px; }
   .heroLine { display: none; }               /* cruzaba el texto al reducirse el gutter */
   .heroDesc { font-size: 14.5px; margin-bottom: 24px; }
   .heroBtns { gap: 10px; }
@@ -236,11 +236,10 @@
 
 /* Móvil: una sola columna en todo, incluidos los pasos */
 @media (max-width: 620px) {
-  .hero { padding: 104px 20px 56px; }
   .cases, .rates, .calendar, .checks, .process, .faqSection,
-  .late, .enquiry { padding: 56px 20px; }
-  .cta { padding: 48px 20px; }
-  .disclaimer { padding: 28px 20px; }
+  .late, .enquiry { padding: 56px 24px; }
+  .cta { padding: 48px 24px; }
+  .disclaimer { padding: 28px 24px; }
 
   .stepsGrid { grid-template-columns: 1fr; }
   .stepCard { display: grid; grid-template-columns: 54px 1fr; column-gap: 16px; align-items: start; padding: 22px 20px; }
@@ -257,10 +256,9 @@
 
 /* Pantallas muy estrechas (iPhone SE y similares) */
 @media (max-width: 400px) {
-  .hero { padding: 100px 16px 48px; }
   .cases, .rates, .calendar, .checks, .process, .faqSection,
-  .late, .enquiry, .cta { padding: 48px 16px; }
-  .disclaimer { padding: 24px 16px; }
+  .late, .enquiry, .cta { padding: 48px 24px; }
+  .disclaimer { padding: 24px; }
   .caseCard, .rateCard, .rateCardAlt, .checkCard, .alertBox, .form { padding: 24px 18px; }
   .faqQ { padding: 18px 18px; font-size: 13.5px; }
   .faqA { padding: 0 18px 18px; }
